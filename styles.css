@@ -1,0 +1,400 @@
+    * {
+        box-sizing: border-box;
+        margin: 0px;
+        padding: 0px;
+        text-decoration: none;
+    }
+    
+    body {
+        background-color: #FFC800;
+    }
+    
+    main {
+        position: relative;
+        width: 1280px;
+        height: 2364px;
+    }
+    /* H1 */
+    
+    h1 {
+        position: absolute;
+        height: 34px;
+        /* max-width: 240px; */
+        left: 0px;
+        right: 0px;
+        top: calc(50% - 34px/2 - 118.5px);
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 34px;
+    }
+    /* Subtitle 1 */
+    
+    h2 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: 0.01em;
+        color: #242424;
+        text-decoration: none;
+    }
+    /* Subtitle 2 */
+    
+    h3 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 160%;
+        /* or 22px */
+        letter-spacing: 0.01em;
+        color: #242424;
+    }
+    /* Body 1 */
+    
+    .body1 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 140%;
+        color: #242424;
+    }
+    /* Body 2 */
+    
+    .body2 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 17px;
+        /* identical to box height */
+        letter-spacing: 0.0025em;
+        color: #242424;
+    }
+    /* Caption */
+    
+    h6 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        /* identical to box height */
+        color: #242424;
+        letter-spacing: 0.004em;
+    }
+    
+    .txtbutton {
+        /* position: absolute; */
+        width: 180px;
+        height: 49px;
+        /* left: 32px; */
+        /* top: 16px; */
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.0125em;
+        text-transform: uppercase;
+        transition: all 0.3s ease 0s;
+        color: #242424;
+        margin: 0 auto;
+        padding: 16px 32px;
+    }
+    
+    header {
+        position: fixed;
+        z-index: 10;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 16px;
+        background-color: rgb(255, 255, 255);
+        height: 54px;
+    }
+    
+    #myname {
+        position: absolute;
+        height: 47.92px;
+        left: 0px;
+        /* right: 720.23px; */
+        /* top: calc(50% - 47.92px/2 - 1406.54px); */
+        bottom: 280px;
+    }
+    
+    #hello {
+        position: absolute;
+        height: 21px;
+        left: 0px;
+        right: 0px;
+        top: 34px;
+    }
+    
+    li,
+    a,
+    {
+        text-decoration: none;
+        background-color: transparent;
+        list-style: none;
+    }
+    
+    .logo {
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        background-color: transparent;
+    }
+    
+    .nav_links {
+        list-style: none;
+        background-color: transparent;
+        text-decoration: none;
+    }
+    
+    .nav_links li {
+        display: inline-flex;
+        padding: 0px 22px;
+        text-decoration: none;
+        align-items: baseline;
+    }
+    
+    .nav_links li a h3 {
+        transition: all 0.3s ease 0s;
+        text-decoration: none;
+        background-color: transparent;
+    }
+    
+    .nav_links li a h3:hover {
+        color: rgba(50, 51, 50, 0.25);
+        text-decoration: none;
+        background-color: transparent;
+    }
+    
+    .presentation {
+        position: relative;
+        width: 942px;
+        height: 375.38px;
+        left: 148px;
+        top: 134px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    h1 {
+        /* Stephan Medina */
+        position: absolute;
+        height: 34px;
+        max-width: 240px;
+        left: 0px;
+        right: 0px;
+        top: calc(50% - 34px/2 - 118.5px);
+        /* H1 */
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 34px;
+    }
+    
+    .press {
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: calc(50% - 112px/2 - 41.5px);
+        text-align: left;
+        max-width: 380px;
+    }
+    
+    article {
+        display: flex;
+        align-content: center;
+    }
+    
+    .icons {
+        padding: 32px;
+        width: 32px;
+        height: 32px;
+        /* width: fit-content; */
+    }
+    
+    .social-links {
+        list-style-type: none;
+        position: absolute;
+        top: 265px;
+        left: -14px;
+        /**max-width: fit-content;
+        max-height: fit-content;**/
+        display: flex;
+        color: #242424;
+        align-items: center;
+    }
+    
+    .social-links li {
+        padding: 8px 16px;
+    }
+    
+    .social-links li a .icons {
+        transition: all 0.3s ease 0s;
+        text-decoration: none;
+        padding: 2px;
+    }
+    
+    .social-links li a .icons:hover {
+        opacity: 0.5;
+        text-decoration: none;
+    }
+    
+    #behance {
+        width: 36px;
+    }
+    
+    .steph {
+        position: absolute;
+        width: 330.79px;
+        height: 367.38px;
+        left: 660px;
+    }
+    
+    #caption1,
+    caption {
+        position: relative;
+        width: 197px;
+        height: 15px;
+        left: 0px;
+        top: 240px;
+    }
+    
+    .social {
+        position: absolute;
+        width: 230px;
+        height: 58px;
+        left: 0px;
+        top: 30px;
+    }
+    
+    .project {
+        position: absolute;
+        width: fit-content;
+        height: fit-content;
+        margin: 0px auto;
+        left: 0;
+        top: 603px;
+        display: flex;
+        align-content: center;
+    }
+    
+    .illustration1 {
+        position: absolute;
+        left: 210px;
+        right: 0px;
+        top: 28px;
+        width: 270px;
+    }
+    
+    .press2 {
+        flex-direction: column;
+        padding: 0px;
+        position: absolute;
+        width: 305px;
+        height: 170px;
+        left: 806px;
+        top: 100px;
+    }
+    
+    .button {
+        cursor: pointer;
+        background: #FFFEF7;
+        border: 2px solid #242424;
+        border-radius: 100px;
+        position: absolute;
+        width: 184px;
+        height: 49px;
+        left: 800px;
+        top: 270px;
+        transition: all 0.3s ease 0s;
+    }
+    
+    .button:hover {
+        background-color: #242424;
+    }
+    
+    .button a .txtbutton:hover {
+        color: #FFFEF7;
+        background-color: transparent;
+    }
+    
+    .project2 {
+        position: absolute;
+        width: fit-content;
+        height: fit-content;
+        margin: 0px auto;
+        left: 0;
+        top: 1010px;
+        display: flex;
+        align-content: center;
+    }
+    
+    .illustration2 {
+        position: absolute;
+        left: 806px;
+        right: 0px;
+        top: 28px;
+        width: 300px;
+    }
+    
+    .press3 {
+        flex-direction: column;
+        padding: 0px;
+        position: absolute;
+        width: 394px;
+        height: 170px;
+        left: 150px;
+        top: 100px;
+    }
+    
+    #butn2 {
+        position: absolute;
+        width: 184px;
+        height: 49px;
+        left: 150px;
+        top: 270px;
+    }
+    
+    #p3 {
+        position: absolute;
+        top: 1370px;
+    }
+    
+    #butn3 {
+        position: absolute;
+        width: 184px;
+        height: 49px;
+        /* left: 150px; */
+        top: 310px;
+    }
+    
+    .illustration3 {
+        position: absolute;
+        left: 140px;
+        right: 0px;
+        top: 56px;
+        width: 330px;
+    }
+    
+    #p4 {
+        position: absolute;
+        top: 1860px;
+    }
+    
+    #butn4 {
+        position: absolute;
+        width: 184px;
+        height: 49px;
+        left: 150px;
+        top: 290px;
+    }
