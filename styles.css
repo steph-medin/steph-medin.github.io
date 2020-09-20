@@ -128,7 +128,7 @@
     .navbar {
         z-index: 10;
         display: flex;
-        width: 1280px;
+        width: 100%;
         justify-content: space-around;
         /* padding: 16px; */
         /* background-color: rgb(255, 255, 255); */
@@ -168,7 +168,7 @@
         cursor: pointer;
         display: flex;
         background-color: transparent;
-        /* margin: auto; */
+        margin: 0p;
         /* position: relative; */
         /* left: -50px; */
     }
