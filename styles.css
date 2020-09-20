@@ -129,7 +129,7 @@
         z-index: 10;
         display: flex;
         width: 1280px;
-        justify-content: space-between;
+        justify-content: space-around;
         /* padding: 16px; */
         /* background-color: rgb(255, 255, 255); */
         /* height: 54px; */
