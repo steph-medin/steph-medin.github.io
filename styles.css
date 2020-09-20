@@ -15,7 +15,7 @@
         position: relative;
         width: 1280px;
         height: 2364px;
-        margin: auto;
+        margin: auto auto;
     }
     /* H1 */
     
@@ -120,39 +120,40 @@
         background-color: rgb(255, 255, 255);
         /* height: 54px; */
     }
-    
-    #nav_item {
+    /* #nav_item {
         position: relative;
         left: 80px;
-    }
+    }*/
     
     .navbar {
         z-index: 10;
         display: flex;
         width: 1280px;
-        justify-content: space-around;
+        justify-content: space-between;
         /* padding: 16px; */
         /* background-color: rgb(255, 255, 255); */
         /* height: 54px; */
         /* align-content: end; */
-        margin: auto;
+        margin: auto auto;
     }
     
     #myname {
         position: absolute;
         /* height: 47.92px; */
-        left: 0px;
-        right: 720.23px;
+        /* left: 0px; */
+        /* right: 720.23px; */
         /* top: calc(50% - 47.92px/2 - 1406.54px); */
         /* bottom: 280px; */
+        width: 60%;
     }
     
     #hello {
-        position: relative;
+        position: absolute;
         /* height: 21px; */
         /* left: 0px; */
         /* right: 0px; */
         top: 34px;
+        width: 100%;
     }
     
     li,
@@ -230,12 +231,15 @@
         /* right: 0px; */
         top: calc(50% - 112px/2 - 41.5px);
         text-align: left;
-        max-width: 380px;
+        max-width: 75%;
     }
-    /**article {
-        display: flex;
-        align-content: center;
-    }**/
+    
+    article {
+        position: absolute;
+        width: 50%;
+        bottom: 20px;
+        height: 100%;
+    }
     
     .icons {
         padding: 32px;
