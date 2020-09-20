@@ -126,7 +126,7 @@
         left: 80px;
     }
     
-    navbar {
+    .navbar {
         z-index: 10;
         display: flex;
         width: 1280px;
