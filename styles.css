@@ -11,7 +11,7 @@
         margin: auto 0px;
     }
     
-    @media only screen and (width: 2560px) {
+    @media only screen and (max-width: 1280px) {
         .navbar {
             z-index: 10;
             display: flex;
@@ -245,7 +245,7 @@
         /* right: 0px; */
         top: calc(50% - 112px/2 - 41.5px);
         text-align: left;
-        max-width: 75%;
+        max-width: 60%;
     }
     
     article {
