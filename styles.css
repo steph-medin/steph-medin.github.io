@@ -11,7 +11,7 @@
         margin: auto 0px;
     }
     
-    @media only screen and (width: 2560px) {
+    @media screen (width: 2560px) {
         .navbar {
             z-index: 10;
             display: flex;
