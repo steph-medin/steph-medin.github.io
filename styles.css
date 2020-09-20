@@ -244,7 +244,7 @@
         padding: 2px;
     }
     
-    .social-links li a .icons :hover {
+    .social-links li a .icons:hover {
         opacity: 0.5;
         text-decoration: none;
     }
