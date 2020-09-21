@@ -142,7 +142,7 @@
         .navbar {
             z-index: 10;
             display: flex;
-            width: 958px;
+            width: 980px;
             justify-content: space-between;
         }
     }
@@ -262,9 +262,7 @@
         list-style-type: none;
         position: absolute;
         top: 265px;
-        left: -14px;
-        /**max-width: fit-content;
-        max-height: fit-content;**/
+        left: -18px;
         display: flex;
         color: #242424;
         align-items: center;
