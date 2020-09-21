@@ -351,7 +351,7 @@
         width: 184px;
         height: 49px;
         left: 800px;
-        top: 270px;
+        top: 240px;
         transition: all 0.3s ease 0s;
     }
     
@@ -398,7 +398,7 @@
         width: 184px;
         height: 49px;
         left: 150px;
-        top: 270px;
+        top: 240px;
     }
     
     #p3 {
@@ -411,7 +411,7 @@
         width: 184px;
         height: 49px;
         /* left: 150px; */
-        top: 310px;
+        top: 290px;
     }
     
     .illustration3 {
