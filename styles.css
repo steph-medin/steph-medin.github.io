@@ -12,7 +12,7 @@
     }
     
     @media (max-width: 2560px) {
-        .navbar_2 {
+        .navbar {
             z-index: 10;
             display: flex;
             width: 100%;
