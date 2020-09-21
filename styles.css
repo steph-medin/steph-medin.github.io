@@ -12,7 +12,7 @@
     }
     
     @media screen (min-width: 1280px) {
-        .navbar {
+        .navbar_2 {
             z-index: 10;
             display: flex;
             width: 100%;
