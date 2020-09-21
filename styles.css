@@ -11,20 +11,6 @@
         margin: auto 0px;
     }
     
-    @media only screen (max-width: 2560px) {
-        .navbar {
-            z-index: 10;
-            display: flex;
-            width: 100%;
-            justify-content: space-around;
-            /* padding: 16px; */
-            /* background-color: rgb(255, 255, 255); */
-            /* height: 54px; */
-            /* align-content: end; */
-            /*margin: auto auto;*/
-        }
-    }
-    
     main {
         position: relative;
         width: 1280px;
@@ -149,6 +135,15 @@
         /* height: 54px; */
         /* align-content: end; */
         margin: auto auto;
+    }
+    
+    @media only screen and (min-width: 1281px) {
+        .navbar {
+            z-index: 10;
+            display: flex;
+            width: 100%;
+            justify-content: space-around;
+        }
     }
     
     #myname {
