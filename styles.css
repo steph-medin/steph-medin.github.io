@@ -137,12 +137,12 @@
         margin: auto auto;
     }
     
-    @media only screen and (min-width: 1281px),
+    @media only screen and (min-width: 1280px),
     (min-width: 1100px) {
         .navbar {
             z-index: 10;
             display: flex;
-            width: 990px;
+            width: 958px;
             justify-content: space-between;
         }
     }
