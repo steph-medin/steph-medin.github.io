@@ -139,13 +139,13 @@
         color: #FFFEF7;
     }
     
-    @media only screen and (min-width: 1281px),
+    @media only screen and (min-width: 2500px),
     (min-width: 1100px) {
         .navbar {
             z-index: 10;
             display: inline-flex;
             width: 980px;
-            align-items: flex-start;
+            align-items: center;
             flex-direction: row;
         }
     }
