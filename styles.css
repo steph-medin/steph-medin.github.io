@@ -115,10 +115,11 @@
         z-index: 10;
         display: flex;
         width: 100%;
-        /* justify-content: space-around; */
+        justify-items: center;
         padding: 8px;
         background-color: #242424;
         /* height: 54px; */
+        align-items: center;
     }
     /* #nav_item {
         position: relative;
@@ -127,10 +128,11 @@
     
     .navbar {
         z-index: 10;
-        display: inline-flex;
+        display: flex;
         width: 980px;
-        align-items: flex-start;
+        align-items: center;
         flex-direction: row;
+        margin: auto 130px;
     }
     
     #logoname {
@@ -177,17 +179,22 @@
     
     .logo {
         cursor: pointer;
-        display: flex;
+        /* display: flex; */
         background-color: transparent;
         margin: 0p;
         /* position: relative; */
         /* left: -50px; */
+        width: 28px;
+        padding: 4px;
+        margin: 0p;
     }
     
     .nav_links {
         list-style: none;
         background-color: transparent;
         text-decoration: none;
+        flex: auto;
+        align-items: center;
     }
     
     .nav_links li {
