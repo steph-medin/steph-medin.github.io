@@ -452,7 +452,12 @@
     
     footer {
         background-color: #242424;
-        display: flex;
+        /* display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: center;*/
+        width: 100%;
+        height: 60px;
+        position: fixed;
+        bottom: 0;
+        text-align: center;
     }
