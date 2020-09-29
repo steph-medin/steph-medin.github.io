@@ -258,17 +258,17 @@ h1 {
 }
 
 .press {
-    position: absolute;
+    position: relative;
     left: 0px;
     /* right: 0px; */
     top: calc(50% - 112px/2 - 41.5px);
     text-align: left;
-    max-width: 60%;
+    max-width: 70%;
 }
 
 article {
     position: absolute;
-    width: 50%;
+    width: 42%;
     bottom: 20px;
     height: 100%;
 }
@@ -310,7 +310,7 @@ article {
 }
 
 .steph {
-    position: absolute;
+    position: relative;
     width: 330.79px;
     height: 367.38px;
     left: 660px;
