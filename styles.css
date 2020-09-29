@@ -1,463 +1,481 @@
-    * {
-        box-sizing: border-box;
-        margin: 0px;
-        padding: 0px;
-        text-decoration: none;
-        align-content: center;
-    }
-    
-    body {
-        background-color: #FFC800;
-        margin: auto 0px;
-    }
-    
-    main {
-        position: relative;
-        width: 1280px;
-        height: 430px;
-        margin: auto auto;
-    }
-    /* H1 */
-    
-    h1 {
-        position: absolute;
-        height: 34px;
-        /* max-width: 240px; */
-        left: 0px;
-        right: 0px;
-        top: calc(50% - 34px/2 - 118.5px);
-        font-family: "Montserrat";
-        font-style: normal;
-        font-weight: bold;
-        font-size: 28px;
-        line-height: 34px;
-    }
-    /* Subtitle 1 */
-    
-    h2 {
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 24px;
-        line-height: 29px;
-        letter-spacing: 0.01em;
-        color: #242424;
-        text-decoration: none;
-    }
-    /* Subtitle 2 */
-    
-    h3 {
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: bold;
-        font-size: 16px;
-        line-height: 160%;
-        /* or 22px */
-        letter-spacing: 0.01em;
-        color: #242424;
-    }
-    /* Body 1 */
-    
-    .body1 {
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 16px;
-        line-height: 140%;
-        color: #242424;
-    }
-    /* Body 2 */
-    
-    .body2 {
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 14px;
-        line-height: 17px;
-        /* identical to box height */
-        letter-spacing: 0.0025em;
-        color: #242424;
-    }
-    /* Caption */
-    
-    h6 {
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 12px;
-        line-height: 15px;
-        /* identical to box height */
-        color: #242424;
-        letter-spacing: 0.004em;
-    }
-    
-    .txtbutton {
-        /* position: absolute; */
-        width: 180px;
-        height: 49px;
-        /* left: 32px; */
-        /* top: 16px; */
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 17px;
-        letter-spacing: 0.0125em;
-        text-transform: uppercase;
-        transition: all 0.3s ease 0s;
-        color: #242424;
-        margin: 0 auto;
-        padding: 16px 32px;
-    }
-    
-    header {
-        position: fixed;
-        z-index: 10;
-        display: flex;
-        width: 100%;
-        justify-items: center;
-        padding: 8px;
-        background-color: #242424;
-        /* height: 54px; */
-        align-items: center;
-    }
-    /* #nav_item {
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    align-content: center;
+}
+
+body {
+    background-color: #FFC800;
+    margin: auto 0px;
+}
+
+main {
+    position: relative;
+    width: 1280px;
+    height: 430px;
+    margin: auto auto;
+}
+
+
+/* H1 */
+
+h1 {
+    position: absolute;
+    height: 34px;
+    /* max-width: 240px; */
+    left: 0px;
+    right: 0px;
+    top: calc(50% - 34px/2 - 118.5px);
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+
+/* Subtitle 1 */
+
+h2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    letter-spacing: 0.01em;
+    color: #242424;
+    text-decoration: none;
+}
+
+
+/* Subtitle 2 */
+
+h3 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 160%;
+    /* or 22px */
+    letter-spacing: 0.01em;
+    color: #242424;
+}
+
+
+/* Body 1 */
+
+.body1 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 140%;
+    color: #242424;
+}
+
+
+/* Body 2 */
+
+.body2 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    letter-spacing: 0.0025em;
+    color: #242424;
+}
+
+
+/* Caption */
+
+h6 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #242424;
+    letter-spacing: 0.004em;
+}
+
+.txtbutton {
+    /* position: absolute; */
+    width: 180px;
+    height: 49px;
+    /* left: 32px; */
+    /* top: 16px; */
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.0125em;
+    text-transform: uppercase;
+    transition: all 0.3s ease 0s;
+    color: #242424;
+    margin: 0 auto;
+    padding: 16px 32px;
+}
+
+header {
+    position: fixed;
+    z-index: 10;
+    display: flex;
+    width: 100%;
+    justify-items: center;
+    padding: 8px;
+    background-color: #242424;
+    /* height: 54px; */
+    align-items: center;
+}
+
+
+/* #nav_item {
         position: relative;
         left: 80px;
     }*/
-    
+
+.navbar {
+    z-index: 10;
+    display: flex;
+    width: 980px;
+    align-items: center;
+    flex-direction: row;
+    margin: auto 130px;
+}
+
+#logoname {
+    color: #FFFEF7;
+}
+
+@media only screen and (min-width: 2500px),
+(min-width: 1100px) {
     .navbar {
         z-index: 10;
-        display: flex;
+        display: inline-flex;
         width: 980px;
         align-items: center;
         flex-direction: row;
-        margin: auto 130px;
     }
-    
-    #logoname {
-        color: #FFFEF7;
-    }
-    
-    @media only screen and (min-width: 2500px),
-    (min-width: 1100px) {
-        .navbar {
-            z-index: 10;
-            display: inline-flex;
-            width: 980px;
-            align-items: center;
-            flex-direction: row;
-        }
-    }
-    
-    #myname {
-        position: absolute;
-        /* height: 47.92px; */
-        /* left: 0px; */
-        /* right: 720.23px; */
-        /* top: calc(50% - 47.92px/2 - 1406.54px); */
-        /* bottom: 280px; */
-        width: 60%;
-    }
-    
-    #hello {
-        position: absolute;
-        /* height: 21px; */
-        /* left: 0px; */
-        /* right: 0px; */
-        top: 34px;
-        width: 100%;
-    }
-    
-    li,
-    a,
-    {
-        text-decoration: none;
-        background-color: transparent;
-        list-style: none;
-    }
-    
-    .logo {
-        cursor: pointer;
-        /* display: flex; */
-        background-color: transparent;
-        margin: 0p;
-        /* position: relative; */
-        /* left: -50px; */
-        width: 28px;
-        padding: 4px;
-        margin: 0p;
-    }
-    
-    .nav_links {
-        list-style: none;
-        background-color: transparent;
-        text-decoration: none;
-        flex: auto;
-        align-items: center;
-    }
-    
-    .nav_links li {
-        display: inline-flex;
-        padding: 0px 22px;
-        text-decoration: none;
-        align-items: baseline;
-    }
-    
-    .nav_links li a h3 {
-        transition: all 0.3s ease 0s;
-        text-decoration: none;
-        background-color: transparent;
-    }
-    
-    .nav_links li a h3:hover {
-        color: rgba(50, 51, 50, 0.25);
-        text-decoration: none;
-        background-color: transparent;
-    }
-    
-    .presentation {
-        position: absolute;
-        width: 100%;
-        height: 375.38px;
-        left: 148px;
-        top: 134px;
-        display: flex;
-        justify-content: space-between;
-        margin: auto;
-    }
-    
-    h1 {
-        /* Stephan Medina */
-        position: absolute;
-        height: 34px;
-        max-width: 240px;
-        left: 0px;
-        right: 0px;
-        top: calc(50% - 34px/2 - 118.5px);
-        /* H1 */
-        font-family: "Montserrat";
-        font-style: normal;
-        font-weight: bold;
-        font-size: 28px;
-        line-height: 34px;
-    }
-    
-    .press {
-        position: absolute;
-        left: 0px;
-        /* right: 0px; */
-        top: calc(50% - 112px/2 - 41.5px);
-        text-align: left;
-        max-width: 60%;
-    }
-    
-    article {
-        position: absolute;
-        width: 50%;
-        bottom: 20px;
-        height: 100%;
-    }
-    
-    .icons {
-        padding: 32px;
-        width: 32px;
-        height: 32px;
-        /* width: fit-content; */
-    }
-    
-    .social-links {
-        list-style-type: none;
-        position: absolute;
-        top: 265px;
-        left: -18px;
-        display: flex;
-        color: #242424;
-        align-items: center;
-    }
-    
-    .social-links li {
-        padding: 8px 16px;
-    }
-    
-    .social-links li a .icons {
-        transition: all 0.3s ease 0s;
-        text-decoration: none;
-        padding: 2px;
-    }
-    
-    .social-links li a .icons:hover {
-        opacity: 0.5;
-        text-decoration: none;
-    }
-    
-    #behance {
-        width: 36px;
-    }
-    
-    .steph {
-        position: absolute;
-        width: 330.79px;
-        height: 367.38px;
-        left: 660px;
-        top: 15px;
-    }
-    
-    #caption1,
-    caption {
-        position: relative;
-        width: 197px;
-        height: 15px;
-        left: 0px;
-        top: 240px;
-    }
-    
-    .social {
-        position: absolute;
-        width: 230px;
-        height: 58px;
-        left: 0px;
-        top: 30px;
-    }
-    
-    .project {
-        position: absolute;
-        width: fit-content;
-        height: fit-content;
-        margin: 0px auto;
-        left: 0;
-        top: 603px;
-        display: flex;
-        align-content: center;
-    }
-    
-    .illustration1 {
-        position: absolute;
-        left: 210px;
-        right: 0px;
-        top: 28px;
-        width: 270px;
-    }
-    
-    .press2 {
-        flex-direction: column;
-        padding: 0px;
-        position: absolute;
-        width: 305px;
-        height: 170px;
-        left: 806px;
-        top: 100px;
-    }
-    
-    .button {
-        cursor: pointer;
-        background: #FFFEF7;
-        border: 2px solid #242424;
-        border-radius: 100px;
-        position: absolute;
-        width: 184px;
-        height: 49px;
-        left: 800px;
-        top: 270px;
-        transition: all 0.3s ease 0s;
-    }
-    
-    .button:hover {
-        background-color: #242424;
-    }
-    
-    .button a .txtbutton:hover {
-        color: #FFFEF7;
-        background-color: transparent;
-    }
-    
-    .project2 {
-        position: absolute;
-        width: 100%;
-        height: 120%;
-        margin: 0px auto;
-        left: 0;
-        top: 1160px;
-        display: flex;
-        align-content: center;
-    }
-    
-    .illustration2 {
-        position: absolute;
-        left: 806px;
-        right: 0px;
-        top: 28px;
-        width: 300px;
-    }
-    
-    .press3 {
-        flex-direction: column;
-        padding: 0px;
-        position: absolute;
-        width: 394px;
-        height: 170px;
-        left: 150px;
-        top: 100px;
-    }
-    
-    #butn2 {
-        position: absolute;
-        width: 184px;
-        height: 49px;
-        left: 150px;
-        top: 280px;
-    }
-    
-    #p3 {
-        position: absolute;
-        top: 1670px;
-    }
-    
-    #butn3 {
-        position: absolute;
-        width: 184px;
-        height: 49px;
-        /* left: 150px; */
-        top: 290px;
-    }
-    
-    .illustration3 {
-        position: absolute;
-        left: 140px;
-        right: 0px;
-        top: 56px;
-        width: 330px;
-    }
-    
-    .illustration4 {
-        position: absolute;
-        left: 726px;
-        right: 0px;
-        top: 28px;
-        width: 440px;
-    }
-    
-    #p4 {
-        position: absolute;
-        top: 2294px;
-    }
-    
-    #butn4 {
-        position: absolute;
-        width: 184px;
-        height: 49px;
-        left: 150px;
-        top: 270px;
-    }
-    
-    footer {
-        background-color: #242424;
-        /* display: flex;
-        flex-direction: column;
-        align-items: center;*/
-        width: 100%;
-        height: 60px;
-        position: fixed;
-        bottom: 0;
-        text-align: center;
-    }
+}
+
+#myname {
+    position: absolute;
+    /* height: 47.92px; */
+    /* left: 0px; */
+    /* right: 720.23px; */
+    /* top: calc(50% - 47.92px/2 - 1406.54px); */
+    /* bottom: 280px; */
+    width: 60%;
+}
+
+#hello {
+    position: absolute;
+    /* height: 21px; */
+    /* left: 0px; */
+    /* right: 0px; */
+    top: 34px;
+    width: 100%;
+}
+
+li,
+a,
+{
+    text-decoration: none;
+    background-color: transparent;
+    list-style: none;
+}
+
+.logo {
+    cursor: pointer;
+    /* display: flex; */
+    background-color: transparent;
+    margin: 0p;
+    /* position: relative; */
+    /* left: -50px; */
+    width: 28px;
+    padding: 4px;
+    margin: 0p;
+}
+
+.nav_links {
+    list-style: none;
+    background-color: transparent;
+    text-decoration: none;
+    flex: auto;
+    align-items: center;
+}
+
+.nav_links li {
+    display: inline-flex;
+    padding: 0px 22px;
+    text-decoration: none;
+    align-items: baseline;
+}
+
+.nav_links li a h3 {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.nav_links li a h3:hover {
+    color: rgba(50, 51, 50, 0.25);
+    text-decoration: none;
+    background-color: transparent;
+}
+
+.presentation {
+    position: absolute;
+    width: 100%;
+    height: 375.38px;
+    left: 148px;
+    top: 134px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+h1 {
+    /* Stephan Medina */
+    position: absolute;
+    height: 34px;
+    max-width: 240px;
+    left: 0px;
+    right: 0px;
+    top: calc(50% - 34px/2 - 118.5px);
+    /* H1 */
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+}
+
+.press {
+    position: absolute;
+    left: 0px;
+    /* right: 0px; */
+    top: calc(50% - 112px/2 - 41.5px);
+    text-align: left;
+    max-width: 60%;
+}
+
+article {
+    position: absolute;
+    width: 50%;
+    bottom: 20px;
+    height: 100%;
+}
+
+.icons {
+    padding: 32px;
+    width: 32px;
+    height: 32px;
+    /* width: fit-content; */
+}
+
+.social-links {
+    list-style-type: none;
+    position: absolute;
+    top: 265px;
+    left: -18px;
+    display: flex;
+    color: #242424;
+    align-items: center;
+}
+
+.social-links li {
+    padding: 8px 16px;
+}
+
+.social-links li a .icons {
+    transition: all 0.3s ease 0s;
+    text-decoration: none;
+    padding: 2px;
+}
+
+.social-links li a .icons:hover {
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+#behance {
+    width: 36px;
+}
+
+.steph {
+    position: absolute;
+    width: 330.79px;
+    height: 367.38px;
+    left: 660px;
+    top: 15px;
+}
+
+#caption1,
+caption {
+    position: relative;
+    width: 197px;
+    height: 15px;
+    left: 0px;
+    top: 240px;
+}
+
+.social {
+    position: absolute;
+    width: 230px;
+    height: 58px;
+    left: 0px;
+    top: 30px;
+}
+
+.project {
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+    margin: 0px auto;
+    left: 0;
+    top: 603px;
+    display: flex;
+    align-content: center;
+}
+
+.illustration1 {
+    position: absolute;
+    left: 210px;
+    right: 0px;
+    top: 28px;
+    width: 270px;
+}
+
+.press2 {
+    flex-direction: column;
+    padding: 0px;
+    position: absolute;
+    width: 305px;
+    height: 170px;
+    left: 806px;
+    top: 100px;
+}
+
+.button {
+    cursor: pointer;
+    background: #FFFEF7;
+    border: 2px solid #242424;
+    border-radius: 100px;
+    position: absolute;
+    width: 184px;
+    height: 49px;
+    left: 800px;
+    top: 270px;
+    transition: all 0.3s ease 0s;
+}
+
+.button:hover {
+    background-color: #242424;
+}
+
+.button a .txtbutton:hover {
+    color: #FFFEF7;
+    background-color: transparent;
+}
+
+.project2 {
+    position: absolute;
+    width: 100%;
+    height: 120%;
+    margin: 0px auto;
+    left: 0;
+    top: 1160px;
+    display: flex;
+    align-content: center;
+}
+
+.illustration2 {
+    position: absolute;
+    left: 806px;
+    right: 0px;
+    top: 28px;
+    width: 300px;
+}
+
+.press3 {
+    flex-direction: column;
+    padding: 0px;
+    position: absolute;
+    width: 394px;
+    height: 170px;
+    left: 150px;
+    top: 100px;
+}
+
+#butn2 {
+    position: absolute;
+    width: 184px;
+    height: 49px;
+    left: 150px;
+    top: 280px;
+}
+
+#p3 {
+    position: absolute;
+    top: 1670px;
+}
+
+#butn3 {
+    position: absolute;
+    width: 184px;
+    height: 49px;
+    /* left: 150px; */
+    top: 290px;
+}
+
+.illustration3 {
+    position: absolute;
+    left: 140px;
+    right: 0px;
+    top: 56px;
+    width: 330px;
+}
+
+.illustration4 {
+    position: absolute;
+    left: 726px;
+    right: 0px;
+    top: 28px;
+    width: 440px;
+}
+
+#p4 {
+    position: absolute;
+    top: 2294px;
+}
+
+#butn4 {
+    position: absolute;
+    width: 184px;
+    height: 49px;
+    left: 150px;
+    top: 270px;
+}
+
+footer {
+    background-color: #242424;
+    width: 100%;
+    height: 40px;
+    position: relative;
+    bottom: 10;
+    text-align: center;
+    margin-top: 2339px;
+}
+
+
+}
+#footertext {
+    padding: 14px;
+}
