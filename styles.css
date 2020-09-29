@@ -263,7 +263,7 @@ h1 {
     /* right: 0px; */
     top: calc(50% - 112px/2 - 41.5px);
     text-align: left;
-    max-width: 60%;
+    max-width: 90%;
 }
 
 article {
