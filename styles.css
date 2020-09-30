@@ -234,12 +234,24 @@ a,
 .presentation {
     position: relative;
     width: 990px;
-    height: 350px;
+    height: 50%;
     /* left: 148px; */
-    top: 134px;
+    /* top: 134px; */
     /* display: flex; */
-    margin: 0 auto 140px;
+    margin: 100px auto 141px;
+    /* padding: 0px; */
 }
+
+
+/*.presentation {
+    position: relative;
+    width: 990px;
+    height: 350px;
+     left: 148px; 
+    top: 134px;
+     display: flex; 
+    margin: 0 auto 140px;
+}*/
 
 h1 {
     /* Stephan Medina */
@@ -338,13 +350,25 @@ caption {
 .project {
     position: relative;
     width: 990px;
-    height: 395px;
-    margin: 140px auto auto auto;
+    height: 390px;
+    margin: 160px auto 0px;
     /* left: 0; */
     /* top: 0; */
     display: flex;
     align-items: center;
 }
+
+
+/*.project {
+    position: relative;
+    width: 990px;
+    height: 395px;
+    margin: 140px auto auto auto;
+    left: 0; 
+    top: 0; 
+    display: flex;
+    align-items: center;
+}*/
 
 .illustration1 {
     position: relative;
@@ -490,11 +514,21 @@ footer {
 .project5 {
     position: relative;
     width: 990px;
+    height: 50%;
+    margin: 0px auto 0px;
+    display: flex;
+    align-items: center;
+}
+
+
+/*.project5 {
+    position: relative;
+    width: 990px;
     height: 355px;
     margin: 260px auto auto auto;
     display: flex;
     align-items: center;
-}
+}*/
 
 #buttn5 {
     position: relative;
