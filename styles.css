@@ -239,7 +239,7 @@ a,
     top: 134px;
     /* display: flex; */
     /* justify-content: space-between; */
-    margin: auto;
+    margin: 0 auto 140px;
 }
 
 h1 {
@@ -285,7 +285,7 @@ article {
     list-style-type: none;
     position: relative;
     top: 130px;
-    right: 12px;
+    right: 20px;
     display: flex;
     color: #242424;
     justify-content: space-between;
@@ -439,7 +439,7 @@ caption {
 #butn3 {
     position: relative;
     /* height: 49px; */
-    left: 0px;
+    right: 60px;
     top: 30px;
 }
 
