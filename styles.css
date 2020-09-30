@@ -262,9 +262,9 @@ h1 {
     position: relative;
     /* left: 0px; */
     /* right: 0px; */
-    top: calc(38% - 112px/2 - 41.5px);
-    text-align: left;
+    bottom: 50px;
     max-width: 90%;
+    height: 190px;
 }
 
 article {
@@ -337,14 +337,14 @@ caption {
 }
 
 .project {
-    position: absolute;
-    width: fit-content;
-    height: fit-content;
-    margin: 0px auto;
-    left: 0;
-    top: 603px;
+    position: relative;
+    width: 990px;
+    height: 465px;
+    margin: 140px auto auto auto;
+    /* left: 0; */
+    /* top: 0; */
     display: flex;
-    align-content: center;
+    align-items: center;
 }
 
 .illustration1 {
@@ -495,4 +495,10 @@ footer {
     margin: 260px auto auto auto;
     display: flex;
     align-items: center;
+}
+
+#buttn5 {
+    position: relative;
+    top: 30px;
+    right: 1px;
 }
