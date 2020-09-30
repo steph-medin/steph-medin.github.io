@@ -13,9 +13,9 @@ body {
 
 main {
     position: relative;
-    width: 1280px;
-    height: 430px;
-    margin: auto auto;
+    width: 100%;
+    height: 100vh;
+    margin-top: 44px;
 }
 
 
@@ -105,8 +105,8 @@ h6 {
 
 .txtbutton {
     /* position: absolute; */
-    width: 180px;
-    height: 49px;
+    width: auto;
+    height: auto;
     /* left: 32px; */
     /* top: 16px; */
     font-family: Montserrat;
@@ -118,7 +118,7 @@ h6 {
     text-transform: uppercase;
     transition: all 0.3s ease 0s;
     color: #242424;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     padding: 16px 32px;
 }
 
@@ -132,6 +132,7 @@ header {
     background-color: #242424;
     /* height: 54px; */
     align-items: center;
+    top: 0;
 }
 
 
@@ -165,13 +166,13 @@ header {
 }
 
 #myname {
-    position: absolute;
-    /* height: 47.92px; */
+    position: relative;
+    height: 47.92px;
     /* left: 0px; */
     /* right: 720.23px; */
     /* top: calc(50% - 47.92px/2 - 1406.54px); */
     /* bottom: 280px; */
-    width: 60%;
+    width: 100%;
 }
 
 #hello {
@@ -231,13 +232,13 @@ a,
 }
 
 .presentation {
-    position: absolute;
+    position: relative;
     width: 990px;
-    height: 375.38px;
-    left: 148px;
+    height: 350px;
+    /* left: 148px; */
     top: 134px;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex; */
+    /* justify-content: space-between; */
     margin: auto;
 }
 
@@ -259,17 +260,17 @@ h1 {
 
 .press {
     position: relative;
-    left: 0px;
+    /* left: 0px; */
     /* right: 0px; */
-    top: calc(50% - 112px/2 - 41.5px);
+    top: calc(38% - 112px/2 - 41.5px);
     text-align: left;
     max-width: 90%;
 }
 
 article {
-    position: absolute;
+    position: relative;
     width: 42%;
-    bottom: 20px;
+    /* bottom: 20px; */
     height: 100%;
 }
 
@@ -282,12 +283,13 @@ article {
 
 .social-links {
     list-style-type: none;
-    position: absolute;
-    top: 265px;
-    left: -18px;
+    position: relative;
+    top: 130px;
+    right: 12px;
     display: flex;
     color: #242424;
-    align-items: center;
+    justify-content: space-between;
+    width: 40%;
 }
 
 .social-links li {
@@ -314,7 +316,7 @@ article {
     width: 330.79px;
     height: 367.38px;
     left: 660px;
-    top: -95px;
+    bottom: 220px;
 }
 
 #caption1,
@@ -323,15 +325,15 @@ caption {
     width: 197px;
     height: 15px;
     left: 0px;
-    top: 240px;
+    top: 50px;
 }
 
 .social {
-    position: absolute;
+    position: relative;
     width: 230px;
     height: 58px;
     left: 0px;
-    top: 30px;
+    top: 0px;
 }
 
 .project {
@@ -354,25 +356,27 @@ caption {
 }
 
 .press2 {
-    flex-direction: column;
-    padding: 0px;
-    position: absolute;
-    width: 305px;
-    height: 170px;
-    left: 806px;
-    top: 100px;
+    /* flex-direction: column; */
+    /* padding: 0px; */
+    position: relative;
+    width: 345px;
+    /* height: 170px; */
+    left: 280px;
+    bottom: 50px;
+    /* right: -130px; */
+    max-height: 20%;
 }
 
 .button {
     cursor: pointer;
     background: #FFFEF7;
     border: 2px solid #242424;
-    border-radius: 100px;
-    position: absolute;
-    width: 184px;
-    height: 49px;
-    left: 800px;
-    top: 270px;
+    border-radius: 40px;
+    /* position: absolute; */
+    /* width: 184px; */
+    /* height: 49px; */
+    /* left: 800px; */
+    /* top: 270px; */
     transition: all 0.3s ease 0s;
 }
 
@@ -433,19 +437,18 @@ caption {
 }
 
 #butn3 {
-    position: absolute;
-    width: 184px;
-    height: 49px;
-    /* left: 150px; */
-    top: 290px;
+    position: relative;
+    /* height: 49px; */
+    left: 0px;
+    top: 30px;
 }
 
 .illustration3 {
-    position: absolute;
-    left: 140px;
+    position: relative;
+    /* left: 140px; */
     right: 0px;
-    top: 56px;
-    width: 330px;
+    /* top: 56px; */
+    width: 33%;
 }
 
 .illustration4 {
@@ -483,4 +486,13 @@ footer {
 #footertext {
     padding: 14px;
     color: #FFFEF7;
+}
+
+.project5 {
+    position: relative;
+    width: 990px;
+    height: 355px;
+    margin: 260px auto auto auto;
+    display: flex;
+    align-items: center;
 }
