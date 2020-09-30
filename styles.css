@@ -339,7 +339,7 @@ caption {
 .project {
     position: relative;
     width: 990px;
-    height: 465px;
+    height: 390px;
     margin: 150px auto auto auto;
     /* left: 0; */
     /* top: 0; */
@@ -394,7 +394,7 @@ caption {
     position: relative;
     width: fit-content;
     height: 80%;
-    margin: 50px 110px;
+    margin: 0px 100px 0px 80px;
     /* left: 0; */
     /* top: 1160px; */
     display: flex;
@@ -403,7 +403,7 @@ caption {
 
 .illustration2 {
     position: relative;
-    /* right: 40px; */
+    left: 80px;
     /* bottom: 80px; */
     width: 300px;
 }
@@ -412,9 +412,9 @@ caption {
     /* flex-direction: column; */
     /* padding: 0px; */
     position: relative;
-    max-width: 36%;
+    max-width: 40%;
     height: fit-content;
-    left: 250px;
+    left: 320px;
     /* top: 100px; */
 }
 
