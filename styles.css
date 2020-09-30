@@ -338,8 +338,8 @@ caption {
 .project {
     position: relative;
     width: 990px;
-    height: 390px;
-    margin: 150px auto auto auto;
+    height: 395px;
+    margin: 140px auto auto auto;
     /* left: 0; */
     /* top: 0; */
     display: flex;
@@ -351,7 +351,7 @@ caption {
     left: 240px;
     right: 0px;
     /* top: 28px; */
-    width: 270px;
+    width: 240px;
     bottom: 50px;
 }
 
@@ -392,7 +392,7 @@ caption {
 .project2 {
     position: relative;
     width: fit-content;
-    height: 80%;
+    height: 50%;
     margin: 0px 100px 0px 80px;
     /* left: 0; */
     /* top: 1160px; */
