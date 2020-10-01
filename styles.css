@@ -163,7 +163,7 @@ header {
     color: #FFFEF7;
 }
 
-@media only screen and (max-width: 720px) {
+@media only screen and (max-width: 504px) {
     .navbar {
         z-index: 10;
         display: flex;
@@ -172,6 +172,13 @@ header {
         flex-direction: row;
         margin: auto 24px;
         justify-content: space-around;
+    }
+    .main {
+        position: relative;
+        width: fit-content;
+        height: fit-content;
+        margin: 0px 32px 0px;
+        /* padding-top: 98px; */
     }
 }
 
