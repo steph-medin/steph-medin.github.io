@@ -234,11 +234,11 @@ a,
 .presentation {
     position: relative;
     width: 990px;
-    height: 50%;
+    height: 360px;
     /* left: 148px; */
     /* top: 134px; */
     /* display: flex; */
-    margin: 100px auto 170px;
+    margin: 100px auto 130px;
     /* padding: 0px; */
 }
 
