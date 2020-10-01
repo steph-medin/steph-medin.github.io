@@ -180,6 +180,16 @@ header {
         margin: 0px 32px 0px;
         /* padding-top: 98px; */
     }
+    .project5 {
+        position: relative;
+        width: 44%;
+        height: fit-content;
+        margin: 1px 32px 0px;
+        display: flex;
+        align-items: center;
+        flex-flow: column;
+        /* flex-direction: column; */
+    }
 }
 
 #myname {
