@@ -490,8 +490,8 @@ caption {
 
 #butn4 {
     position: relative;
-    width: 184px;
-    height: 49px;
+    /* width: 184px; */
+    /* height: 49px; */
     right: 0px;
     top: 40px;
 }
