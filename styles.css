@@ -435,7 +435,7 @@ caption {
     /* flex-direction: column; */
     /* padding: 0px; */
     position: relative;
-    max-width: 90%;
+    max-width: 80%;
     height: fit-content;
     left: 270px;
     /* top: 100px; */
@@ -476,24 +476,24 @@ caption {
 }
 
 .illustration4 {
-    position: absolute;
-    left: 726px;
+    position: relative;
+    /* left: 726px; */
     right: 0px;
     top: 28px;
-    width: 440px;
+    width: 300px;
 }
 
 #p4 {
-    position: absolute;
-    top: 2294px;
+    position: relative;
+    top: 130px;
 }
 
 #butn4 {
-    position: absolute;
+    position: relative;
     width: 184px;
     height: 49px;
-    left: 150px;
-    top: 270px;
+    right: 0px;
+    top: 40px;
 }
 
 footer {
@@ -554,4 +554,11 @@ footer {
 #butn6 {
     position: relative;
     top: 30px;
+}
+
+.press6 {
+    position: relative;
+    width: 395px;
+    max-height: 30%;
+    left: 250px;
 }
