@@ -450,8 +450,9 @@ caption {
 }
 
 #p3 {
-    position: absolute;
-    top: 1670px;
+    position: relative;
+    /* top: 1670px; */
+    margin: 60px auto 0px;
 }
 
 #p5 {
@@ -534,4 +535,23 @@ footer {
     position: relative;
     top: 30px;
     right: 1px;
+}
+
+.press5 {
+    position: relative;
+    width: 451px;
+    max-height: 28%;
+}
+
+.illustration5 {
+    position: relative;
+    left: 160px;
+    /* right: 726px; */
+    top: 0px;
+    width: 300px;
+}
+
+#butn6 {
+    position: relative;
+    top: 30px;
 }
