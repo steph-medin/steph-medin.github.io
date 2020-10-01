@@ -569,21 +569,4 @@ footer {
         margin: auto 24px;
         justify-content: space-around;
     }
-    
-    .main {
-        position: relative;
-        width: fit-content;
-        height: fit-content;
-        margin: 0px 32px 0px;
-    }
-    /*  .project5 {
-        position: relative;
-        width: 44%;
-        height: fit-content;
-        margin: 1px 32px 0px;
-        display: flex;
-        align-items: center;
-        flex-flow: column;
-
-    }*/
 }
