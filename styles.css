@@ -505,6 +505,9 @@ footer {
     text-align: center;
     margin-top: 2339px;
     margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #footertext {
@@ -561,4 +564,10 @@ footer {
     width: 395px;
     max-height: 30%;
     left: 250px;
+}
+
+#heart {
+    position: relative;
+    top: 1px;
+    left: 2px;
 }
