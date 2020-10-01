@@ -499,7 +499,7 @@ caption {
 footer {
     background-color: #242424;
     width: 100%;
-    /*height: 10vh;*/
+    height: 10vh;
     position: relative;
     bottom: 0;
     text-align: center;
