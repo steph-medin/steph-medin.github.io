@@ -178,9 +178,8 @@ header {
         width: fit-content;
         height: fit-content;
         margin: 0px 32px 0px;
-        /* padding-top: 98px; */
     }
-    .project5 {
+    /*  .project5 {
         position: relative;
         width: 44%;
         height: fit-content;
@@ -188,8 +187,8 @@ header {
         display: flex;
         align-items: center;
         flex-flow: column;
-        /* flex-direction: column; */
-    }
+
+    }*/
 }
 
 
