@@ -13,10 +13,19 @@ body {
 
 main {
     position: relative;
+    width: fit-content;
+    height: fit-content;
+    margin: 0 auto;
+    /* padding-top: 98px; */
+}
+
+
+/*main {
+    position: relative;
     width: 100%;
     height: fit-content;
     margin-top: 44px;
-}
+}*/
 
 
 /* H1 */
@@ -234,11 +243,11 @@ a,
 .presentation {
     position: relative;
     width: 990px;
-    height: 360px;
+    height: 390px;
     /* left: 148px; */
     /* top: 134px; */
     /* display: flex; */
-    margin: 110px auto 130px;
+    margin: 100px auto 120px;
     /* padding: 0px; */
 }
 
@@ -372,7 +381,7 @@ caption {
 
 .illustration1 {
     position: relative;
-    left: 240px;
+    left: 310px;
     right: 0px;
     /* top: 28px; */
     width: 240px;
@@ -552,7 +561,7 @@ footer {
 
 .illustration5 {
     position: relative;
-    left: 160px;
+    left: 190px;
     /* right: 726px; */
     top: 0px;
     width: 300px;
@@ -567,7 +576,7 @@ footer {
     position: relative;
     width: 395px;
     max-height: 30%;
-    left: 250px;
+    left: 310px;
 }
 
 #heart {
