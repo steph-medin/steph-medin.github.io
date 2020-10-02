@@ -638,4 +638,13 @@ screen and (max-width: 505px) {
         left: 0px;
         order: 2;
     }
+    h1 {
+        position: relative;
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 34px;
+        height: 44px;
+    }
 }
