@@ -560,7 +560,7 @@ footer {
     position: relative;
 }
 @media only screen and (max-width: 376px),
-(max-width: 414px) {
+screen and (max-width: 414px) {
     .navbar {
         z-index: 10;
         display: flex;
