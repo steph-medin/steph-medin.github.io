@@ -136,7 +136,7 @@ header {
     z-index: 10;
     display: flex;
     width: 100%;
-    justify-items: center;
+    justify-content: center;
     padding: 8px;
     background-color: #242424;
     /* height: 54px; */
