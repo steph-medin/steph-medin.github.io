@@ -613,7 +613,7 @@ screen and (max-width: 505px) {
     .social-links {
         list-style-type: none;
         position: relative;
-        top: 40px;
+        top: 90px;
         right: 4%;
         display: flex;
         color: #242424;
@@ -634,7 +634,7 @@ screen and (max-width: 505px) {
         position: relative;
         width: 197px;
         height: 15px;
-        top: 30px;
+        top: 70px;
         left: 0px;
         order: 2;
     }
@@ -646,5 +646,10 @@ screen and (max-width: 505px) {
         font-size: 28px;
         line-height: 34px;
         height: 44px;
+    }
+    @media (hover: none) {
+        a:hover {
+            color: inherit;
+        }
     }
 }
