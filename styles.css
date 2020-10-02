@@ -559,101 +559,113 @@ footer {
 #under {
     position: relative;
 }
-main {
-    position: relative;
-    height: fit-content;
-    margin: 80px 32px;
-    padding-top: 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0px;
-    /* width: 375px; */
-}
-.presentation {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    /* left: 148px; */
-    /* top: 134px; */
+@media screen and (max-width: 375px) {
+    .navbar {
+        z-index: 10;
+        display: flex;
+        width: 980px;
+        align-items: center;
+        flex-direction: row;
+        margin: auto 24px;
+        justify-content: space-around;
+    }
     
-    display: flex;
-    padding: 0px;
-    align-items: flex-start;
-    flex-direction: column;
-    margin: 0px;
-}
-.steph {
-    position: relative;
-    width: 160px;
-    /* height: 307.38px; */
+    main {
+        position: relative;
+        height: fit-content;
+        margin: 80px 32px;
+        padding-top: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        /* width: 375px; */
+    }
     
-    bottom: 40px;
-    flex: none;
-    order: 0;
-    align-self: center;
-    margin: 0px 66px;
-}
-article {
-    position: relative;
-    width: 100%;
-    /* bottom: 20px; */
-    /* height: 100%; */
+    .presentation {
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        /* left: 148px; */
+        /* top: 134px; */
+        display: flex;
+        padding: 0px;
+        align-items: flex-start;
+        flex-direction: column;
+        margin: 0px;
+    }
     
-    flex: none;
-    order: 0;
-    align-self: center;
-    /* flex-grow: 0; */
-    /* margin: 0; */
-    /* flex-grow: 0; */
-}
-.body1 {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 140%;
-    color: #242424;
-}
-h1 {
-    /* position: absolute; */
+    .steph {
+        position: relative;
+        width: 160px;
+        /* height: 307.38px; */
+        bottom: 40px;
+        flex: none;
+        order: 0;
+        align-self: center;
+        margin: 0px 66px;
+    }
     
-    height: 44px;
-    /* max-width: 240px; */
-    /* left: 0px; */
-    /* right: 0px; */
-    /* top: calc(50% - 34px/2 - 118.5px); */
+    article {
+        position: relative;
+        width: 100%;
+        /* bottom: 20px; */
+        /* height: 100%; */
+        flex: none;
+        order: 0;
+        align-self: center;
+        /* flex-grow: 0; */
+        /* margin: 0; */
+        /* flex-grow: 0; */
+    }
     
-    font-family: "Montserrat";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 28px;
-    line-height: 34px;
-}
-.social-links {
-    list-style-type: none;
-    position: relative;
-    top: 10%;
-    right: 3%;
-    display: flex;
-    color: #242424;
-    justify-content: space-around;
-    width: 100%;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 0px;
-}
-.social-links li {
-    /* padding: 0px; */
-}
-#caption1,
-caption {
-    position: relative;
-    width: 197px;
-    height: 15px;
-    /* left: 0px; */
+    .body1 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 140%;
+        color: #242424;
+    }
     
-    top: 0%;
-}
-
+    h1 {
+        /* position: absolute; */
+        height: 44px;
+        /* max-width: 240px; */
+        /* left: 0px; */
+        /* right: 0px; */
+        /* top: calc(50% - 34px/2 - 118.5px); */
+        font-family: "Montserrat";
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 34px;
+    }
+    
+    .social-links {
+        list-style-type: none;
+        position: relative;
+        top: 10%;
+        right: 3%;
+        display: flex;
+        color: #242424;
+        justify-content: space-around;
+        width: 100%;
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0px;
+    }
+    
+    .social-links li {
+        /* padding: 0px; */
+    }
+    
+    #caption1,
+    caption {
+        position: relative;
+        width: 197px;
+        height: 15px;
+        /* left: 0px; */
+        top: 0%;
+    }
 }
