@@ -566,7 +566,7 @@ footer {
         width: 980px;
         align-items: center;
         flex-direction: row;
-        margin: auto 24px;
+        margin: auto 0px;
         justify-content: space-around;
     }
     
@@ -585,7 +585,7 @@ footer {
     .presentation {
         position: relative;
         width: 100%;
-        height: 100vh;
+        height: 100%;
         /* left: 148px; */
         /* top: 134px; */
         display: flex;
@@ -599,7 +599,7 @@ footer {
         position: relative;
         width: 160px;
         height: 200px;
-        bottom: 0px;
+        bottom: 50px;
         flex: none;
         order: 0;
         align-self: center;
