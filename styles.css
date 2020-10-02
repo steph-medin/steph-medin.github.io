@@ -31,12 +31,12 @@ main {
 /* H1 */
 
 h1 {
-    position: absolute;
-    height: 34px;
+    /* position: absolute; */
+    /* height: 34px; */
     /* max-width: 240px; */
-    left: 0px;
-    right: 0px;
-    top: calc(50% - 34px/2 - 118.5px);
+    /* left: 0px; */
+    /* right: 0px; */
+    /* top: calc(50% - 34px/2 - 118.5px); */
     font-family: "Montserrat";
     font-style: normal;
     font-weight: bold;
@@ -573,13 +573,13 @@ footer {
     main {
         position: relative;
         height: fit-content;
-        margin: 80px 32px;
-        padding-top: 0px;
+        margin: 0px 0px 0px 16px;
+        padding-top: 140px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        padding: 0px;
-        /* width: 375px; */
+        /* padding: 0px; */
+        width: 90%;
     }
     
     .presentation {
@@ -592,18 +592,19 @@ footer {
         padding: 0px;
         align-items: flex-start;
         flex-direction: column;
-        margin: 0px;
+        margin: 0px 0px 80px 0px
     }
     
     .steph {
         position: relative;
         width: 160px;
-        /* height: 307.38px; */
-        bottom: 40px;
+        height: 200px;
+        bottom: 0px;
         flex: none;
         order: 0;
         align-self: center;
-        margin: 0px 66px;
+        /* margin: 0px 66px; */
+        left: 0px;
     }
     
     article {
@@ -612,7 +613,7 @@ footer {
         /* bottom: 20px; */
         /* height: 100%; */
         flex: none;
-        order: 0;
+        order: 1;
         align-self: center;
         /* flex-grow: 0; */
         /* margin: 0; */
@@ -645,8 +646,8 @@ footer {
     .social-links {
         list-style-type: none;
         position: relative;
-        top: 10%;
-        right: 3%;
+        top: 40px;
+        right: 4%;
         display: flex;
         color: #242424;
         justify-content: space-around;
@@ -654,10 +655,13 @@ footer {
         flex-direction: row;
         align-items: flex-start;
         padding: 0px;
+        flex: none;
+        order: 3;
+        height: 90px;
     }
     
     .social-links li {
-        /* padding: 0px; */
+        padding: 0px;
     }
     
     #caption1,
@@ -665,7 +669,8 @@ footer {
         position: relative;
         width: 197px;
         height: 15px;
-        /* left: 0px; */
-        top: 0%;
+        top: 30px;
+        left: 0px;
+        order: 2;
     }
 }
