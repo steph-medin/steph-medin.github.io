@@ -160,22 +160,25 @@ header {
 
 
 }
-#myname {
+
+/*#myname {
     position: relative;
     height: 40px;
     /* left: 0px; */
-    /* right: 720.23px; */
-    /* top: calc(50% - 47.92px/2 - 1406.54px); */
-    /* bottom: 280px; */
-    
-    width: 100%;
+
+/* right: 720.23px; */
+
+/* top: calc(50% - 47.92px/2 - 1406.54px); */
+
+/* bottom: 280px; */
+width: 100%;
+
 }
-#hello {
+*/ #hello {
     position: absolute;
     /* height: 21px; */
     /* left: 0px; */
     /* right: 0px; */
-    
     top: 34px;
     width: 100%;
 }
@@ -189,12 +192,10 @@ a,
 .logo {
     cursor: pointer;
     /* display: flex; */
-    
     background-color: transparent;
     margin: 0p;
     /* position: relative; */
     /* left: -50px; */
-    
     width: 28px;
     padding: 4px;
     margin: 0p;
@@ -229,7 +230,6 @@ a,
     /* left: 148px; */
     /* top: 134px; */
     /* display: flex; */
-    
     margin: 100px auto 120px;
     /* padding: 0px; */
 }
@@ -245,7 +245,6 @@ a,
 }*/
 h1 {
     /* Stephan Medina */
-    
     position: absolute;
     height: 34px;
     max-width: 240px;
@@ -253,7 +252,6 @@ h1 {
     right: 0px;
     top: calc(50% - 34px/2 - 118.5px);
     /* H1 */
-    
     font-family: "Montserrat";
     font-style: normal;
     font-weight: bold;
@@ -264,7 +262,6 @@ h1 {
     position: relative;
     /* left: 0px; */
     /* right: 0px; */
-    
     bottom: 50px;
     max-width: 90%;
     height: 190px;
@@ -335,7 +332,6 @@ caption {
     margin: 180px auto 0px;
     /* left: 0; */
     /* top: 0; */
-    
     display: flex;
     align-items: center;
 }
@@ -355,22 +351,18 @@ caption {
     left: 310px;
     right: 0px;
     /* top: 28px; */
-    
     width: 240px;
     bottom: 50px;
 }
 .press2 {
     /* flex-direction: column; */
     /* padding: 0px; */
-    
     position: relative;
     width: 345px;
     /* height: 170px; */
-    
     left: 280px;
     bottom: 50px;
     /* right: -130px; */
-    
     max-height: 20%;
 }
 .button {
@@ -383,7 +375,6 @@ caption {
     /* height: 49px; */
     /* left: 800px; */
     /* top: 270px; */
-    
     transition: all 0.3s ease 0s;
 }
 .button:hover {
@@ -400,7 +391,6 @@ caption {
     margin: 20px auto 0px;
     /* left: 0; */
     /* top: 1160px; */
-    
     display: flex;
     align-items: center;
 }
@@ -408,13 +398,11 @@ caption {
     position: relative;
     /* left: 80px; */
     /* bottom: 80px; */
-    
     width: 300px;
 }
 .press3 {
     /* flex-direction: column; */
     /* padding: 0px; */
-    
     position: relative;
     max-width: 80%;
     height: fit-content;
@@ -426,13 +414,11 @@ caption {
     /* width: 184px; */
     /* height: 49px; */
     /* left: 150px; */
-    
     top: 30px;
 }
 #p3 {
     position: relative;
     /* top: 1670px; */
-    
     margin: 130px auto 0px;
 }
 #p5 {
@@ -442,23 +428,19 @@ caption {
 #butn3 {
     position: relative;
     /* height: 49px; */
-    
     top: 40px;
     right: 60px;
 }
 .illustration3 {
     position: relative;
     /* left: 140px; */
-    
     right: 0px;
     /* top: 56px; */
-    
     width: 33%;
 }
 .illustration4 {
     position: relative;
     /* left: 726px; */
-    
     right: 0px;
     top: 28px;
     width: 300px;
@@ -466,7 +448,6 @@ caption {
 #p4 {
     position: relative;
     /* top: 130px; */
-    
     margin-bottom: 160px;
     margin-top: 90px;
 }
@@ -474,7 +455,6 @@ caption {
     position: relative;
     /* width: 184px; */
     /* height: 49px; */
-    
     right: 0px;
     top: 40px;
 }
@@ -486,7 +466,6 @@ footer {
     bottom: 0px;
     text-align: center;
     /* margin-top: 0px; */
-    
     margin-bottom: 0px;
     display: flex;
     justify-content: center;
@@ -494,10 +473,8 @@ footer {
 }
 #footertext {
     /* padding: 7px; */
-    
     color: #FFFEF7;
     /* padding: 1px; */
-    
     margin: 0px 10px;
 }
 .project5 {
@@ -531,7 +508,6 @@ footer {
     position: relative;
     left: 190px;
     /* right: 726px; */
-    
     top: 0px;
     width: 300px;
 }
@@ -566,7 +542,6 @@ screen and (max-width: 505px) {
         margin: auto 0px;
         justify-content: space-around;
     }
-    
     main {
         position: relative;
         height: fit-content;
@@ -576,22 +551,22 @@ screen and (max-width: 505px) {
         flex-direction: column;
         align-items: flex-start;
         /* padding: 0px; */
+        
         width: 90%;
     }
-    
     .presentation {
         position: relative;
         width: 100%;
         height: 100%;
         /* left: 148px; */
         /* top: 134px; */
+        
         display: flex;
         padding: 0px;
         align-items: flex-start;
         flex-direction: column;
         margin: 0px 0px 80px 0px
     }
-    
     .steph {
         position: relative;
         width: 160px;
@@ -601,14 +576,15 @@ screen and (max-width: 505px) {
         order: 0;
         align-self: center;
         /* margin: 0px 66px; */
+        
         left: 0px;
     }
-    
     article {
         position: relative;
         width: 100%;
         /* bottom: 20px; */
         /* height: 100%; */
+        
         flex: none;
         order: 1;
         align-self: center;
@@ -616,7 +592,6 @@ screen and (max-width: 505px) {
         /* margin: 0; */
         /* flex-grow: 0; */
     }
-    
     .body1 {
         font-family: Montserrat;
         font-style: normal;
@@ -625,7 +600,6 @@ screen and (max-width: 505px) {
         line-height: 140%;
         color: #242424;
     }
-    
     h2 {
         font-family: Montserrat;
         font-style: normal;
@@ -636,7 +610,6 @@ screen and (max-width: 505px) {
         color: #242424;
         text-decoration: none;
     }
-    
     .social-links {
         list-style-type: none;
         position: relative;
@@ -653,11 +626,9 @@ screen and (max-width: 505px) {
         order: 3;
         height: 90px;
     }
-    
     .social-links li {
         padding: 0px;
     }
-    
     #caption1,
     caption {
         position: relative;
