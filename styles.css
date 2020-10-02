@@ -153,7 +153,7 @@ header {
 .navbar {
     z-index: 10;
     display: flex;
-    width: 980px;
+    width: 990px;
     align-items: center;
     flex-direction: row;
     margin: auto 130px;
@@ -559,7 +559,7 @@ footer {
 #under {
     position: relative;
 }
-@media only screen (max-width: 376px) {
+@media only screen and (max-width: 376px) {
     .navbar {
         z-index: 10;
         display: flex;
