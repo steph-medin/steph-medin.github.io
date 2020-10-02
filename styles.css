@@ -559,7 +559,7 @@ footer {
 #under {
     position: relative;
 }
-@media screen (max-width: 376px) {
+@media only screen (max-width: 376px) {
     .navbar {
         z-index: 10;
         display: flex;
