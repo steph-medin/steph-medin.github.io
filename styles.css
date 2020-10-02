@@ -388,7 +388,7 @@ caption {
     position: relative;
     width: 990px;
     height: 390px;
-    margin: 20px auto 0px;
+    margin: 50px auto 140px;
     /* left: 0; */
     /* top: 1160px; */
     display: flex;
@@ -419,7 +419,7 @@ caption {
 #p3 {
     position: relative;
     /* top: 1670px; */
-    margin: 130px auto 0px;
+    margin: 139px auto 130px;
 }
 #p5 {
     position: absolute;
