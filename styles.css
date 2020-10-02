@@ -569,8 +569,8 @@ screen and (max-width: 505px) {
     }
     .steph {
         position: relative;
-        width: 230px;
-        height: 244px;
+        width: 260px;
+        height: 240px;
         bottom: 50px;
         flex: none;
         order: 0;
