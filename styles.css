@@ -680,7 +680,7 @@ screen and (max-width: 505px) {
         /* right: -130px; */
         
         max-width: 100%;
-        margin: 32px 0px 0px 0px;
+        margin: 40px 0px 0px 0px;
     }
     .illustration3 {
         position: relative;
@@ -698,16 +698,9 @@ screen and (max-width: 505px) {
         border: 2px solid #242424;
         border-radius: 40px;
         position: relative;
-        /* width: -webkit-fill-available; */
-        /* height: 49px; */
-        /* left: 800px; */
-        /* top: 270px; */
-        
         transition: all 0.3s ease 0s;
         flex: none;
-        /* flex-direction: column; */
-        
-        margin: 24px 0px 0px 0px;
+        margin: 40px 0px 0px 0px;
         order: 2;
         align-self: center;
     }
