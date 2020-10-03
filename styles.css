@@ -185,7 +185,7 @@ header {
 width: 100%;
 
 }
-*/ #hello {
+#hello {
     position: absolute;
     /* height: 21px; */
     /* left: 0px; */
@@ -658,9 +658,15 @@ screen and (max-width: 505px) {
         line-height: 34px;
         height: 44px;
     }
-    @media (hover: none) {
+    @media (hover:none) {
         a:hover {
             color: inherit;
+        }
+        
+        .nav_links li a h3:hover: {
+            color: rgba(50, 51, 50, 0.25);
+            text-decoration: none;
+            background-color: transparent;
         }
     }
 }
