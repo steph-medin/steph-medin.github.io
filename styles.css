@@ -100,6 +100,17 @@ h6 {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 600;
+    font-size: 14px;
+    line-height: 15px;
+    /* identical to box height */
+    color: #242424;
+    letter-spacing: 0.004em;
+}
+
+h5 {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
     font-size: 12px;
     line-height: 15px;
     /* identical to box height */
