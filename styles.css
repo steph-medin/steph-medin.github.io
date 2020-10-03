@@ -674,8 +674,9 @@ screen and (max-width: 505px) {
         /* position: relative; */
         /* width: 345px; */
         /* height: 170px; */
-        /* left: 280px; */
-        /* bottom: 50px; */
+        
+        left: 0px;
+        bottom: 0px;
         /* right: -130px; */
         
         max-width: 98%;
@@ -710,16 +711,5 @@ screen and (max-width: 505px) {
         
         margin: 24px 0px 0px 0px;
         order: 2;
-    }
-    @media (hover:none) {
-        a:hover {
-            color: inherit;
-        }
-        
-        .nav_links li a h3:hover: {
-            color: rgba(50, 51, 50, 0.25);
-            text-decoration: none;
-            background-color: transparent;
-        }
     }
 }
