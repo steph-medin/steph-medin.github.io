@@ -822,4 +822,37 @@ screen and (max-width: 505px) {
         position: relative;
         top: 0px;
     }
+    #p4 {
+        position: relative;
+        /* top: 130px; */
+        /* margin-bottom: 160px; */
+        /* margin-top: 90px; */
+        
+        margin: 0px 0px 112px 0px;
+    }
+    .illustration4 {
+        position: relative;
+        /* left: 726px; */
+        /* right: 0px; */
+        /* top: 28px; */
+        
+        width: 70%;
+        align-self: center;
+    }
+    .press6 {
+        position: relative;
+        width: 100%;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        margin: 24px 0px;
+    }
+    #butn4 {
+        position: relative;
+        /* width: 184px; */
+        /* height: 49px; */
+        
+        right: 0;
+        top: 0;
+    }
 }
