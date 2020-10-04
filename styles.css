@@ -741,7 +741,7 @@ screen and (max-width: 505px) {
         position: relative;
         left: 0px;
         right: 0;
-        width: 60%;
+        width: 62%;
         flex: none;
         align-self: center;
         margin: 0px 0px;
@@ -770,7 +770,7 @@ screen and (max-width: 505px) {
         /* left: 80px; */
         /* bottom: 80px; */
         
-        width: 55%;
+        width: 62%;
         align-self: center;
     }
     .press3 {
@@ -816,7 +816,7 @@ screen and (max-width: 505px) {
         /* right: 726px; */
         
         top: 0px;
-        width: 65%;
+        width: 62%;
         align-self: center;
     }
     #butn6 {
@@ -837,7 +837,7 @@ screen and (max-width: 505px) {
         /* right: 0px; */
         /* top: 28px; */
         
-        width: 70%;
+        width: 64%;
         align-self: center;
     }
     .press6 {
