@@ -796,4 +796,30 @@ screen and (max-width: 505px) {
         
         top: 0px;
     }
+    #p3 {
+        position: relative;
+        /* top: 1670px; */
+        
+        margin: 112px 0px 112px 0px;
+    }
+    .press5 {
+        position: relative;
+        width: 100%;
+        margin: 24px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .illustration5 {
+        position: relative;
+        left: 0;
+        /* right: 726px; */
+        
+        top: 0px;
+        width: 65%;
+        align-self: auto;
+    }
+    #butn6 {
+        position: relative;
+        top: 0px;
+    }
 }
