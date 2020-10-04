@@ -730,7 +730,7 @@ screen and (max-width: 505px) {
         /* right: 0px; */
         
         bottom: 0;
-        max-width: 84%;
+        max-width: 100%;
         align-self: center;
         flex-direction: column;
         display: flex;
