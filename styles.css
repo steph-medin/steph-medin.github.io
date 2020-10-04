@@ -772,13 +772,28 @@ screen and (max-width: 505px) {
         align-self: center;
     }
     .press3 {
-        /* flex-direction: column; */
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
         /* padding: 0px; */
         
         position: relative;
-        max-width: 100%;
+        /* max-width: 100%; */
+        
         height: fit-content;
         left: 0;
+        margin: 24px 0px;
         /* top: 100px; */
+        /* bottom: -10px; */
+        
+        margin: 0;
+    }
+    #butn2 {
+        position: relative;
+        /* width: 184px; */
+        /* height: 49px; */
+        /* left: 150px; */
+        
+        top: 30px;
     }
 }
