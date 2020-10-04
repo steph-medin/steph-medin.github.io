@@ -736,12 +736,13 @@ screen and (max-width: 505px) {
     }
     .illustration1 {
         position: relative;
-        left: 0;
+        left: 0px;
         right: 0;
         width: 60%;
         flex: none;
         align-self: center;
-        margin: 20px 0px;
+        margin: 0px 0px;
+        bottom: 34px;
     }
     #buttn5 {
         position: relative;
