@@ -816,7 +816,7 @@ screen and (max-width: 505px) {
         
         top: 0px;
         width: 65%;
-        align-self: auto;
+        align-self: center;
     }
     #butn6 {
         position: relative;
