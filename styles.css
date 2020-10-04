@@ -562,7 +562,7 @@ screen and (max-width: 505px) {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        padding: 150px 10px 0px 0px;
+        padding: 150px 0px 0px 16px;
         width: 89%;
     }
     .presentation {
@@ -730,7 +730,7 @@ screen and (max-width: 505px) {
         /* right: 0px; */
         
         bottom: 0;
-        max-width: 83%;
+        max-width: 84%;
         align-self: center;
         flex-direction: column;
         display: flex;
@@ -778,7 +778,7 @@ screen and (max-width: 505px) {
         /* padding: 0px; */
         
         position: relative;
-        max-width: 83%;
+        max-width: 100%;
         height: fit-content;
         left: 0;
         /* top: 100px; */
