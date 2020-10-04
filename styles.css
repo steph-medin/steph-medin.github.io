@@ -734,7 +734,7 @@ screen and (max-width: 505px) {
         align-self: center;
         flex-direction: column;
         display: flex;
-        margin: 24px 0px;
+        margin: 8px 0px 0px 0px;
     }
     .illustration1 {
         position: relative;
