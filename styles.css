@@ -547,7 +547,7 @@ screen and (max-width: 505px) {
     .navbar {
         z-index: 10;
         display: flex;
-        width: 980px;
+        width: 96%;
         align-items: center;
         flex-direction: row;
         margin: auto 0px;
@@ -794,6 +794,6 @@ screen and (max-width: 505px) {
         /* height: 49px; */
         /* left: 150px; */
         
-        top: 30px;
+        top: 0px;
     }
 }
