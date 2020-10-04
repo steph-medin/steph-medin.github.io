@@ -544,7 +544,8 @@ footer {
 }
 @media only screen and (max-width: 376px),
 screen and (max-width: 801px),
-screen and (max-width: 505px) {
+screen and (max-width: 505px),
+screen and (max-width: 414px) {
     .navbar {
         z-index: 10;
         display: flex;
