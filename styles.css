@@ -730,10 +730,10 @@ screen and (max-width: 505px) {
         /* right: 0px; */
         
         bottom: 0;
-        /* max-width: 0%; */
-        
+        max-width: 100%;
         align-self: center;
-        /* flex-direction: column; */
+        flex-direction: column;
+        display: flex;
     }
     .illustration1 {
         position: relative;
@@ -748,7 +748,7 @@ screen and (max-width: 505px) {
     #buttn5 {
         position: relative;
         top: 0px;
-        left: 86px;
-        /* align-self: center; */
+        left: 0;
+        align-self: center;
     }
 }
