@@ -746,8 +746,7 @@ screen and (max-width: 505px) {
     }
     #buttn5 {
         position: relative;
-        /* top: 30px; */
-        
+        top: 0px;
         left: 86px;
         /* align-self: center; */
     }
