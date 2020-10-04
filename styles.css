@@ -751,4 +751,34 @@ screen and (max-width: 505px) {
         left: 0;
         align-self: center;
     }
+    .project2 {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        margin: 0px 0px 112px 0px;
+        /* left: 0; */
+        /* top: 1160px; */
+        
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .illustration2 {
+        position: relative;
+        /* left: 80px; */
+        /* bottom: 80px; */
+        
+        width: 55%;
+        align-self: center;
+    }
+    .press3 {
+        /* flex-direction: column; */
+        /* padding: 0px; */
+        
+        position: relative;
+        max-width: 100%;
+        height: fit-content;
+        left: 0;
+        /* top: 100px; */
+    }
 }
