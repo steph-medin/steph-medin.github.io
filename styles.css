@@ -730,10 +730,11 @@ screen and (max-width: 505px) {
         /* right: 0px; */
         
         bottom: 0;
-        max-width: 100%;
+        max-width: 83%;
         align-self: center;
         flex-direction: column;
         display: flex;
+        margin: 24px 0px;
     }
     .illustration1 {
         position: relative;
@@ -772,21 +773,20 @@ screen and (max-width: 505px) {
         align-self: center;
     }
     .press3 {
-        display: flex;
         flex-direction: column;
         align-items: flex-start;
         /* padding: 0px; */
         
         position: relative;
-        /* max-width: 100%; */
-        
+        max-width: 83%;
         height: fit-content;
         left: 0;
-        margin: 24px 0px;
         /* top: 100px; */
         /* bottom: -10px; */
         
-        margin: 0;
+        margin: 24px 0px;
+        display: flex;
+        /* flex-direction: column; */
     }
     #butn2 {
         position: relative;
