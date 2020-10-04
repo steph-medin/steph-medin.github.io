@@ -557,13 +557,13 @@ screen and (max-width: 505px) {
         position: relative;
         height: fit-content;
         margin: 0px 0px 0px 24px;
-        padding-top: 140px;
+        /*padding-top: 140px;*/
+        
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        /* padding: 0px; */
-        
-        width: 90%;
+        padding: 150px 10px 0px 0px;
+        width: 89%;
     }
     .presentation {
         position: relative;
