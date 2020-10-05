@@ -601,6 +601,11 @@ screen and (max-width: 414px) {
         /* margin: 0px 0px 0px 130px; */
     }
     
+    #logoname {
+        color: var(--Spark-White);
+        padding: 0px 0px 0px 4px;
+    }
+    
     .nav_links {
         list-style: none;
         background-color: transparent;
