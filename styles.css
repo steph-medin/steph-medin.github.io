@@ -171,10 +171,6 @@ header {
     padding: 0px 0px 0px 4px;
 }
 
-.portlinks {
-    color: #FFFEF7;
-}
-
 #hello {
     position: absolute;
     top: 34px;
@@ -219,13 +215,13 @@ a {
     align-items: baseline;
 }
 
-.nav_links li a h3 .portlinks {
+.nav_links li a h3 {
     transition: all 0.3s ease 0s;
     text-decoration: none;
     background-color: transparent;
 }
 
-.nav_links li a h3 .portlinks:hover {
+.nav_links li a h3:hover {
     color: gba(255, 254, 247, 0.6);
     text-decoration: none;
     background-color: transparent;
