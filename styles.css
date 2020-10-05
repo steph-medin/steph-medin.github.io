@@ -150,7 +150,7 @@ header {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    padding: 8px 14% 8px 11%;
+    padding: 8px 4% 8px 4%;
     background-color: #242424;
     /* height: 44px; */
     align-items: center;
@@ -159,6 +159,8 @@ header {
     flex-direction: row;
 }
 
+
+}
 .leftnav {
     display: flex;
     flex-direction: row;
@@ -166,12 +168,10 @@ header {
     /* margin: 0px 0px 0px 130px; */
 }
 
-
 /* #nav_item {
         position: relative;
         left: 80px;
     }*/
-
 
 /*.navbar {
     z-index: 10;
@@ -181,21 +181,19 @@ header {
     flex-direction: row;
     margin: auto 130px;
 }*/
-
 #logoname {
     color: var(--Spark-White);
     padding: 0px 0px 0px 4px;
 }
-
 #hello {
     position: absolute;
     /* height: 21px; */
     /* left: 0px; */
     /* right: 0px; */
+    
     top: 34px;
     width: 100%;
 }
-
 li,
 a,
 {
@@ -203,19 +201,19 @@ a,
     background-color: transparent;
     list-style: none;
 }
-
 .logo {
     cursor: pointer;
     /* display: flex; */
+    
     background-color: transparent;
     margin: 0p;
     /* position: relative; */
     /* left: -50px; */
+    
     width: 28px;
     padding: 4px;
     margin: 0p;
 }
-
 .nav_links {
     list-style: none;
     background-color: transparent;
@@ -224,29 +222,26 @@ a,
     align-items: flex-start;
     color: var(--Spark-White);
     /* margin: 0px 150px 0px 0px; */
+    
     flex-direction: row;
     justify-content: space-between;
 }
-
 .nav_links li {
     display: inline-flex;
     padding: 0px 22px;
     text-decoration: none;
     align-items: baseline;
 }
-
 .nav_links li a h3 {
     transition: all 0.3s ease 0s;
     text-decoration: none;
     background-color: transparent;
 }
-
 .nav_links li a h3:hover {
     color: var(--hover-spark-white);
     text-decoration: none;
     background-color: transparent;
 }
-
 .presentation {
     position: relative;
     width: 990px;
@@ -254,10 +249,10 @@ a,
     /* left: 148px; */
     /* top: 134px; */
     /* display: flex; */
+    
     margin: 100px auto 120px;
     /* padding: 0px; */
 }
-
 
 /*.presentation {
     position: relative;
@@ -268,9 +263,9 @@ a,
      display: flex; 
     margin: 0 auto 140px;
 }*/
-
 h1 {
     /* Stephan Medina */
+    
     position: absolute;
     height: 34px;
     max-width: 240px;
@@ -278,36 +273,34 @@ h1 {
     right: 0px;
     top: calc(50% - 34px/2 - 118.5px);
     /* H1 */
+    
     font-family: "Montserrat";
     font-style: normal;
     font-weight: bold;
     font-size: 28px;
     line-height: 34px;
 }
-
 .press {
     position: relative;
     /* left: 0px; */
     /* right: 0px; */
+    
     bottom: 50px;
     max-width: 90%;
     height: 190px;
 }
-
 article {
     position: relative;
     width: 38%;
     /* bottom: 20px; */
     /* height: 100%; */
 }
-
 .icons {
     padding: 32px;
     width: 32px;
     height: 32px;
     /* width: fit-content; */
 }
-
 .social-links {
     list-style-type: none;
     position: relative;
@@ -319,26 +312,21 @@ article {
     width: 40%;
     flex-direction: row;
 }
-
 .social-links li {
     padding: 8px 16px;
 }
-
 .social-links li a .icons {
     transition: all 0.3s ease 0s;
     text-decoration: none;
     padding: 2px;
 }
-
 .social-links li a .icons:hover {
     opacity: 0.5;
     text-decoration: none;
 }
-
 #behance {
     width: 36px;
 }
-
 .steph {
     position: relative;
     width: 330.79px;
@@ -346,7 +334,6 @@ article {
     left: 630px;
     bottom: 260px;
 }
-
 #caption1,
 caption {
     position: relative;
@@ -355,7 +342,6 @@ caption {
     left: 0px;
     top: 50px;
 }
-
 .social {
     position: relative;
     width: 230px;
@@ -363,7 +349,6 @@ caption {
     left: 0px;
     top: 0px;
 }
-
 .project {
     position: relative;
     width: 990px;
@@ -371,10 +356,10 @@ caption {
     margin: 180px auto 0px;
     /* left: 0; */
     /* top: 0; */
+    
     display: flex;
     align-items: center;
 }
-
 
 /*.project {
     position: relative;
@@ -386,28 +371,29 @@ caption {
     display: flex;
     align-items: center;
 }*/
-
 .illustration1 {
     position: relative;
     left: 310px;
     right: 0px;
     /* top: 28px; */
+    
     width: 240px;
     bottom: 50px;
 }
-
 .press2 {
     /* flex-direction: column; */
     /* padding: 0px; */
+    
     position: relative;
     width: 345px;
     /* height: 170px; */
+    
     left: 280px;
     bottom: 50px;
     /* right: -130px; */
+    
     max-height: 20%;
 }
-
 .button {
     cursor: pointer;
     background: #FFFEF7;
@@ -418,18 +404,16 @@ caption {
     /* height: 49px; */
     /* left: 800px; */
     /* top: 270px; */
+    
     transition: all 0.3s ease 0s;
 }
-
 .button:hover {
     background-color: #242424;
 }
-
 .button a .txtbutton:hover {
     color: var(--Spark-White);
     background-color: transparent;
 }
-
 .project2 {
     position: relative;
     width: 990px;
@@ -437,84 +421,84 @@ caption {
     margin: 50px auto 140px;
     /* left: 0; */
     /* top: 1160px; */
+    
     display: flex;
     align-items: center;
 }
-
 .illustration2 {
     position: relative;
     /* left: 80px; */
     /* bottom: 80px; */
+    
     width: 300px;
 }
-
 .press3 {
     /* flex-direction: column; */
     /* padding: 0px; */
+    
     position: relative;
     max-width: 80%;
     height: fit-content;
     left: 270px;
     /* top: 100px; */
 }
-
 #butn2 {
     position: relative;
     /* width: 184px; */
     /* height: 49px; */
     /* left: 150px; */
+    
     top: 30px;
 }
-
 #p3 {
     position: relative;
     /* top: 1670px; */
+    
     margin: 139px auto 130px;
 }
-
 #p5 {
     position: absolute;
     top: 0px;
 }
-
 #butn3 {
     position: relative;
     /* height: 49px; */
+    
     top: 40px;
     right: 60px;
 }
-
 .illustration3 {
     position: relative;
     /* left: 140px; */
+    
     right: 0px;
     /* top: 56px; */
+    
     width: 33%;
 }
-
 .illustration4 {
     position: relative;
     /* left: 726px; */
+    
     right: 0px;
     top: 28px;
     width: 300px;
 }
-
 #p4 {
     position: relative;
     /* top: 130px; */
+    
     margin-bottom: 160px;
     margin-top: 90px;
 }
-
 #butn4 {
     position: relative;
     /* width: 184px; */
     /* height: 49px; */
+    
     right: 0px;
     top: 40px;
 }
-
 footer {
     background-color: #242424;
     width: 100%;
@@ -523,19 +507,20 @@ footer {
     bottom: 0px;
     text-align: center;
     /* margin-top: 0px; */
+    
     margin-bottom: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 #footertext {
     /* padding: 7px; */
+    
     color: var(--Spark-White);
     /* padding: 1px; */
+    
     margin: 0px 10px;
 }
-
 .project5 {
     position: relative;
     width: 990px;
@@ -545,7 +530,6 @@ footer {
     align-items: center;
 }
 
-
 /*.project5 {
     position: relative;
     width: 990px;
@@ -554,50 +538,43 @@ footer {
     display: flex;
     align-items: center;
 }*/
-
 #buttn5 {
     position: relative;
     top: 30px;
     right: 1px;
 }
-
 .press5 {
     position: relative;
     width: 451px;
     max-height: 28%;
 }
-
 .illustration5 {
     position: relative;
     left: 190px;
     /* right: 726px; */
+    
     top: 0px;
     width: 300px;
 }
-
 #butn6 {
     position: relative;
     top: 30px;
 }
-
 .press6 {
     position: relative;
     width: 395px;
     max-height: 30%;
     left: 310px;
 }
-
 #heart {
     position: relative;
     top: 1px;
     left: 0px;
     width: 3%;
 }
-
 #under {
     position: relative;
 }
-
 @media only screen and (max-width: 376px),
 screen and (max-width: 801px),
 screen and (max-width: 505px),
@@ -616,12 +593,14 @@ screen and (max-width: 414px) {
         /* margin: 0 auto; */
         flex-direction: row;
     }
+    
     .leftnav {
         display: flex;
         flex-direction: row;
         align-items: center;
         /* margin: 0px 0px 0px 130px; */
     }
+    
     .nav_links {
         list-style: none;
         background-color: transparent;
@@ -633,17 +612,20 @@ screen and (max-width: 414px) {
         flex-direction: row;
         justify-content: space-between;
     }
+    
     .nav_links li {
         display: inline-flex;
         padding: 0px 22px;
         text-decoration: none;
         align-items: baseline;
     }
+    
     .nav_links li a h3 {
         transition: all 0.3s ease 0s;
         text-decoration: none;
         background-color: transparent;
     }
+    
     .nav_links li a h3:hover {
         color: var(--hover-spark-white);
         text-decoration: none;
@@ -658,6 +640,7 @@ screen and (max-width: 414px) {
         margin: auto 0px;
         justify-content: space-around;
     }*/
+    
     main {
         position: relative;
         height: fit-content;
@@ -669,6 +652,7 @@ screen and (max-width: 414px) {
         padding: 150px 0px 0px 0px;
         width: 89%;
     }
+    
     .presentation {
         position: relative;
         width: 100%;
@@ -681,6 +665,7 @@ screen and (max-width: 414px) {
         flex-direction: column;
         margin: 0px 0px 80px 0px
     }
+    
     .steph {
         position: relative;
         width: 260px;
@@ -692,6 +677,7 @@ screen and (max-width: 414px) {
         /* margin: 0px 66px; */
         left: 0px;
     }
+    
     article {
         position: relative;
         width: 100%;
@@ -704,6 +690,7 @@ screen and (max-width: 414px) {
         /* margin: 0; */
         /* flex-grow: 0; */
     }
+    
     .body1 {
         font-family: Montserrat;
         font-style: normal;
@@ -712,6 +699,7 @@ screen and (max-width: 414px) {
         line-height: 140%;
         color: var(--Carbon);
     }
+    
     h2 {
         font-family: Montserrat;
         font-style: normal;
@@ -722,6 +710,7 @@ screen and (max-width: 414px) {
         color: var(--Carbon);
         text-decoration: none;
     }
+    
     .social-links {
         list-style-type: none;
         position: relative;
@@ -738,9 +727,11 @@ screen and (max-width: 414px) {
         order: 3;
         height: 90px;
     }
+    
     .social-links li {
         padding: 0px;
     }
+    
     #caption1,
     caption {
         position: relative;
@@ -750,6 +741,7 @@ screen and (max-width: 414px) {
         left: 0px;
         order: 2;
     }
+    
     h1 {
         position: relative;
         font-family: "Montserrat";
@@ -759,6 +751,7 @@ screen and (max-width: 414px) {
         line-height: 34px;
         height: 44px;
     }
+    
     .project5 {
         position: relative;
         width: 100%;
@@ -769,6 +762,7 @@ screen and (max-width: 414px) {
         flex-direction: column;
         padding: 0px;
     }
+    
     .press2 {
         /* flex-direction: column; */
         /* padding: 0px; */
@@ -781,6 +775,7 @@ screen and (max-width: 414px) {
         max-width: 100%;
         margin: 40px 0px 0px 0px;
     }
+    
     .illustration3 {
         position: relative;
         left: 0px;
@@ -791,6 +786,7 @@ screen and (max-width: 414px) {
         order: 0;
         align-self: center;
     }
+    
     .button {
         cursor: pointer;
         background: #FFFEF7;
@@ -803,12 +799,14 @@ screen and (max-width: 414px) {
         order: 2;
         align-self: center;
     }
+    
     #butn3 {
         position: relative;
         /* height: 49px; */
         top: 0px;
         right: 0px;
     }
+    
     .project {
         position: relative;
         width: 100%;
@@ -821,6 +819,7 @@ screen and (max-width: 414px) {
         flex-direction: column;
         padding: 0px;
     }
+    
     .press {
         position: relative;
         /* left: 0px; */
@@ -832,6 +831,7 @@ screen and (max-width: 414px) {
         display: flex;
         margin: 8px 0px 0px 0px;
     }
+    
     .illustration1 {
         position: relative;
         left: 0px;
@@ -842,12 +842,14 @@ screen and (max-width: 414px) {
         margin: 0px 0px;
         bottom: 34px;
     }
+    
     #buttn5 {
         position: relative;
         top: 0px;
         left: 0;
         align-self: center;
     }
+    
     .project2 {
         position: relative;
         width: 100%;
@@ -859,6 +861,7 @@ screen and (max-width: 414px) {
         align-items: flex-start;
         flex-direction: column;
     }
+    
     .illustration2 {
         position: relative;
         /* left: 80px; */
@@ -866,6 +869,7 @@ screen and (max-width: 414px) {
         width: 62%;
         align-self: center;
     }
+    
     .press3 {
         flex-direction: column;
         align-items: flex-start;
@@ -880,6 +884,7 @@ screen and (max-width: 414px) {
         display: flex;
         /* flex-direction: column; */
     }
+    
     #butn2 {
         position: relative;
         /* width: 184px; */
@@ -887,11 +892,13 @@ screen and (max-width: 414px) {
         /* left: 150px; */
         top: 0px;
     }
+    
     #p3 {
         position: relative;
         /* top: 1670px; */
         margin: 0px 0px 112px 0px;
     }
+    
     .press5 {
         position: relative;
         width: 100%;
@@ -899,6 +906,7 @@ screen and (max-width: 414px) {
         display: flex;
         flex-direction: column;
     }
+    
     .illustration5 {
         position: relative;
         left: 0;
@@ -907,10 +915,12 @@ screen and (max-width: 414px) {
         width: 62%;
         align-self: center;
     }
+    
     #butn6 {
         position: relative;
         top: 0px;
     }
+    
     #p4 {
         position: relative;
         /* top: 130px; */
@@ -918,6 +928,7 @@ screen and (max-width: 414px) {
         /* margin-top: 90px; */
         margin: 0px 0px 112px 0px;
     }
+    
     .illustration4 {
         position: relative;
         /* left: 726px; */
@@ -926,6 +937,7 @@ screen and (max-width: 414px) {
         width: 64%;
         align-self: center;
     }
+    
     .press6 {
         position: relative;
         width: 100%;
@@ -934,6 +946,7 @@ screen and (max-width: 414px) {
         flex-direction: column;
         margin: 24px 0px;
     }
+    
     #butn4 {
         position: relative;
         /* width: 184px; */
