@@ -171,12 +171,6 @@ header {
     padding: 0px 0px 0px 4px;
 }
 
-#hello {
-    position: absolute;
-    top: 34px;
-    width: 100%;
-}
-
 li,
 a {
     text-decoration: none;
@@ -213,15 +207,16 @@ a {
     padding: 0px 22px;
     text-decoration: none;
     align-items: baseline;
+    color: #FFFEF7
 }
 
-.nav_links li a h3 {
+.nav_links li h3 a {
     transition: all 0.3s ease 0s;
     text-decoration: none;
     background-color: transparent;
 }
 
-.nav_links li a h3:hover {
+.nav_links li h3 a:hover {
     color: gba(255, 254, 247, 0.6);
     text-decoration: none;
     background-color: transparent;
