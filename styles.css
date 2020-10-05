@@ -6,8 +6,13 @@
     align-content: center;
 }
 
+:root {
+    --Sparkle-Yellow: #FFC800;
+    --Carbon: #242424;
+}
+
 body {
-    background-color: #FFC800;
+    background-color: var(--Sparkle-Yellow);
     margin: auto 0px;
 }
 
