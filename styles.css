@@ -300,11 +300,12 @@ article {
     list-style-type: none;
     position: relative;
     top: 130px;
-    right: 20px;
+    right: 15px;
     display: flex;
     color: var(--Carbon);
     justify-content: space-between;
     width: 40%;
+    flex-direction: row;
 }
 .social-links li {
     padding: 8px 16px;
