@@ -210,13 +210,13 @@ a {
     color: #FFFEF7
 }
 
-.nav_links li h3 a {
+.nav_links li a h3 {
     transition: all 0.3s ease 0s;
     text-decoration: none;
     background-color: transparent;
 }
 
-.nav_links li h3 a:hover {
+.nav_links li a h3:hover {
     color: gba(255, 254, 247, 0.6);
     text-decoration: none;
     background-color: transparent;
