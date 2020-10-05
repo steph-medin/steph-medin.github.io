@@ -226,11 +226,7 @@ a {
 }
 
 .nav_links li a h3 .portlinks:hover {
-<<<<<<< HEAD
     color: gba(255, 254, 247, 0.6);
-=======
-    color: gba(255, 254, 247, 0.7);
->>>>>>> parent of 62424d1... 12.25
     text-decoration: none;
     background-color: transparent;
 }
