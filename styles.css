@@ -71,6 +71,7 @@ h3 {
     line-height: 160%;
     /* or 22px */
     letter-spacing: 0.01em;
+    color: #FFFEF7;
 }
 
 
@@ -611,7 +612,7 @@ screen and (max-width: 414px) {
         text-decoration: none;
         display: flex;
         align-items: flex-start;
-        color: var(--Spark-White);
+        color: #FFFEF7;
         /* margin: 0px 150px 0px 0px; */
         flex-direction: row;
         justify-content: space-between;
@@ -628,7 +629,7 @@ screen and (max-width: 414px) {
         background-color: transparent;
     }
     .nav_links li a h3:hover {
-        color: var(--hover-spark-white);
+        color: gba(255, 254, 247, 0.7);
         text-decoration: none;
         background-color: transparent;
     }
