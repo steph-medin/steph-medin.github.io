@@ -308,8 +308,8 @@ article {
 .social-links {
     list-style-type: none;
     position: relative;
-    top: 130px;
-    right: 15px;
+    top: 120px;
+    right: 16px;
     display: flex;
     color: var(--Carbon);
     justify-content: space-between;
