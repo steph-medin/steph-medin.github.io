@@ -172,7 +172,7 @@ header {
 }
 
 .portlinks {
-    color: var(--Spark-White);
+    color: #FFFEF7;
 }
 
 #hello {
@@ -226,7 +226,7 @@ a {
 }
 
 .nav_links li a h3 .portlinks:hover {
-    color: var(--hover-spark-white);
+    color: gba(255, 254, 247, 0.7);
     text-decoration: none;
     background-color: transparent;
 }
