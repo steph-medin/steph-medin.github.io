@@ -207,7 +207,6 @@ a {
     padding: 0px 22px;
     text-decoration: none;
     align-items: baseline;
-    color: #FFFEF7
 }
 
 .nav_links li a h3 {
@@ -217,7 +216,7 @@ a {
 }
 
 .nav_links li a h3:hover {
-    color: gba(255, 254, 247, 0.6);
+    opacity: 0.6;
     text-decoration: none;
     background-color: transparent;
 }
