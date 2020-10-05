@@ -55,7 +55,7 @@ h2 {
     font-size: 24px;
     line-height: 29px;
     letter-spacing: 0.01em;
-    color: #242424;
+    color: var(--Carbon);
     text-decoration: none;
 }
 
@@ -70,7 +70,7 @@ h3 {
     line-height: 160%;
     /* or 22px */
     letter-spacing: 0.01em;
-    color: #242424;
+    color: var(--Carbon);
 }
 
 
@@ -82,7 +82,7 @@ h3 {
     font-weight: normal;
     font-size: 16px;
     line-height: 140%;
-    color: #242424;
+    color: var(--Carbon);
 }
 
 
@@ -96,7 +96,7 @@ h3 {
     line-height: 17px;
     /* identical to box height */
     letter-spacing: 0.0025em;
-    color: #242424;
+    color: var(--Carbon);
 }
 
 
@@ -109,7 +109,7 @@ h6 {
     font-size: 14px;
     line-height: 15px;
     /* identical to box height */
-    color: #242424;
+    color: var(--Carbon);
     letter-spacing: 0.004em;
 }
 
@@ -120,7 +120,7 @@ h5 {
     font-size: 12px;
     line-height: 15px;
     /* identical to box height */
-    color: #242424;
+    color: var(--Carbon);
     letter-spacing: 0.004em;
 }
 
@@ -138,7 +138,7 @@ h5 {
     letter-spacing: 0.0125em;
     text-transform: uppercase;
     transition: all 0.3s ease 0s;
-    color: #242424;
+    color: var(--Carbon);
     /* margin: 0 auto; */
     padding: 16px 32px;
 }
@@ -172,7 +172,7 @@ header {
 }
 
 #logoname {
-    color: #FFFEF7;
+    color: var(--Spark-White);
     padding: 0px 0px 0px 4px;
 }
 
@@ -302,7 +302,7 @@ article {
     top: 130px;
     right: 20px;
     display: flex;
-    color: #242424;
+    color: var(--Carbon);
     justify-content: space-between;
     width: 40%;
 }
@@ -399,7 +399,7 @@ caption {
     background-color: #242424;
 }
 .button a .txtbutton:hover {
-    color: #FFFEF7;
+    color: var(--Spark-White);
     background-color: transparent;
 }
 .project2 {
@@ -491,7 +491,7 @@ footer {
 }
 #footertext {
     /* padding: 7px; */
-    color: #FFFEF7;
+    color: var(--Spark-White);
     /* padding: 1px; */
     margin: 0px 10px;
 }
@@ -617,7 +617,7 @@ screen and (max-width: 414px) {
         font-weight: normal;
         font-size: 14px;
         line-height: 140%;
-        color: #242424;
+        color: var(--Carbon);
     }
     h2 {
         font-family: Montserrat;
@@ -626,7 +626,7 @@ screen and (max-width: 414px) {
         font-size: 22px;
         line-height: 29px;
         letter-spacing: 0.01em;
-        color: #242424;
+        color: var(--Carbon);
         text-decoration: none;
     }
     .social-links {
@@ -635,7 +635,7 @@ screen and (max-width: 414px) {
         top: 90px;
         right: 4%;
         display: flex;
-        color: #242424;
+        color: var(--Carbon);
         justify-content: space-around;
         width: 100%;
         flex-direction: row;
