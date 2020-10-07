@@ -160,10 +160,13 @@ header {
     z-index: 10;
     display: flex;
     width: 100%;
+    justify-content: space-between;
+    /*padding: 8px 1% 8px 3%;*/
     background-color: #242424;
-    height: 44px;
+    /* height: 44px; */
     align-items: center;
     top: 0;
+    /* margin: 0 auto; */
     flex-direction: row;
 }
 
