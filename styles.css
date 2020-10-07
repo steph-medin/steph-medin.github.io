@@ -161,7 +161,7 @@ header {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    /*padding: 8px 1% 8px 3%;*/
+    padding: 0px;
     background-color: #242424;
     /* height: 44px; */
     align-items: center;
@@ -606,6 +606,20 @@ screen and (max-width: 414px) {
         flex-direction: row;
         align-items: center;
         /* margin: 0px 0px 0px 130px; */
+    }
+    .navbar {
+        position: fixed;
+        z-index: 10;
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        padding: 8px 13% 8px 4%;
+        background-color: #242424;
+        /* height: 44px; */
+        align-items: center;
+        top: 0;
+        /* margin: 0 auto; */
+        flex-direction: row;
     }
     #logoname {
         color: var(--Spark-White);
