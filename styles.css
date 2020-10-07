@@ -236,14 +236,12 @@ a {
 }
 
 h1 {
-    /* Stephan Medina */
-    position: absolute;
+    position: relative;
     height: 34px;
     max-width: 240px;
     left: 0px;
     right: 0px;
-    top: calc(50% - 34px/2 - 118.5px);
-    /* H1 */
+    top: 0;
     font-family: "Montserrat";
     font-style: normal;
     font-weight: bold;
