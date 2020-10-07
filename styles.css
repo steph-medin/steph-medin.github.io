@@ -590,7 +590,7 @@ screen and (max-width: 414px) {
         display: flex;
         width: 100%;
         justify-content: space-between;
-        padding: 8px 1% 8px 3%;
+        /*padding: 8px 1% 8px 3%;*/
         background-color: #242424;
         /* height: 44px; */
         align-items: center;
