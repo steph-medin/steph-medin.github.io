@@ -307,10 +307,11 @@ article {
 
 .steph {
     position: relative;
-    width: 40%;
+    /* width: 34%; */
     height: 100%;
-    left: 0px;
+    left: 210px;
     /* bottom: 260px; */
+    align-self: center;
 }
 
 #caption1,
