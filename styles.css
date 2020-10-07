@@ -26,6 +26,8 @@ main {
     padding-top: 98px;
     display: flex;
     flex-direction: column;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 
 
@@ -144,7 +146,7 @@ header {
     display: flex;
     width: 100%;
     justify-content: space-between;
-    padding: 8px 13% 8px 11%;
+    padding: 8px 13% 8px 10.5%;
     background-color: #242424;
     /* height: 44px; */
     align-items: center;
