@@ -225,7 +225,7 @@ a {
 .presentation {
     position: relative;
     width: 990px;
-    height: 390px;
+    height: fit-content;
     /* left: 148px; */
     /* top: 134px; */
     display: flex;
@@ -317,11 +317,10 @@ article {
 
 .steph {
     position: relative;
-    width: 36%;
+    width: 40%;
     height: 100%;
-    left: 220px;
-    /* bottom: 109px; */
-    align-self: center;
+    left: 0px;
+    /* bottom: 260px; */
 }
 
 #caption1,
