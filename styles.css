@@ -24,6 +24,8 @@ main {
     height: fit-content;
     margin: 0 auto;
     padding-top: 98px;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -226,21 +228,12 @@ a {
     height: 390px;
     /* left: 148px; */
     /* top: 134px; */
-    /* display: flex; */
+    display: flex;
     margin: 100px auto 120px;
     /* padding: 0px; */
+    flex-direction: row;
+    order: 0;
 }
-
-
-/*.presentation {
-    position: relative;
-    width: 990px;
-    height: 350px;
-     left: 148px; 
-    top: 134px;
-     display: flex; 
-    margin: 0 auto 140px;
-}*/
 
 h1 {
     /* Stephan Medina */
@@ -269,9 +262,18 @@ h1 {
 
 article {
     position: relative;
-    width: 38%;
+    width: 40%;
     /* bottom: 20px; */
-    /* height: 100%; */
+    height: 100%;
+    align-self: center;
+    /* height: fit-content; */
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 86px;
 }
 
 .icons {
@@ -284,13 +286,14 @@ article {
 .social-links {
     list-style-type: none;
     position: relative;
-    top: 120px;
+    top: 0;
     right: 16px;
     display: flex;
     color: var(--Carbon);
     justify-content: space-between;
-    width: 40%;
+    width: 100%;
     flex-direction: row;
+    padding-top: 0px;
 }
 
 .social-links li {
@@ -314,19 +317,21 @@ article {
 
 .steph {
     position: relative;
-    width: 330.79px;
-    height: 367.38px;
-    left: 630px;
-    bottom: 260px;
+    width: 36%;
+    height: 100%;
+    left: 220px;
+    /* bottom: 109px; */
+    align-self: center;
 }
 
 #caption1,
 caption {
     position: relative;
-    width: 197px;
-    height: 15px;
-    left: 0px;
-    top: 50px;
+    /* width: 197px; */
+    /* height: 15px; */
+    /* left: 0px; */
+    /* top: 110px; */
+    padding-bottom: 8px;
 }
 
 .social {
