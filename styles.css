@@ -568,9 +568,9 @@ footer {
 
 #heart {
     position: relative;
-    top: 1px;
+    top: 0px;
     left: 0px;
-    width: 3%;
+    width: 4%;
 }
 
 #under {
