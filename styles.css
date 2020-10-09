@@ -485,11 +485,10 @@ caption {
     width: 300px;
 }
 
-#p4 {
+#p3 {
     position: relative;
-    /* top: 130px; */
-    margin-bottom: 160px;
-    margin-top: 90px;
+    /* top: 1670px; */
+    margin: 129px auto 130px;
 }
 
 #butn4 {
