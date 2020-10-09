@@ -420,7 +420,7 @@ caption {
     position: relative;
     width: 990px;
     height: 390px;
-    margin: 50px auto 140px;
+    margin: 0px auto 140px;
     /* left: 0; */
     /* top: 1160px; */
     display: flex;
@@ -519,7 +519,7 @@ footer {
     position: relative;
     width: 990px;
     height: 390px;
-    margin: 80px auto 140px;
+    margin: 80px auto 190px;
     display: flex;
     align-items: center;
 }
