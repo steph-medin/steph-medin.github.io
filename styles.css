@@ -727,7 +727,7 @@ screen and (max-width: 414px) {
     .social-links {
         list-style-type: none;
         position: relative;
-        top: 90px;
+        top: 0;
         right: 4%;
         display: flex;
         color: var(--Carbon);
@@ -735,10 +735,10 @@ screen and (max-width: 414px) {
         width: 100%;
         flex-direction: row;
         align-items: flex-start;
-        padding: 0px;
         flex: none;
         order: 3;
-        height: 90px;
+        height: 100%;
+        padding-top: 16px;
     }
     .social-links li {
         padding: 0px;
@@ -747,10 +747,11 @@ screen and (max-width: 414px) {
     caption {
         position: relative;
         width: 197px;
-        height: 15px;
-        top: 70px;
+        height: 100%;
+        /* top: 70px; */
         left: 0px;
         order: 2;
+        padding-bottom: 0;
     }
     h1 {
         position: relative;
@@ -942,5 +943,11 @@ screen and (max-width: 414px) {
         /* height: 49px; */
         right: 0;
         top: 0;
+    }
+    .contact {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        padding-top: 26px;
     }
 }
