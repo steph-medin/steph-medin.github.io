@@ -353,7 +353,7 @@ caption {
     position: relative;
     width: 990px;
     height: 390px;
-    margin: 180px auto 0px;
+    margin: 0px auto 140px;
     /* left: 0; */
     /* top: 0; */
     display: flex;
@@ -378,7 +378,8 @@ caption {
     right: 0px;
     /* top: 28px; */
     width: 26%;
-    bottom: 50px;
+    /* bottom: 50px; */
+    /* align-self: center; */
 }
 
 .press2 {
@@ -451,12 +452,6 @@ caption {
     top: 30px;
 }
 
-#p3 {
-    position: relative;
-    /* top: 1670px; */
-    margin: 139px auto 130px;
-}
-
 #p5 {
     position: absolute;
     top: 0px;
@@ -488,7 +483,7 @@ caption {
 #p3 {
     position: relative;
     /* top: 1670px; */
-    margin: 40px auto 130px;
+    margin: 0px auto 130px;
 }
 
 #butn4 {
@@ -524,7 +519,7 @@ footer {
     position: relative;
     width: 990px;
     height: 390px;
-    margin: 0px auto 0px;
+    margin: 80px auto 140px;
     display: flex;
     align-items: center;
 }
