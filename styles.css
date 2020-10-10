@@ -23,7 +23,7 @@ main {
     width: fit-content;
     height: fit-content;
     margin: 0 auto;
-    padding-top: 98px;
+    padding-top: 60px;
     display: flex;
     flex-direction: column;
     padding-left: 24px;
@@ -519,7 +519,7 @@ footer {
     position: relative;
     width: 990px;
     height: 390px;
-    margin: 80px auto 250px;
+    margin: 10px auto 200px;
     display: flex;
     align-items: center;
 }
