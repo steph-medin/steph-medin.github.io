@@ -946,3 +946,20 @@ screen and (max-width: 414px) {
         padding-top: 26px;
     }
 }
+
+@media only screen and (max-width: 1281px) {
+    .navbar {
+        position: fixed;
+        z-index: 10;
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        /*padding: 8px 13% 8px 10.5%;
+        background-color: #242424;
+        /* height: 44px; */
+        align-items: center;
+        top: 0;
+        /* margin: 0 auto; */
+        flex-direction: row;
+    }
+}
