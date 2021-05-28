@@ -402,10 +402,10 @@ caption {
 
 .illustration1 {
     position: relative;
-    left: 230px;
-    right: 0px;
-    bottom: 52px;
-    width: 26%;
+    /* left: 230px; */
+    /* right: 0px; */
+    /* bottom: 52px; */
+    width: 100%;
     /* bottom: 50px; */
     /* align-self: center; */
 }
@@ -436,6 +436,8 @@ caption {
     transition: box-shadow 0.3s ease-in-out;
 }
 
+
+/*
 .button:hover {
     background-color: #242424;
 }
@@ -443,23 +445,27 @@ caption {
 .button a .txtbutton:hover {
     color: var(--Spark-White);
     background-color: transparent;
-}
+}*/
 
 .project-box-item:hover {
     box-shadow: 0 10px 10px rgba(194, 198, 204, .4);
     ;
 }
 
-.project2 {
+
+/*
+.project2 
+{
     position: relative;
     width: 990px;
     height: 390px;
     margin: 0px auto 140px;
     /* left: 0; */
-    /* top: 1160px; */
-    display: flex;
+
+
+/* top: 1160px; 
     align-items: center;
-}
+}*/
 
 .illustration2 {
     position: relative;
