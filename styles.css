@@ -260,10 +260,10 @@ a {
     /* left: 148px; */
     /* top: 134px; */
     display: flex;
-    margin: 100px auto 80px;
+    margin: 100px auto 90px;
     /* padding: 0px; */
     flex-direction: row;
-    order: 0;
+    order: 10;
 }
 
 
