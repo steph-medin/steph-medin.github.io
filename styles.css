@@ -260,7 +260,7 @@ a {
     /* left: 148px; */
     /* top: 134px; */
     display: flex;
-    margin: 100px auto 120px;
+    margin: 100px auto 80px;
     /* padding: 0px; */
     flex-direction: row;
     order: 0;
@@ -449,7 +449,8 @@ caption {
 
 .project-box-item:hover {
     box-shadow: 0 10px 10px rgba(194, 198, 204, .4);
-    ;
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
 }
 
 
@@ -941,6 +942,7 @@ screen and (max-width: 414px) {
         align-self: center;
         margin: 0px 0px;
         bottom: 34px;
+        transform: translateZ(20px);
     }
     #buttn5 {
         position: relative;
