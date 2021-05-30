@@ -282,7 +282,7 @@ article {
 .title_p {
     display: grid;
     grid-template-columns: (1, 1fr);
-    gap: 44px;
+    gap: 16px;
 }
 
 .contact {
