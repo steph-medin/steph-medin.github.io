@@ -721,7 +721,7 @@ screen and (max-width: 414px) {
         padding: 0px;
         align-items: flex-start;
         flex-direction: column;
-        margin: 0px 0px 80px 0px
+        margin: 0px 0px 40px 0px
     }
     .title_p {
         display: grid;
