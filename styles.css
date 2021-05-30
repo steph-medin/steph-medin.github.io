@@ -143,25 +143,6 @@ h5 {
     letter-spacing: 0.004em;
 }
 
-.txtbutton {
-    /* position: absolute; */
-    width: auto;
-    height: auto;
-    /* left: 32px; */
-    /* top: 16px; */
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 17px;
-    letter-spacing: 0.0125em;
-    text-transform: uppercase;
-    transition: all 0.3s ease 0s;
-    color: var(--Carbon);
-    /* margin: 0 auto; */
-    padding: 16px 32px;
-}
-
 .navbar {
     position: fixed;
     z-index: 10;
@@ -401,12 +382,13 @@ caption {
 
 .illustration1 {
     position: relative;
-    /* left: 230px; */
-    /* right: 0px; */
-    /* bottom: 52px; */
+    right: 0;
     width: 100%;
-    /* bottom: 50px; */
-    /* align-self: center; */
+    flex: none;
+    align-self: center;
+    margin: 0px 0px;
+    bottom: 16px;
+    left: 0px;
 }
 
 .press2 {
@@ -447,9 +429,7 @@ caption {
 }*/
 
 .project-box-item:hover {
-    box-shadow: 0 10px 10px rgba(194, 198, 204, .4);
-    transform-style: preserve-3d;
-    transform: perspective(1000px);
+    box-shadow: 0 -1px 30px 1px rgba(194, 198, 204, .4);
 }
 
 
@@ -796,14 +776,16 @@ screen and (max-width: 414px) {
     .project-box-item {
         display: flex;
         flex-direction: column;
-        padding: 56px;
+        padding: 32px;
         background-color: white;
         border-radius: 8px;
         -webkit-box-orient: vertical;
         -webkit-box-direction: normal;
         -ms-flex-direction: column;
         flex-direction: column;
-        width: 444px;
+        width: fit-content;
+        box-shadow: 0 0px 0px rgba(0, 0, 0, 0.15);
+        transition: box-shadow 0.3s ease-in-out;
     }
     .body1 {
         font-family: Montserrat;
@@ -813,243 +795,282 @@ screen and (max-width: 414px) {
         line-height: 140%;
         color: var(--Carbon);
     }
+    /*h2 [mobile]*/
     h2 {
         font-family: Montserrat;
         font-style: normal;
-        font-weight: bold;
-        font-size: 22px;
-        line-height: 56px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
         letter-spacing: 0.01em;
         color: var(--Carbon);
         text-decoration: none;
     }
-    .social-links {
-        list-style-type: none;
-        position: relative;
-        top: 0;
-        display: flex;
-        color: var(--Carbon);
-        width: 100%;
-        flex-direction: row;
-        align-items: flex-start;
-        flex: none;
-        order: 3;
-        height: 100%;
-        padding-top: 16px;
-    }
-    /*.social-links li {
-        padding: 0px;
-    }*/
-    #caption1,
-    caption {
-        position: relative;
-        width: 197px;
-        height: 100%;
-        /* top: 70px; */
-        left: 0px;
-        order: 2;
-        padding-bottom: 0;
-    }
-    h1 {
-        position: relative;
-        font-family: "Montserrat";
-        font-style: normal;
-        font-weight: bold;
-        font-size: 28px;
-        line-height: 34px;
-        height: 44px;
-    }
-    .project5 {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        margin: 24px 0px 40px 0px;
-        display: flex;
-        align-items: flex-start;
-        flex-direction: column;
-        padding: 0px;
-    }
-    .press2 {
-        /* flex-direction: column; */
-        /* padding: 0px; */
-        /* position: relative; */
-        /* width: 345px; */
-        /* height: 170px; */
-        left: 0px;
-        bottom: 0px;
-        /* right: -130px; */
-        max-width: 100%;
-        margin: 40px 0px 0px 0px;
-    }
-    .illustration3 {
-        position: relative;
-        left: 0px;
-        right: 0px;
-        top: 0px;
-        width: 70%;
-        flex: none;
-        order: 0;
-        align-self: center;
-    }
-    .button {
-        cursor: pointer;
-        background: #FFFEF7;
-        border: 2px solid #242424;
-        border-radius: 40px;
-        position: relative;
-        transition: all 0.3s ease 0s;
-        flex: none;
-        margin: 40px 0px 0px 0px;
-        order: 2;
-        align-self: center;
-    }
-    #butn3 {
-        position: relative;
-        /* height: 49px; */
-        top: 0px;
-        right: 0px;
-    }
-    .project {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        margin: 112px 0px 112px 0px;
-        /* left: 0; */
-        /* top: 0; */
-        display: flex;
-        align-items: flex-start;
-        flex-direction: column;
-        padding: 0px;
-    }
-    .press {
-        position: relative;
-        /* left: 0px; */
-        /* right: 0px; */
-        bottom: 0;
-        max-width: 100%;
-        align-self: center;
-        flex-direction: column;
-        display: flex;
-        margin: 8px 0px 0px 0px;
-    }
-    .illustration1 {
-        position: relative;
-        left: 0px;
-        right: 0;
-        width: 62%;
-        flex: none;
-        align-self: center;
-        margin: 0px 0px;
-        bottom: 34px;
-        transform: translateZ(20px);
-    }
-    #buttn5 {
-        position: relative;
-        top: 0px;
-        left: 0;
-        align-self: center;
-    }
-    .project2 {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        margin: 0px 0px 112px 0px;
-        /* left: 0; */
-        /* top: 1160px; */
-        display: flex;
-        align-items: flex-start;
-        flex-direction: column;
-    }
-    .illustration2 {
-        position: relative;
-        /* left: 80px; */
-        /* bottom: 80px; */
-        width: 62%;
-        align-self: center;
-    }
-    .press3 {
-        flex-direction: column;
-        align-items: flex-start;
-        /* padding: 0px; */
-        position: relative;
-        max-width: 100%;
-        height: fit-content;
-        left: 0;
-        /* top: 100px; */
-        /* bottom: -10px; */
-        margin: 24px 0px;
-        display: flex;
-        /* flex-direction: column; */
-    }
-    #butn2 {
-        position: relative;
-        /* width: 184px; */
-        /* height: 49px; */
-        /* left: 150px; */
-        top: 0px;
-    }
-    #p3 {
-        position: relative;
-        /* top: 1670px; */
-        margin: 0px 0px 112px 0px;
-    }
-    .press5 {
-        position: relative;
-        width: 100%;
-        margin: 24px 0px;
-        display: flex;
-        flex-direction: column;
-    }
-    .illustration5 {
-        position: relative;
-        left: 0;
-        /* right: 726px; */
-        top: 0px;
-        width: 62%;
-        align-self: center;
-    }
-    #butn6 {
-        position: relative;
-        top: 0px;
-    }
-    #p4 {
-        position: relative;
-        /* top: 130px; */
-        /* margin-bottom: 160px; */
-        /* margin-top: 90px; */
-        margin: 0px 0px 112px 0px;
-    }
-    .illustration4 {
-        position: relative;
-        /* left: 726px; */
-        /* right: 0px; */
-        /* top: 28px; */
-        width: 64%;
-        align-self: center;
-    }
-    .press6 {
-        position: relative;
-        width: 100%;
-        left: 0;
-        display: flex;
-        flex-direction: column;
-        margin: 24px 0px;
-    }
-    #butn4 {
-        position: relative;
-        /* width: 184px; */
-        /* height: 49px; */
-        right: 0;
-        top: 0;
-    }
-    .contact {
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        padding-top: 26px;
-    }
 }
 
+.social-links {
+    list-style-type: none;
+    position: relative;
+    top: 0;
+    display: flex;
+    color: var(--Carbon);
+    width: 100%;
+    flex-direction: row;
+    align-items: flex-start;
+    flex: none;
+    order: 3;
+    height: 100%;
+    padding-top: 16px;
+}
+
+
+/*.social-links li {
+        padding: 0px;
+    }*/
+
+#caption1,
+caption {
+    position: relative;
+    width: 197px;
+    height: 100%;
+    /* top: 70px; */
+    left: 0px;
+    order: 2;
+    padding-bottom: 0;
+}
+
+h1 {
+    position: relative;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 34px;
+    height: 44px;
+}
+
+.project5 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 24px 0px 40px 0px;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.press2 {
+    /* flex-direction: column; */
+    /* padding: 0px; */
+    /* position: relative; */
+    /* width: 345px; */
+    /* height: 170px; */
+    left: 0px;
+    bottom: 0px;
+    /* right: -130px; */
+    max-width: 100%;
+    margin: 40px 0px 0px 0px;
+}
+
+.illustration3 {
+    position: relative;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    width: 70%;
+    flex: none;
+    order: 0;
+    align-self: center;
+}
+
+.button {
+    cursor: pointer;
+    background: #FFFEF7;
+    border: 2px solid #242424;
+    border-radius: 40px;
+    position: relative;
+    transition: all 0.3s ease 0s;
+    flex: none;
+    margin: 40px 0px 0px 0px;
+    order: 2;
+    align-self: center;
+}
+
+#butn3 {
+    position: relative;
+    /* height: 49px; */
+    top: 0px;
+    right: 0px;
+}
+
+.project {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 112px 0px 112px 0px;
+    /* left: 0; */
+    /* top: 0; */
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.press {
+    position: relative;
+    /* left: 0px; */
+    /* right: 0px; */
+    bottom: 0;
+    max-width: 100%;
+    align-self: center;
+    flex-direction: column;
+    display: flex;
+    margin: 8px 0px 0px 0px;
+}
+
+.illustration1 {
+    position: relative;
+    left: 0px;
+    right: 0;
+    width: 100%;
+    flex: none;
+    align-self: center;
+    margin: 0px 0px;
+    bottom: 16px;
+}
+
+
+/*.description-title {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        position: relative;
+        width: 270px;
+    }*/
+
+#buttn5 {
+    position: relative;
+    top: 0px;
+    left: 0;
+    align-self: center;
+}
+
+.project2 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0px 0px 112px 0px;
+    /* left: 0; */
+    /* top: 1160px; */
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.illustration2 {
+    position: relative;
+    /* left: 80px; */
+    /* bottom: 80px; */
+    width: 62%;
+    align-self: center;
+}
+
+.press3 {
+    flex-direction: column;
+    align-items: flex-start;
+    /* padding: 0px; */
+    position: relative;
+    max-width: 100%;
+    height: fit-content;
+    left: 0;
+    /* top: 100px; */
+    /* bottom: -10px; */
+    margin: 24px 0px;
+    display: flex;
+    /* flex-direction: column; */
+}
+
+#butn2 {
+    position: relative;
+    /* width: 184px; */
+    /* height: 49px; */
+    /* left: 150px; */
+    top: 0px;
+}
+
+#p3 {
+    position: relative;
+    /* top: 1670px; */
+    margin: 0px 0px 112px 0px;
+}
+
+.press5 {
+    position: relative;
+    width: 100%;
+    margin: 24px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.illustration5 {
+    position: relative;
+    left: 0;
+    /* right: 726px; */
+    top: 0px;
+    width: 62%;
+    align-self: center;
+}
+
+#butn6 {
+    position: relative;
+    top: 0px;
+}
+
+#p4 {
+    position: relative;
+    /* top: 130px; */
+    /* margin-bottom: 160px; */
+    /* margin-top: 90px; */
+    margin: 0px 0px 112px 0px;
+}
+
+.illustration4 {
+    position: relative;
+    /* left: 726px; */
+    /* right: 0px; */
+    /* top: 28px; */
+    width: 64%;
+    align-self: center;
+}
+
+.press6 {
+    position: relative;
+    width: 100%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 24px 0px;
+}
+
+#butn4 {
+    position: relative;
+    /* width: 184px; */
+    /* height: 49px; */
+    right: 0;
+    top: 0;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding-top: 26px;
+}
+
+
+}
 @media only screen and (min-width: 1281px) {
     .navbar {
         position: fixed;
