@@ -282,7 +282,7 @@ article {
 .title_p {
     display: grid;
     grid-template-columns: (1, 1fr);
-    /*gap: 16px;*/
+    gap: 16px;
 }
 
 .contact {
@@ -308,7 +308,7 @@ article {
     color: var(--Carbon);
     width: 100%;
     flex-direction: row;
-    padding-top: 0px;
+    padding-top: 20px;
 }
 
 .social-links li {
