@@ -10,12 +10,12 @@
     /*Colors*/
     --Sparkle-Yellow: #FFC800;
     --Carbon: #242424;
-    --Spark-White: #FFFEF7;
+    --Spark-White: #e5e7da;
     --hover-spark-white: gba(255, 254, 247, 0.7);
-    --Serenity-blue: #EAEFF6;
+    --White: #FFFEFA;
     /*Fonts*/
     --Desktop_H1: font-family: Montserrat;
-    font-size: 40px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: 56px;
@@ -24,7 +24,7 @@
 }
 
 body {
-    background-color: var(--Serenity-blue);
+    background-color: var(--White);
     margin: auto 0px;
 }
 
@@ -79,7 +79,7 @@ h3 {
     line-height: 160%;
     /* or 22px */
     letter-spacing: 0.01em;
-    color: #FFFEF7;
+    color: var(--Carbon);
 }
 
 .h4 {
@@ -150,7 +150,7 @@ h5 {
     width: 100%;
     justify-content: space-between;
     padding: 8px 13% 8px 10.5%;
-    background-color: #242424;
+    background-color: var(--White);
     /* height: 44px; */
     align-items: center;
     top: 0;
@@ -181,7 +181,7 @@ header {
 }
 
 #logoname {
-    color: var(--Spark-White);
+    color: var(--Carbon);
     padding: 0px 0px 0px 4px;
 }
 
@@ -549,8 +549,9 @@ footer {
     display: flex;
     flex-direction: column;
     padding: 56px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 8px;
+    border: 0.5px solid #d3d3d3;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
