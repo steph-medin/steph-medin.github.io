@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    align-content: center;
+}
+:root {
+    /*Colors*/
+    --Sparkle-Yellow: #FFC800;
+    --Carbon: #242424;
+    --Spark-White: #FFFEF7;
+    --hover-spark-white: gba(255, 254, 247, 0.7);
+    --Serenity-blue: #EAEFF6;
+    /*Fonts*/
+    --Desktop_H1: font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0.01em;
+    text-align: left;
+}
+
+header{
+    position: absolute;
+width: 393px;
+height: 437px;
+left: 0px;
+top: 106px;
+
+background: #58C0C6;
+
+}
