@@ -168,7 +168,7 @@ h5 {
     display: flex;
     width: 100%;
     justify-content: space-around;
-    padding: 24px 13% 0px 10.5%;
+    padding:3% 5% 0px 5%;
     background-color: rgb(245, 245, 245);
     /* height: 44px; */
     align-items: center;
@@ -697,7 +697,7 @@ screen and (max-width: 414px) {
         display: flex;
         width: 100%;
         justify-content: space-between;
-        padding: 8px 2% 8px 3.5%;
+        padding: 3% 5% 0px 5%;
         background-color: #242424;
         /* height: 44px; */
         align-items: center;
@@ -807,11 +807,6 @@ screen and (max-width: 414px) {
         flex-flow: column wrap;
     }
     .about_item {
-        display: flex;
-        flex-direction: row;
-        -webkit-box-direction: normal;
-        -webkit-box-pack: start;
-        justify-content: flex-start;
         width: 987px;
         position: relative;
         height: fit-content;
@@ -1125,7 +1120,7 @@ screen and (max-width: 414px) {
         display: flex;
         width: 100%;
         justify-content: space-around;
-        padding: 24px 13% 0px 10.5%;
+        padding: 3% 5% 0px 5%;
         background-color: rgb(245, 245, 245);
         /* height: 44px; */
         align-items: center;
