@@ -413,7 +413,7 @@ caption {
 .illustration1 {
     position: relative;
     right: 0;
-    width: 120%;
+    width: 100%;
     flex: none;
     align-self: center;
     margin: 0px 0px;
@@ -1535,7 +1535,7 @@ screen and (max-width: 414px) {
     .illustration1 {
         position: relative;
         right: 0;
-        width: 120%;
+        width: 100%;
         flex: none;
         align-self: center;
         margin: 0px 0px;
