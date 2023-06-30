@@ -814,8 +814,8 @@ screen and (max-width: 414px) {
         justify-content: flex-start;
         width: 987px;
         position: relative;
-            height: fit-content;
-            margin: 100px auto 90px;
+        height: fit-content;
+        margin: 100px auto 90px;
     }
 
     .pro-item {
@@ -1098,7 +1098,7 @@ screen and (max-width: 414px) {
 
 }
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (max-width: 1440px) {
     .spacing_4px{
         padding: 4px;
     }
@@ -1147,6 +1147,12 @@ screen and (max-width: 414px) {
         top: 0;
         /* margin: 0 auto; */
         flex-direction: row;
+    }
+    .about_item {
+        width: 987px;
+        position: relative;
+        height: fit-content;
+        margin: 100px auto 90px;
     }
     
     .leftnav {
