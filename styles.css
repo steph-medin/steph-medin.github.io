@@ -697,8 +697,8 @@ screen and (max-width: 414px) {
         display: flex;
         width: 100%;
         justify-content: space-between;
-        padding: 3% 5% 0px 5%;
-        background-color: #242424;
+        padding:3% 5% 0px 5%;
+        background-color: rgb(245, 245, 245);
         /* height: 44px; */
         align-items: center;
         top: 0;
@@ -1120,7 +1120,7 @@ screen and (max-width: 414px) {
         display: flex;
         width: 100%;
         justify-content: space-between;
-        padding: 3% 5% 0px 5%;
+        padding:3% 5% 0px 5%;
         background-color: rgb(245, 245, 245);
         /* height: 44px; */
         align-items: center;
