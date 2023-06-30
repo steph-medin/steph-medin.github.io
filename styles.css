@@ -282,6 +282,13 @@ a {
     padding: 0%;
 }
 
+.about_lists{
+    position: relative;
+    display: flex;
+    /* padding: 0px; */
+    flex-direction: column;
+    column-gap: 10%;
+}
 /*h1 {
     position: relative;
     height: 34px;
@@ -812,6 +819,15 @@ screen and (max-width: 414px) {
         height: fit-content;
         margin: 100px auto 90px;
     }
+    .about_lists{
+        position: relative;
+        display: flex;
+        align-content: space-between;
+        margin: 10px auto 90px;
+        /* padding: 0px; */
+        flex-direction: column;
+        column-gap: 10%;
+    }
 
     .pro-item {
         list-style: none;
@@ -1112,6 +1128,14 @@ screen and (max-width: 414px) {
     
     .spacing_40px{
         padding: 40px;
+    }
+    
+    .about_lists{
+        position: relative;
+        display: flex;
+        /* padding: 0px; */
+        flex-direction: column;
+        column-gap: 10%;
     }
     
     .navbar {
