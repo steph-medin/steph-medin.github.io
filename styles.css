@@ -590,7 +590,7 @@ footer {
     -ms-flex-direction: column;
     flex-direction: column;
     width: 444px;
-    transition: transform, box-shadow, .2s cubic-bezier(0.79, 0, 0.36, 1);
+    transition: transform, box-shadow, .35s cubic-bezier(0.56, -0.03, 0.48, 1.51);
     transform: scale(1);
 
 }
@@ -1413,7 +1413,7 @@ screen and (max-width: 414px) {
     
     .project-box-item:hover {
         box-shadow: 4px 20px 16px 1px rgba(200, 200, 200, 0.7);
-        transform: scale(1.01);
+        transform: scale(1.02);
     }
     
     
@@ -1548,7 +1548,7 @@ screen and (max-width: 414px) {
         -ms-flex-direction: column;
         flex-direction: column;
         width: 444px;
-        transition: transform, box-shadow, .2s cubic-bezier(0.79, 0, 0.36, 1);
+        transition: transform, box-shadow, .35s cubic-bezier(0.56, -0.03, 0.48, 1.51);
         transform: scale(1);
     
     }
