@@ -667,6 +667,14 @@ footer {
     position: relative;
 }
 
+.about_item {
+    width: 987px;
+    position: relative;
+    height: fit-content;
+    margin: 5% auto 90px;
+}
+
+
 /* ---------------------------------------------------------- CARDS---------------------------------------------------------- */
 
 
@@ -677,6 +685,14 @@ footer {
     align-content: flex-start;
     gap: 32px;
     flex-wrap: wrap;
+}
+
+.row-list {
+    padding: 32px 0px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 16%;
 }
 
 .card {
@@ -697,7 +713,7 @@ footer {
 
 }
 
-.text-container{
+.text-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -707,11 +723,11 @@ footer {
     align-self: stretch;
 }
 
-.title-L{
+.title-L {
     text-align: center;
 }
 
-.text-s{
+.text-s {
     text-align: center;
 }
 
@@ -1240,8 +1256,8 @@ screen and (max-width: 414px) {
         flex-shrink: 0;
 
     }
-    
-    .text-container{
+
+    .text-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -1251,7 +1267,7 @@ screen and (max-width: 414px) {
         align-self: stretch;
     }
 
-    .text-s{
+    .text-s {
         text-align: center;
     }
 
