@@ -688,7 +688,6 @@ footer {
 }
 
 .row-list {
-    padding: 32px 0px 0px 0px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -739,6 +738,18 @@ footer {
 
 .background-green {
     background: #247a24;
+}
+
+.spacing_16px {
+    padding: 16px;
+}
+
+.spacing_24px {
+    padding: 24px;
+}
+
+.spacing_32px {
+    padding: 32px;
 }
 
 @media only screen and (max-width: 376px),
@@ -1221,6 +1232,10 @@ screen and (max-width: 414px) {
         padding: 16px;
     }
 
+    .spacing_24px {
+        padding: 24px;
+    }
+
     .spacing_32px {
         padding: 32px;
     }
@@ -1285,6 +1300,10 @@ screen and (max-width: 414px) {
 
     .spacing_16px {
         padding: 16px;
+    }
+
+    .spacing_24px {
+        padding: 24px;
     }
 
     .spacing_32px {
