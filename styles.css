@@ -36,7 +36,7 @@ body {
 
 h1 {
     font-family: Montserrat;
-    font-size: 36px;
+    font-size: 48px;
     font-style: normal;
     font-weight: 700;
     line-height: 120%;
@@ -785,7 +785,7 @@ footer {
         gap: 16px;
         margin: 4% 0% 10% 0%;
     }
-    
+
 
     .desktop-layout-container {
         display: flex;
@@ -1625,6 +1625,16 @@ footer {
         font-size: 28px;
         line-height: 34px;
     }*/
+    .about-title {
+        font-family: Montserrat;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+        letter-spacing: 0.01em;
+        text-align: left;
+        width: 101%;
+    }
 
     .press {
         position: relative;
@@ -1698,6 +1708,7 @@ footer {
         left: 150px;
         /* bottom: 260px; */
         align-self: center;
+        padding-top: 8%;
     }
 
     #caption1,
