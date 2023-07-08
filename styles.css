@@ -491,9 +491,8 @@ caption {
 
 .illustration2 {
     position: relative;
-    /* left: 80px; */
-    /* bottom: 80px; */
-    width: 300px;
+    left: 13%;
+    width: 70%;
 }
 
 .press3 {
@@ -766,7 +765,7 @@ footer {
 screen and (max-width: 880px),
 screen and (max-width: 505px),
 screen and (max-width: 414px) {
-    
+
 
     .title-container {
         display: inline-flex;
@@ -853,7 +852,7 @@ screen and (max-width: 414px) {
         flex: 1 0 0;
         align-self: stretch;
     }
-    
+
     header {
         position: fixed;
         z-index: 10;
