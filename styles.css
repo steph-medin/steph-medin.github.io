@@ -771,6 +771,12 @@ footer {
 
     /*Layout--------------------------------------*/
 
+    .column-list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16%;
+    }
 
     .title-container {
         display: inline-flex;
@@ -1023,10 +1029,11 @@ footer {
     }
 
     .about_item {
-        width: 987px;
+        width: 93%;
         position: relative;
         height: fit-content;
-        margin: 100px auto 90px;
+        margin: 30px auto 90px;
+        text-align: left;
     }
 
     .about_lists {
@@ -1065,7 +1072,6 @@ footer {
         font-size: 16px;
         line-height: 140%;
         color: var(--Carbon);
-        text-align: center;
     }
 
     /*h2 [mobile]*/
@@ -1115,7 +1121,6 @@ footer {
         font-weight: bold;
         font-size: 32px;
         line-height: 120%;
-        text-align: center;
     }
 
     .press2 {
