@@ -151,25 +151,7 @@ h5 {
     padding: 40px;
 }
 
-.navbar {
-    position: fixed;
-    z-index: 10;
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    padding: 3% 5% 0px 5%;
 
-    /* height: 44px; */
-    align-items: center;
-    top: 0;
-    /* margin: 0 auto; */
-    flex-direction: row;
-    /* From https://css.glass */
-    background: #FAFBFC;
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    border: 1px solid #EAEFF6;
-}
 
 header {
     position: fixed;
@@ -813,8 +795,9 @@ footer {
         width: 100%;
         align-items: flex-start;
         align-content: flex-start;
-        gap: 24px;
+        gap: 54px;
         flex-direction: column;
+        margin-top: 10%;
     }
 
 
@@ -923,16 +906,19 @@ footer {
         width: 100%;
         justify-content: space-between;
         padding: 3% 3% 0px 3%;
-        background-color: rgb(245, 245, 245);
         /* height: 44px; */
         align-items: center;
         top: 0;
         /* margin: 0 auto; */
         flex-direction: row;
+        background: rgba(250, 251, 252, 0.80);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid #EAEFF6;
     }
 
     #logoname {
-        color: var(--Spark-White);
+        color: var(--Carbon);
         padding: 0px 0px 0px 4px;
     }
 
@@ -950,7 +936,7 @@ footer {
 
     .nav_links li {
         display: inline-flex;
-        padding: 24px;
+        padding: 12px;
         text-decoration: none;
         align-items: baseline;
     }
@@ -967,15 +953,7 @@ footer {
         background-color: transparent;
     }
 
-    /*.navbar {
-        z-index: 10;
-        display: flex;
-        width: 96%;
-        align-items: center;
-        flex-direction: row;
-        margin: auto 0px;
-        justify-content: space-around;
-    }*/
+
 
     main {
         position: relative;
@@ -1164,25 +1142,6 @@ footer {
         align-self: center;
     }
 
-    .button {
-        cursor: pointer;
-        background: #FFFEF7;
-        border: 2px solid #242424;
-        border-radius: 40px;
-        position: relative;
-        transition: all 0.3s ease 0s;
-        flex: none;
-        margin: 40px 0px 0px 0px;
-        order: 2;
-        align-self: center;
-    }
-
-    #butn3 {
-        position: relative;
-        /* height: 49px; */
-        top: 0px;
-        right: 0px;
-    }
 
     .project {
         position: relative;
@@ -1245,10 +1204,11 @@ footer {
 
     .illustration2 {
         position: relative;
-        /* left: 80px; */
-        /* bottom: 80px; */
-        width: 62%;
+        width: 80%;
+        flex: none;
         align-self: center;
+        margin: 0px 0px;
+        bottom: 1%;
     }
 
     .press3 {
@@ -1537,7 +1497,7 @@ footer {
         /* From https://css.glass */
         background: rgba(250, 251, 252, 0.80);
         backdrop-filter: blur(20px);
-        -webkit-backdrop-filter: blur(10px);
+        -webkit-backdrop-filter: blur(5px);
         border: 1px solid #EAEFF6;
 
     }
