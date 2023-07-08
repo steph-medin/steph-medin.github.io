@@ -1288,6 +1288,13 @@ screen and (max-width: 414px) {
         letter-spacing: 0.1px;
     }
 
+    /*images*/
+    .illustration2 {
+        position: relative;
+        left: 13%;
+        width: 70%;
+    }
+
     /*Layout--------------------------------------*/
 
 
@@ -1421,6 +1428,7 @@ screen and (max-width: 414px) {
         border: 1px solid #EAEFF6;
 
     }
+
 
     header {
         position: fixed;
@@ -1726,12 +1734,6 @@ screen and (max-width: 414px) {
         align-items: center;
     }*/
 
-    .illustration2 {
-        position: relative;
-        /* left: 80px; */
-        /* bottom: 80px; */
-        width: 300px;
-    }
 
     .press3 {
         /* flex-direction: column; */
