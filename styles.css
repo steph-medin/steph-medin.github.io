@@ -983,7 +983,7 @@ footer {
         padding: 0px;
         align-items: flex-start;
         flex-direction: column;
-        margin: 0px 0px 24px 0px
+        margin: 30% 0px 24px 0px
     }
 
     .title_p {
@@ -1032,7 +1032,7 @@ footer {
         width: 93%;
         position: relative;
         height: fit-content;
-        margin: 30px auto 90px;
+        margin: 30px 0px 90px;
         text-align: left;
     }
 
