@@ -19,7 +19,7 @@
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: 56px;
+    line-height: 120%;
     letter-spacing: 0.01em;
     text-align: left;
 }
@@ -29,18 +29,7 @@ body {
     margin: auto 0px;
 }
 
-main {
-    position: relative;
-    width: fit-content;
-    height: fit-content;
-    margin: 0 auto;
-    padding-top: 60px;
-    display: flex;
-    flex-direction: column;
-    padding-left: 24px;
-    padding-right: 24px;
-    margin-bottom: 80px;
-}
+
 
 
 /* H1 */
@@ -50,7 +39,7 @@ h1 {
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 56px;
+    line-height: 120%;
     letter-spacing: 0.01em;
     text-align: left;
 }
@@ -759,12 +748,46 @@ footer {
     padding: 32px 0px 0px 0px;
 }
 
-/*SMALL---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+/*SMALL (Mobile)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-@media only screen and (max-width: 376px),
-screen and (max-width: 880px),
-screen and (max-width: 505px),
-screen and (max-width: 414px) {
+@media only screen and (max-width: 450px) {
+
+
+    /*Text--------------------------------------*/
+
+    .title-L {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+    }
+
+    .title-center {
+        text-align: center;
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        flex-shrink: 0;
+        margin: auto;
+    }
+
+    .text-xs {
+        font-size: 10px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 130%;
+        letter-spacing: 0.1px;
+    }
+
+    /*images*/
+    .illustration2 {
+        position: relative;
+        left: 13%;
+        width: 70%;
+    }
+
+    /*Layout--------------------------------------*/
 
 
     .title-container {
@@ -775,13 +798,23 @@ screen and (max-width: 414px) {
         margin: 80px 0%;
     }
 
+
+
+    .title-container {
+        display: inline-flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        margin: 0%;
+    }
+
     .desktop-layout-container {
         display: flex;
-        width: 1152px;
+        width: 100%;
         align-items: flex-start;
         align-content: flex-start;
         gap: 32px;
-        flex-wrap: column;
+        flex-direction: column;
     }
 
 
@@ -791,7 +824,7 @@ screen and (max-width: 414px) {
         padding: 8px 12px;
         justify-content: center;
         align-items: center;
-        width: 10%;
+        width: 50%;
         border-radius: 16px;
         border: 1px solid #0075B2;
         background: #E5F6FF;
@@ -800,9 +833,9 @@ screen and (max-width: 414px) {
 
     .card {
         border-radius: 20px;
-        background: #4543C4;
+        background: #D4E7FA;
         display: flex;
-        width: 360px;
+        width: auto;
         height: 600px;
         padding: 32px 24px;
         flex-direction: column;
@@ -816,24 +849,23 @@ screen and (max-width: 414px) {
 
     .card-l {
         border-radius: 20px;
-        background: #D4E7FA;
         display: flex;
-        width: 757px;
-        height: 600px;
-        padding: 32px 24px;
+        width: auto;
+        height: auto;
+        padding: 44px 24px 40px 24px;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        gap: 32px;
+        gap: 48px;
         flex-shrink: 0;
-
+        overflow: hidden;
     }
 
     .card-m {
         border-radius: 20px;
         background: #4543C4;
         display: flex;
-        width: 363px;
+        width: auto;
         height: 600px;
         padding: 44px 24px 0px 24px;
         flex-direction: column;
@@ -891,7 +923,7 @@ screen and (max-width: 414px) {
         display: flex;
         width: 100%;
         justify-content: space-between;
-        padding: 3% 5% 0px 5%;
+        padding: 3% 3% 0px 3%;
         background-color: rgb(245, 245, 245);
         /* height: 44px; */
         align-items: center;
@@ -945,16 +977,17 @@ screen and (max-width: 414px) {
         margin: auto 0px;
         justify-content: space-around;
     }*/
+
     main {
         position: relative;
         height: fit-content;
-        margin: 0px 0px 0px 24px;
+        margin: 0 auto;
         /*padding-top: 140px;*/
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        padding: 150px 0px 0px 0px;
-        width: 89%;
+        width: 100%;
+        padding: 24% 4%;
     }
 
     .presentation {
@@ -1103,21 +1136,9 @@ screen and (max-width: 414px) {
         font-family: "Montserrat";
         font-style: normal;
         font-weight: bold;
-        font-size: 28px;
-        line-height: 34px;
-        height: 44px;
+        font-size: 32px;
+        line-height: 120%;
         text-align: center;
-    }
-
-    .project5 {
-        position: relative;
-        width: 100%;
-        height: 100%;
-        margin: 24px 0px 40px 0px;
-        display: flex;
-        align-items: flex-start;
-        flex-direction: column;
-        padding: 0px;
     }
 
     .press2 {
@@ -1191,13 +1212,11 @@ screen and (max-width: 414px) {
 
     .illustration1 {
         position: relative;
-        left: 0px;
-        right: 0;
-        width: 80%;
+        width: 142%;
         flex: none;
         align-self: center;
         margin: 0px 0px;
-        bottom: 16px;
+        bottom: 20%;
     }
 
     .description-title {
@@ -1345,8 +1364,7 @@ screen and (max-width: 414px) {
 
 /* LARGE ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-@media only screen and (max-width: 1440px) {
-
+@media only screen and (min-width: 1080px) and (max-width:1440px) {
 
     /*Text--------------------------------------*/
 
@@ -1384,6 +1402,15 @@ screen and (max-width: 414px) {
 
     /*Layout--------------------------------------*/
 
+    main {
+        position: relative;
+        width: fit-content;
+        height: fit-content;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10%;
+    }
 
     .title-container {
         display: inline-flex;
@@ -1502,7 +1529,7 @@ screen and (max-width: 414px) {
         display: flex;
         width: 100%;
         justify-content: space-between;
-        padding: 1% 5% 0px 5%;
+        padding: 1% 9% 0px 9%;
         /* height: 44px; */
         align-items: center;
         margin-top: 0%;
@@ -2004,6 +2031,17 @@ screen and (max-width: 414px) {
 
 
 @media only screen and (min-width: 1441px) {
+
+    main {
+        position: relative;
+        width: fit-content;
+        height: fit-content;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10%;
+    }
+
     .desktop-layout-container {
         display: flex;
         width: 1152px;
