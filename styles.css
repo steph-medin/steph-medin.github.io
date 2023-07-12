@@ -1360,6 +1360,18 @@ footer {
         letter-spacing: 0.1px;
     }
 
+    .caption {
+        text-transform: uppercase;
+        color: var(--carbon, #121212);
+        font-size: 12px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0.03px;
+    }
+
+
     /*images*/
     .illustration2 {
         position: relative;
@@ -1753,16 +1765,6 @@ footer {
     }
 
 
-    .caption {
-        color: var(--carbon, #121212);
-        font-size: 12px;
-        font-family: Montserrat;
-        font-style: normal;
-        font-weight: 600;
-        line-height: 24px;
-        letter-spacing: 0.03px;
-        text-transform: uppercase;
-    }
 
     .social {
         position: relative;
