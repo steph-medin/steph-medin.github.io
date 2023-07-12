@@ -1450,7 +1450,7 @@ footer {
     }
 
     .background-yellow {
-        background-image: ("Listening for desktop yellow.png");
+        background-image: url("Listening for desktop yellow background.png");
     }
 
     .spacing_4px {
