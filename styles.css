@@ -1450,7 +1450,7 @@ footer {
     }
 
     .background-yellow {
-        background-image: url(Listening for desktop.png)
+        background-image: url("Listening for deskto.png");
     }
 
     .spacing_4px {
@@ -2086,6 +2086,7 @@ footer {
     .background-gray {
         background: #F1F3F6;
     }
+    
 
     .spacing_4px {
         padding: 4px;
