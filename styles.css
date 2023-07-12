@@ -702,6 +702,16 @@ footer {
     width: 10%px;
     flex-direction: column;
     flex-shrink: 0;
+    font-size: 42px;
+}
+
+.title-L-left {
+    text-align: left;
+    width: 10%px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    font-size: 42px;
 }
 
 .text-s {
@@ -838,6 +848,7 @@ footer {
         align-items: center;
         gap: 32px;
         flex-shrink: 0;
+        overflow: hidden;
     }
 
     .card-m {
@@ -852,6 +863,7 @@ footer {
         align-items: center;
         gap: 80px;
         flex-shrink: 0;
+        overflow: hidden;
     }
 
     .text-container {
@@ -1351,7 +1363,9 @@ footer {
     /*images*/
     .illustration2 {
         position: relative;
-        width: 60%;
+        width: 28%;
+        left: -8%;
+        top: 25%;
     }
 
     /*Layout--------------------------------------*/
@@ -1410,6 +1424,7 @@ footer {
         align-items: center;
         gap: 32px;
         flex-shrink: 0;
+        overflow: hidden;
 
     }
 
@@ -1425,13 +1440,19 @@ footer {
         align-items: center;
         gap: 80px;
         flex-shrink: 0;
+        overflow: hidden;
     }
 
     .card-horizontal {
+        border-radius: 20px;
+        background: #D4E7FA;
+        width: 1152px;
+        height: 648px;
+        padding: 32px 24px;
+        align-items: center;
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 16px;
+        flex-direction: row;
+        overflow: hidden;
     }
 
     .text-container {
@@ -1442,6 +1463,16 @@ footer {
         gap: 16px;
         flex: 1 0 0;
         align-self: stretch;
+    }
+
+    .text-container-horizontal {
+        flex: 1 0 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 16px;
+        padding-left: 5%;
     }
 
     .text-s {
@@ -1721,14 +1752,16 @@ footer {
         padding-top: 8%;
     }
 
-    #caption1,
-    caption {
-        position: relative;
-        /* width: 197px; */
-        /* height: 15px; */
-        /* left: 0px; */
-        /* top: 110px; */
-        padding-bottom: 8px;
+
+    .caption {
+        color: var(--carbon, #121212);
+        font-size: 12px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0.03px;
+        text-transform: uppercase;
     }
 
     .social {
@@ -2037,7 +2070,10 @@ footer {
     /*images*/
     .illustration2 {
         position: relative;
-        width: 40%;
+        width: 28%;
+        left: -8%;
+        top: 25%;
+
     }
 
     /*Layout--------------------------------------*/
@@ -2096,6 +2132,7 @@ footer {
         align-items: center;
         gap: 32px;
         flex-shrink: 0;
+        overflow: hidden;
     }
 
     .card-m {
@@ -2121,26 +2158,18 @@ footer {
         align-items: center;
         display: flex;
         flex-direction: row;
+        overflow: hidden;
     }
 
-    .text-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 16px;
-        flex: 1 0 0;
-        align-self: stretch;
-    }
 
-    .text-container-horizontal{
+    .text-container-horizontal {
         flex: 1 0 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
         gap: 16px;
-        padding-left: 10%;
+        padding-left: 5%;
     }
 
     .text-s {
@@ -2422,14 +2451,15 @@ footer {
         align-self: center;
     }
 
-    #caption1,
-    caption {
-        position: relative;
-        /* width: 197px; */
-        /* height: 15px; */
-        /* left: 0px; */
-        /* top: 110px; */
-        padding-bottom: 8px;
+    .caption {
+        color: var(--carbon, #121212);
+        font-size: 12px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0.03px;
+        text-transform: uppercase;
     }
 
     .social {
