@@ -700,7 +700,7 @@ footer {
 
 /*SMALL (Mobile)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1280px) {
 
 
     /*Text--------------------------------------*/
@@ -761,6 +761,7 @@ footer {
         gap: 24px;
         background-color: #0075B2;
         margin-top: 15%;
+        width: -webkit-fill-available;
     }
 
     .column-list {
@@ -796,13 +797,17 @@ footer {
         padding: 8px 12px;
         justify-content: center;
         align-items: center;
-        gap: 8px;
+        gap: 0px;
         border-radius: 8px;
+        border: none;
         background: none;
+
     }
 
     .butn-text-2-sm:hover {
         background: white;
+        border: none;
+
     }
 
     /*-------COMPONENTS--------------------------------------*/
@@ -873,6 +878,15 @@ footer {
         gap: 16px;
         flex: 1 0 0;
         align-self: stretch;
+    }
+
+    .project-text-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        align-self: stretch;
+
     }
 
     header {
@@ -1314,6 +1328,8 @@ footer {
 
     /*Text--------------------------------------*/
 
+
+
     .btn-tx-s {
         color: none;
 
@@ -1378,6 +1394,27 @@ footer {
     }
 
     /*Layout--------------------------------------*/
+
+    .project-text-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+        align-self: stretch;
+
+    }
+
+    .cover-container {
+        display: inline-flex;
+        height: 483px;
+        padding: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        background-image: url();
+        margin-top: 15%;
+        width: -webkit-fill-available;
+    }
 
     main {
         position: relative;
@@ -1472,6 +1509,13 @@ footer {
         gap: 16px;
         flex: 1 0 0;
         align-self: stretch;
+    }
+
+    .project-text-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
     }
 
     .text-container-horizontal {
