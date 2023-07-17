@@ -754,12 +754,27 @@ footer {
 
     .cover-container {
         display: inline-flex;
-        height: 483px;
+        height: 580px;
         padding: 16px;
         flex-direction: column;
         align-items: flex-start;
         gap: 24px;
-        background-color: #0075B2;
+        background-image: url("Cover/Mobile/Web-player-Cover [Mobile]@3x.png");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        margin-top: 15%;
+        width: -webkit-fill-available;
+    }
+
+    .cover-container-2 {
+        display: inline-flex;
+        height: 564px;
+        padding: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        background-image: url("Cover/Mobile/Web-player-Cover [Mobile]@3x.png");
+        background-size: 100%;
         margin-top: 15%;
         width: -webkit-fill-available;
     }
@@ -1096,7 +1111,7 @@ footer {
         font-style: normal;
         font-weight: 600;
         font-size: 24px;
-        line-height: 140%;
+        line-height: 120%;
         letter-spacing: 0.01em;
         color: var(--Carbon);
         text-decoration: none;
