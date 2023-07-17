@@ -358,15 +358,6 @@ article {
     align-self: center;
 }
 
-#caption1,
-caption {
-    position: relative;
-    /* width: 197px; */
-    /* height: 15px; */
-    /* left: 0px; */
-    /* top: 110px; */
-    padding-bottom: 8px;
-}
 
 .social {
     position: relative;
@@ -413,21 +404,6 @@ caption {
     bottom: 50px;
     /* right: -130px; */
     max-height: 20%;
-}
-
-.button {
-    cursor: pointer;
-    background: #FFFEF7;
-    border: 2px solid #242424;
-    border-radius: 40px;
-    /* position: absolute; */
-    /* width: 184px; */
-    /* height: 49px; */
-    /* left: 800px; */
-    /* top: 270px; */
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-    transition: box-shadow .2s ease-in-out;
-
 }
 
 
@@ -477,25 +453,14 @@ caption {
     /* top: 100px; */
 }
 
-#butn2 {
-    position: relative;
-    /* width: 184px; */
-    /* height: 49px; */
-    /* left: 150px; */
-    top: 30px;
-}
+
 
 #p5 {
     position: absolute;
     top: 0px;
 }
 
-#butn3 {
-    position: relative;
-    /* height: 49px; */
-    top: 40px;
-    right: 60px;
-}
+
 
 .illustration3 {
     position: relative;
@@ -517,14 +482,6 @@ caption {
     position: relative;
     /* top: 1670px; */
     margin: 0px auto 130px;
-}
-
-#butn4 {
-    position: relative;
-    /* width: 184px; */
-    /* height: 49px; */
-    right: 0px;
-    top: 40px;
 }
 
 footer {
@@ -748,6 +705,19 @@ footer {
 
     /*Text--------------------------------------*/
 
+    .btn-tx-s {
+        color: none;
+
+        /* Mobile/Button */
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        letter-spacing: 0.175px;
+        text-transform: uppercase;
+    }
+
     .title-L {
         text-align: center;
         display: flex;
@@ -782,6 +752,17 @@ footer {
 
     /*Layout--------------------------------------*/
 
+    .cover-container {
+        display: inline-flex;
+        height: 483px;
+        padding: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        background-color: #0075B2;
+        margin-top: 15%;
+    }
+
     .column-list {
         display: flex;
         flex-direction: column;
@@ -808,6 +789,23 @@ footer {
         margin-top: 10%;
     }
 
+    /*-------BUTTONS--------------------------------------*/
+    .butn-text-2-sm {
+        border-style: none;
+        display: flex;
+        padding: 8px 12px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        border-radius: 8px;
+        background: none;
+    }
+
+    .butn-text-2-sm:hover {
+        background: white;
+    }
+
+    /*-------COMPONENTS--------------------------------------*/
 
     .badge-small {
         display: flex;
@@ -1107,15 +1105,15 @@ footer {
         padding-top: 5%;
     }
 
-    #caption1,
-    caption {
-        position: relative;
-        width: 197px;
-        height: 100%;
-        /* top: 70px; */
-        left: 0px;
-        order: 2;
-        padding-bottom: 0;
+    .caption {
+        text-transform: uppercase;
+        color: var(--carbon, #121212);
+        font-size: 12px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 24px;
+        letter-spacing: 0.03px;
     }
 
     h1 {
@@ -1232,13 +1230,7 @@ footer {
         /* flex-direction: column; */
     }
 
-    #butn2 {
-        position: relative;
-        /* width: 184px; */
-        /* height: 49px; */
-        /* left: 150px; */
-        top: 0px;
-    }
+
 
     #p3 {
         position: relative;
@@ -1263,10 +1255,6 @@ footer {
         align-self: center;
     }
 
-    #butn6 {
-        position: relative;
-        top: 0px;
-    }
 
     #p4 {
         position: relative;
@@ -1294,13 +1282,6 @@ footer {
         margin: 24px 0px;
     }
 
-    #butn4 {
-        position: relative;
-        /* width: 184px; */
-        /* height: 49px; */
-        right: 0;
-        top: 0;
-    }
 
     .contact {
         display: flex;
@@ -1333,6 +1314,18 @@ footer {
 
     /*Text--------------------------------------*/
 
+    .btn-tx-s {
+        color: none;
+
+        /* Mobile/Button */
+        font-family: Montserrat;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        letter-spacing: 0.175px;
+        text-transform: uppercase;
+    }
 
     .title-m {
         font-size: 1.2rem;
@@ -1818,18 +1811,13 @@ footer {
     }
 
     .button {
-        cursor: pointer;
-        background: #FFFEF7;
-        border: 2px solid #242424;
-        border-radius: 40px;
-        /* position: absolute; */
-        /* width: 184px; */
-        /* height: 49px; */
-        /* left: 800px; */
-        /* top: 270px; */
-        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-        transition: box-shadow .2s ease-in-out;
-
+        display: flex;
+        padding: 8px 12px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        border-radius: 8px;
+        background: #FFF;
     }
 
 
@@ -1872,14 +1860,6 @@ footer {
         height: fit-content;
         left: 270px;
         /* top: 100px; */
-    }
-
-    #butn2 {
-        position: relative;
-        /* width: 184px; */
-        /* height: 49px; */
-        /* left: 150px; */
-        top: 30px;
     }
 
     #p5 {
@@ -2515,20 +2495,6 @@ footer {
         max-height: 20%;
     }
 
-    .button {
-        cursor: pointer;
-        background: #FFFEF7;
-        border: 2px solid #242424;
-        border-radius: 40px;
-        /* position: absolute; */
-        /* width: 184px; */
-        /* height: 49px; */
-        /* left: 800px; */
-        /* top: 270px; */
-        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-        transition: box-shadow .2s ease-in-out;
-
-    }
 
 
     /*
