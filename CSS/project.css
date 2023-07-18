@@ -315,6 +315,18 @@ h6 {
         margin-top: 10%;
     }
 
+    .tools {
+        display: flex;
+        width: 361px;
+        align-items: flex-end;
+        align-content: flex-end;
+        gap: 44px 32px;
+        flex-wrap: wrap;
+        margin-top: 6em;
+    }
+
+    
+
     /*-------BUTTONS--------------------------------------*/
     .butn-text-2-sm {
         border-style: none;
@@ -558,7 +570,7 @@ h6 {
         /* flex-grow: 0; */
     }
 
-    .section-projects {
+    .project-section {
         display: flex;
         flex-direction: column;
         -webkit-box-direction: normal;

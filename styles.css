@@ -679,6 +679,14 @@ footer {
 
     /*Layout--------------------------------------*/
 
+    .tools {
+        display: flex;
+        width: 361px;
+        align-items: flex-end;
+        align-content: flex-end;
+        gap: 44px 32px;
+        flex-wrap: wrap;
+    }
 
     .column-list {
         display: flex;
