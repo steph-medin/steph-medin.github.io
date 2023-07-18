@@ -1082,7 +1082,7 @@ footer {
 
     .project-image {
         position: relative;
-        max-width: 80%;
+        max-width: 100%;
         flex: none;
         align-self: center;
         margin-left: 2em;
