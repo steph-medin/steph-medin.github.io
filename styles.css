@@ -759,9 +759,7 @@ footer {
         flex-direction: column;
         align-items: flex-start;
         gap: 24px;
-        background-image: url("Cover/Mobile/Web-player-Cover [Mobile]@3x.png");
-        background-size: 100%;
-        background-repeat: no-repeat;
+        background-color: #F6EEC5;
         margin-top: 15%;
         width: -webkit-fill-available;
     }
@@ -1208,6 +1206,14 @@ footer {
         align-self: center;
         margin: 0px 0px;
         bottom: 20%;
+    }
+
+    .cover-image{
+        position: relative;
+        width: 142%;
+        flex: none;
+        align-self: center;
+        margin: 0px 0px;
     }
 
     .description-title {
