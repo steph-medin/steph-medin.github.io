@@ -999,7 +999,7 @@ footer {
         flex-direction: column;
         align-items: flex-start;
         width: 100%;
-        padding: 24% 4%;
+        padding: 16% 4%;
     }
 
     .presentation {
@@ -1474,6 +1474,7 @@ footer {
         align-items: center;
         width: 10%;
         border-radius: 16px;
+
         border: 1px solid #0075B2;
         background: #E5F6FF;
         -webkit-text-fill-color: #0075B2;
