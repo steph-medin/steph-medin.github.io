@@ -735,6 +735,10 @@ footer {
 
     }
 
+    .tx-gray-500{
+        color: #4d4d4d;
+    }
+
     /*-------COMPONENTS--------------------------------------*/
 
     .badge-small {
@@ -1061,11 +1065,11 @@ footer {
 
     .illustration3 {
         position: relative;
-        width: 80%;
+        width: 100%;
         flex: none;
         align-self: center;
-        margin-top: 2em;
-        left: -1%;
+        margin-top: 6em;
+        left: -6%;
     }
 
 
