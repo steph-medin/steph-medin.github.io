@@ -362,6 +362,22 @@ h6 {
 
     }
 
+    .selected {
+        text-decoration: none;
+        -webkit-text-fill-color: var(--Carbon);
+        align-items: baseline;
+        border-bottom: 4px solid var(--Carbon);
+        padding: 0px;
+    }
+
+    .unselected {
+        text-decoration: none;
+        -webkit-text-fill-color: #9f9f9f;
+        align-items: baseline;
+        border-bottom: none;
+        padding: 0%;
+    }
+
     /*-------COMPONENTS--------------------------------------*/
 
     .badge-small {
