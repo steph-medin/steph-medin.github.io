@@ -486,7 +486,6 @@ h6 {
         display: flex;
         flex-direction: row;
         align-items: center;
-        /* margin: 0px 0px 0px 130px; */
     }
 
     .navbar {
@@ -1232,7 +1231,6 @@ footer {
         display: flex;
         flex-direction: row;
         align-items: center;
-        /* margin: 0px 0px 0px 130px; */
     }
 
     #logoname {
@@ -1921,7 +1919,7 @@ footer {
         display: flex;
         flex-direction: row;
         align-items: center;
-        /* margin: 0px 0px 0px 130px; */
+
     }
 
     #logoname {

@@ -142,12 +142,6 @@ header {
     flex-direction: row;
 }
 
-.leftnav {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin: 0px 0px 12px 0px;
-}
 
 #logoname {
     color: var(--Carbon);
@@ -1537,7 +1531,6 @@ footer {
         display: flex;
         flex-direction: row;
         align-items: center;
-        /* margin: 0px 0px 0px 130px; */
     }
 
     #logoname {
@@ -2213,7 +2206,6 @@ footer {
         display: flex;
         flex-direction: row;
         align-items: center;
-        /* margin: 0px 0px 0px 130px; */
     }
 
     #logoname {
