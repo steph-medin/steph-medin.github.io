@@ -256,11 +256,14 @@ h6 {
         letter-spacing: 0.1px;
     }
 
-    /*images*/
-    .illustration2 {
-        position: relative;
-        left: 13%;
-        width: 70%;
+    .sub-m {
+        color: #000;
+        font-family: Montserrat;
+        font-size: 1.6rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 160%; /* 25.6px */
+        letter-spacing: 0.16px;
     }
 
     /*Layout--------------------------------------*/
@@ -324,7 +327,7 @@ h6 {
         margin-top: 2em;
     }
 
-    
+
 
     /*-------BUTTONS--------------------------------------*/
     .butn-text-2-sm {
@@ -773,7 +776,7 @@ h6 {
         width: 80%;
         flex: none;
         align-self: center;
-        margin: 0px 0px;
+        margin: 4.4em;
         bottom: 1%;
     }
 
