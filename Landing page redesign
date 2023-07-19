@@ -84,7 +84,9 @@
             </li>
         </ul>
     </nav>
-    <div class="cover-container bg-yellow">
+
+
+    <div class="bg-gray cover-container">
         <button class="butn-text-2-sm" onclick="window.history.back()">
             <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g id="Frame 59391">
@@ -99,7 +101,7 @@
             <h2 class="title-L">Listening for desktop</h2>
             <p class="body1 text-s">Creating the web experience for Beek, one of the leading audio content platforms in
                 Latin America.</p>
-            <img class="cover-image" src="Cover/Mobile/Project info@3x.png" alt="">
+            <img class="cover-image" src="Project images/UI/Landing page/Landing-page-redesign@3x.png" alt="Beek's-landing-page-redesign-displaying-on-two-phones">
         </div>
 
     </div>

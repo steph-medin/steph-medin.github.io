@@ -709,6 +709,14 @@ footer {
         left: -4%;
     }
 
+    .bg-gray {
+        background-color: #EDF2F7;
+    }
+
+    .bg-yellow {
+        background-color: #F6EEC5;
+    }
+
     /*-------BUTTONS--------------------------------------*/
     .butn-text-2-sm {
         border-style: none;
@@ -729,7 +737,7 @@ footer {
 
     }
 
-    .tx-gray-500{
+    .tx-gray-500 {
         color: #4d4d4d;
     }
 

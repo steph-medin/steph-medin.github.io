@@ -288,9 +288,16 @@ h6 {
         flex-direction: column;
         align-items: flex-start;
         gap: 24px;
-        background-color: #F6EEC5;
         margin-top: 6em;
         width: -webkit-fill-available;
+    }
+
+    .bg-gray {
+        background-color: #EDF2F7;
+    }
+
+    .bg-yellow {
+        background-color: #F6EEC5;
     }
 
     .cover-container-2 {
@@ -1031,6 +1038,10 @@ footer {
         background-image: url();
         margin-top: 15%;
         width: -webkit-fill-available;
+    }
+
+    .bg-gray {
+        background-color: #EDF2F7;
     }
 
     main {
