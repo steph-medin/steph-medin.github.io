@@ -709,10 +709,11 @@ h6 {
 
     .illustration3 {
         position: relative;
-        left: 10%;
-        right: 0px;
-        top: 20%;
-        width: 55%;
+        width: 100%;
+        flex: none;
+        align-self: center;
+        margin-top: 2.4em;
+        bottom: 1%;
     }
 
 
@@ -786,7 +787,7 @@ h6 {
 
     .illustration2 {
         position: relative;
-        width: 100%;
+        width: 108%;
         flex: none;
         align-self: center;
         margin-top: 2.4em;
@@ -1518,9 +1519,11 @@ footer {
 
     .illustration3 {
         position: relative;
-        left: 30%;
-        top: 10%;
-        width: 40%;
+        width: 108%;
+        flex: none;
+        align-self: center;
+        margin-top: 2.4em;
+        bottom: 1%;
 
     }
 
