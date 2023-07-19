@@ -25,7 +25,7 @@ body {
 }
 
 
-ul{
+ul {
     gap: 2em;
 }
 
@@ -335,11 +335,17 @@ h6 {
     .tools {
         display: flex;
         align-items: flex-end;
-        align-content: flex-end;
+        align-content: center;
         gap: 1em 6em;
         margin-top: 2em;
     }
 
+    .tool {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
 
 
     /*-------BUTTONS--------------------------------------*/
@@ -1205,6 +1211,21 @@ footer {
     }
 
 
+    .tools {
+        display: flex;
+        align-items: flex-end;
+        align-content: center;
+        gap: 1em 6em;
+        margin-top: 2em;
+    }
+
+    .tool {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
+
     header {
         position: fixed;
         z-index: 10;
@@ -1919,7 +1940,6 @@ footer {
         display: flex;
         flex-direction: row;
         align-items: center;
-
     }
 
     #logoname {
