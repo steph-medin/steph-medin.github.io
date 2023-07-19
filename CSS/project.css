@@ -495,7 +495,7 @@ h6 {
         display: flex;
         width: 100%;
         justify-content: space-between;
-        padding: 1em 1em 0em 1em;
+        padding: 3% 3% 0px 3%;
         /* height: 44px; */
         align-items: center;
         top: 0;
@@ -516,12 +516,10 @@ h6 {
         list-style: none;
         background-color: transparent;
         text-decoration: none;
-        display: flex;
-        align-items: flex-start;
         color: #FFFEF7;
         /* margin: 0px 150px 0px 0px; */
         flex-direction: row;
-        justify-content: space-between;
+
     }
 
     .nav_links li {

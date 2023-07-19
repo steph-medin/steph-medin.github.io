@@ -711,7 +711,8 @@ footer {
     .desktop-layout-container {
         width: 100%;
         gap: 1.6em;
-        margin-top: 10%;
+        margin-top: 8em;
+        left: -4%;
     }
 
     /*-------BUTTONS--------------------------------------*/
@@ -1063,9 +1064,8 @@ footer {
         width: 80%;
         flex: none;
         align-self: center;
-        margin-top: 2.4em;
-        bottom: 1%;
-        left: 10%;
+        margin-top: 2em;
+        left: -1%;
     }
 
 
