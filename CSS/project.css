@@ -701,7 +701,6 @@ h6 {
     }
 
     .caption {
-        text-transform: uppercase;
         color: var(--carbon, #121212);
         font-size: 12px;
         font-family: Montserrat;
