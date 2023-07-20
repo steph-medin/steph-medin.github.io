@@ -972,7 +972,7 @@ footer {
         position: relative;
         display: flex;
         align-content: space-between;
-        margin: 10px auto 90px;
+        margin: 1.6em auto 3.2em;
         /* padding: 0px; */
         flex-direction: column;
         column-gap: 10%;
