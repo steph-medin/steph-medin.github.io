@@ -902,7 +902,7 @@ footer {
 
     .nav_links li {
         display: inline-flex;
-        padding: 12px;
+        padding: 10px 0px 10px 0px;
         text-decoration: none;
         align-items: baseline;
     }
@@ -1570,7 +1570,7 @@ footer {
 
     .nav_links li {
         display: inline-flex;
-        padding: 12px;
+        padding: 10px 0px 10px 0px;
         text-decoration: none;
         align-items: baseline;
     }
@@ -2369,10 +2369,9 @@ footer {
 
     .nav_links li {
         display: inline-flex;
-        padding-left: 24px;
+        padding: 10px 0px 10px 0px;
         text-decoration: none;
         align-items: baseline;
-        border-bottom: none;
     }
 
     .nav_links li a h3 {
