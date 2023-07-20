@@ -831,6 +831,12 @@ footer {
 
     }
 
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     header {
         position: fixed;
         z-index: 10;
@@ -1064,11 +1070,8 @@ footer {
 
     .illustration3 {
         position: relative;
-        width: 100%;
-        flex: none;
-        align-self: center;
+        width: 130%;
         margin-top: 1em;
-        left: 4%;
         margin-bottom: 8em;
     }
 
