@@ -869,7 +869,7 @@ footer {
         display: flex;
         width: 100%;
         justify-content: space-between;
-        padding: 3% 3% 0px 3%;
+        padding: 0% 3% 0px 3%;
         /* height: 44px; */
         align-items: center;
         top: 0;
@@ -891,11 +891,7 @@ footer {
         background-color: transparent;
         text-decoration: none;
         display: flex;
-        align-items: flex-start;
-        color: #FFFEF7;
-        /* margin: 0px 150px 0px 0px; */
-        flex-direction: row;
-        justify-content: space-between;
+        margin-top: 0em;
     }
 
     .nav_links li {
@@ -1071,8 +1067,9 @@ footer {
         width: 100%;
         flex: none;
         align-self: center;
-        margin-top: 2em;
-        left: -6%;
+        margin-top: 1em;
+        left: 4%;
+        margin-bottom: 8em;
     }
 
 
@@ -1538,7 +1535,7 @@ footer {
         display: flex;
         width: 100%;
         justify-content: space-between;
-        padding: 3% 3% 0px 3%;
+        padding: 0% 3% 0px 3%;
         /* height: 44px; */
         align-items: center;
         top: 0;
@@ -1565,6 +1562,7 @@ footer {
         /* margin: 0px 150px 0px 0px; */
         flex-direction: row;
         justify-content: space-between;
+        margin-top: 0em;
     }
 
     .nav_links li {
@@ -1737,13 +1735,17 @@ footer {
 
     .illustration3 {
         position: relative;
-        width: 67%;
+        width: 90%;
         flex: none;
         align-self: center;
         margin-top: 1em;
-        left: 12%;
+        left: 4%;
+        margin-bottom: 8em;
     }
 
+    .navbar-links {
+        margin-top: 0;
+    }
 
     .project {
         position: relative;
@@ -2287,7 +2289,7 @@ footer {
         display: flex;
         width: 100%;
         justify-content: space-between;
-        padding: 1em 3em 0em 3em;
+        padding: 0em 3em 0em 3em;
         align-items: center;
         margin-top: 0%;
         flex-direction: row;
