@@ -501,27 +501,28 @@ h6 {
         align-items: center;
     }
 
+
+    #logoname {
+        color: var(--Carbon);
+        padding: 0px 0px 0px 4px;
+    }
+
     .navbar {
         position: fixed;
         z-index: 10;
         display: flex;
         width: 100%;
         justify-content: space-between;
-        padding: 3% 3% 0px 3%;
-        /* height: 44px; */
+        padding: 0.8em 1.6em 0em 1.6em;
         align-items: center;
-        top: 0;
-        /* margin: 0 auto; */
+        margin-top: 0%;
         flex-direction: row;
+        /* From https://css.glass */
         background: rgba(250, 251, 252, 0.80);
         backdrop-filter: blur(20px);
         -webkit-backdrop-filter: blur(5px);
-        border: 1px solid #EAEFF6;
-    }
+        /* border: 1px solid #EAEFF6; */
 
-    #logoname {
-        color: var(--Carbon);
-        padding: 0px 0px 0px 4px;
     }
 
     .nav_links {
@@ -1206,20 +1207,21 @@ footer {
         display: flex;
         width: 100%;
         justify-content: space-between;
-        padding: 1% 9% 0px 9%;
-        /* height: 44px; */
+        padding: 1em 7em 0em 7em;
         align-items: center;
         margin-top: 0%;
-        /* margin: 0 auto; */
         flex-direction: row;
         /* From https://css.glass */
         background: rgba(250, 251, 252, 0.80);
         backdrop-filter: blur(20px);
         -webkit-backdrop-filter: blur(5px);
-        border: 1px solid #EAEFF6;
-
+        /* border: 1px solid #EAEFF6; */
     }
 
+    .navbar ul {
+        margin-top: 1em;
+        gap: 2em;
+    }
 
     .tools {
         display: flex;
