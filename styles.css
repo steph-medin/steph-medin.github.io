@@ -886,7 +886,7 @@ footer {
         /* margin: 0 auto; */
         flex-direction: row;
         background: rgba(250, 251, 252, 0.80);
-        backdrop-filter: blur(20px);
+        backdrop-filter: blur(16px);
         -webkit-backdrop-filter: blur(5px);
         border: 1px solid #EAEFF6;
     }
@@ -1553,7 +1553,7 @@ footer {
         /* margin: 0 auto; */
         flex-direction: row;
         background: rgba(250, 251, 252, 0.80);
-        backdrop-filter: blur(20px);
+        backdrop-filter: blur(16px);
         -webkit-backdrop-filter: blur(5px);
         border: 1px solid #EAEFF6;
     }
@@ -2315,7 +2315,7 @@ footer {
         flex-direction: row;
         /* From https://css.glass */
         background: rgba(250, 251, 252, 0.80);
-        backdrop-filter: blur(20px);
+        backdrop-filter: blur(16px);
         -webkit-backdrop-filter: blur(5px);
         /* border: 1px solid #EAEFF6; */
 
@@ -3027,7 +3027,7 @@ footer {
         flex-direction: row;
         /* From https://css.glass */
         background: rgba(250, 251, 252, 0.80);
-        backdrop-filter: blur(20px);
+        backdrop-filter: blur(16px);
         -webkit-backdrop-filter: blur(5px);
         border: 1px solid #EAEFF6;
 
@@ -3042,24 +3042,6 @@ footer {
         column-gap: 10%;
     }
 
-    .navbar {
-        position: fixed;
-        z-index: 10;
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
-        padding: 1% 5% 0px 5%;
-        background-color: rgb(245, 245, 245, 0.8);
-        /* height: 44px; */
-        align-items: center;
-        margin-top: 0%;
-        /* margin: 0 auto; */
-        flex-direction: row;
-        /* From https://css.glass */
-        backdrop-filter: blur(30px);
-        -webkit-backdrop-filter: blur(10px);
-        border: 1px solid rgba(255, 255, 255, 0.3);
-    }
 
 
     .about_item {
