@@ -636,6 +636,7 @@ footer {
         width: 70%;
     }
 
+    text
     /*-----------Subtitles----------*/
 
     .sub-m {
@@ -879,16 +880,13 @@ footer {
         display: flex;
         width: 100%;
         justify-content: space-between;
-        padding: 0% 3% 0px 3%;
-        /* height: 44px; */
+        padding: 0em 1.6em 0em 1.6em;
         align-items: center;
-        top: 0;
         /* margin: 0 auto; */
         flex-direction: row;
         background: rgba(250, 251, 252, 0.80);
         backdrop-filter: blur(16px);
         -webkit-backdrop-filter: blur(5px);
-        border: 1px solid #EAEFF6;
     }
 
     #logoname {
@@ -1546,21 +1544,23 @@ footer {
         display: flex;
         width: 100%;
         justify-content: space-between;
-        padding: 0% 3% 0px 3%;
-        /* height: 44px; */
+        padding: 0em 1.6em 0em 1.6em;
         align-items: center;
-        top: 0;
         /* margin: 0 auto; */
         flex-direction: row;
         background: rgba(250, 251, 252, 0.80);
         backdrop-filter: blur(16px);
         -webkit-backdrop-filter: blur(5px);
-        border: 1px solid #EAEFF6;
     }
+
 
     #logoname {
         color: var(--Carbon);
         padding: 0px 0px 0px 4px;
+    }
+
+    .navbar ul {
+        gap: 1.4em;
     }
 
     .nav_links {
@@ -1568,11 +1568,6 @@ footer {
         background-color: transparent;
         text-decoration: none;
         display: flex;
-        align-items: flex-start;
-        color: #FFFEF7;
-        /* margin: 0px 150px 0px 0px; */
-        flex-direction: row;
-        justify-content: space-between;
         margin-top: 0em;
     }
 
@@ -1594,6 +1589,7 @@ footer {
         text-decoration: none;
         background-color: transparent;
     }
+
 
 
 

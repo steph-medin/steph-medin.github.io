@@ -584,7 +584,7 @@ footer {
         display: flex;
         width: 100%;
         justify-content: space-between;
-        padding: 0.8em 1.6em 0em 1.6em;
+        padding: 0em 1.6em 0em 1.6em;
         align-items: center;
         margin-top: 0%;
         flex-direction: row;
@@ -600,15 +600,14 @@ footer {
         list-style: none;
         background-color: transparent;
         text-decoration: none;
-        color: #FFFEF7;
-        /* margin: 0px 150px 0px 0px; */
-        flex-direction: row;
+        display: flex;
+        margin-top: 0em;
 
     }
 
     .nav_links li {
         display: inline-flex;
-        padding: 12px;
+        padding: 10px 0px 10px 0px;
         text-decoration: none;
         align-items: baseline;
     }
@@ -625,6 +624,9 @@ footer {
         background-color: transparent;
     }
 
+    .navbar ul {
+        gap: 1.4em;
+    }
 
 
     main {
@@ -1260,31 +1262,32 @@ footer {
         display: flex;
         width: 100%;
         justify-content: space-between;
-        padding: 0.8em 1.6em 0em 1.6em;
+        padding: 0em 1.6em 0em 1.6em;
         align-items: center;
-        margin-top: 0%;
+        /* margin: 0 auto; */
         flex-direction: row;
-        /* From https://css.glass */
         background: rgba(250, 251, 252, 0.80);
         backdrop-filter: blur(16px);
         -webkit-backdrop-filter: blur(5px);
-        /* border: 1px solid #EAEFF6; */
 
+    }
+
+    .navbar ul {
+        gap: 1.4em;
     }
 
     .nav_links {
         list-style: none;
         background-color: transparent;
         text-decoration: none;
-        color: #FFFEF7;
-        /* margin: 0px 150px 0px 0px; */
-        flex-direction: row;
+        display: flex;
+        margin-top: 0em;
 
     }
 
     .nav_links li {
         display: inline-flex;
-        padding: 12px;
+        padding: 10px 0px 10px 0px;
         text-decoration: none;
         align-items: baseline;
     }
@@ -1804,7 +1807,7 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        width: 100%;
+        width: 80%;
         padding: 4em 12em;
     }
 
@@ -1975,8 +1978,7 @@ footer {
     }
 
     .navbar ul {
-        margin-top: 1em;
-        gap: 2em;
+        gap: 1.4em;
     }
 
     .tools {
@@ -2125,7 +2127,7 @@ footer {
     }*/
     .about-title {
         font-family: Montserrat;
-        font-size: 32px;
+        font-size: 3.2rem;
         font-style: normal;
         font-weight: 700;
         line-height: 120%;
