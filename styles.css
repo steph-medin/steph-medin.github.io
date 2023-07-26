@@ -1084,9 +1084,12 @@ footer {
 
     .illustration3 {
         position: relative;
-        width: 100%;
-        margin-top: 1em;
-        margin-bottom: 8em;
+        width: 70%;
+        flex: none;
+        align-self: center;
+        margin-top: 2em;
+        bottom: 2%;
+        left: 0%;
     }
 
 
@@ -1955,7 +1958,7 @@ footer {
 
     .display-m {
         font-family: Montserrat;
-        font-size: 6rem;
+        font-size: 6.8rem;
         font-style: normal;
         font-weight: 700;
         line-height: 120%;
@@ -2010,9 +2013,9 @@ footer {
     }
 
     .title-center {
-        text-align: left;
+        text-align: center;
         display: flex;
-        width: 100%;
+        width: 90%;
         margin: 0em 0em 1em;
     }
 
@@ -2137,11 +2140,11 @@ footer {
     }
 
     .title-container {
-        display: flex;
-        /* flex-direction: column; */
+        display: inline-flex;
         align-items: center;
-        gap: 12px;
-        flex-flow: wrap;
+        gap: 5.6em;
+        margin: 80px 0%;
+        flex-direction: column;
     }
 
     .desktop-layout-container {
@@ -2151,9 +2154,9 @@ footer {
 
     .hero {
         display: flex;
-        flex-direction: row;
-        margin-bottom: 14em;
-        margin-top: 10em;
+        flex-direction: column;
+        margin-bottom: 10em;
+        margin-top: -10em;
     }
 
     .bg-gray {
@@ -2642,7 +2645,7 @@ footer {
 
     .illustration3 {
         position: relative;
-        width: 37%;
+        width: 70%;
         /* flex: none; */
         align-self: center;
         margin-top: 0em;
@@ -2799,7 +2802,7 @@ footer {
     /*Text--------------------------------------*/
     .display-m {
         font-family: Montserrat;
-        font-size: 6rem;
+        font-size: 6.8rem;
         font-style: normal;
         font-weight: 700;
         line-height: 120%;
@@ -2857,7 +2860,7 @@ footer {
     }
 
     .title-center {
-        text-align: left;
+        text-align: center;
         display: flex;
         width: 100%;
         margin: 0em 0em 1em;
@@ -2962,10 +2965,10 @@ footer {
 
     .title-container {
         display: inline-flex;
-        flex-direction: column;
-        align-items: left;
-        gap: 20px;
+        align-items: center;
+        gap: 5.6em;
         margin: 80px 0%;
+        flex-direction: column;
     }
 
 
@@ -2979,7 +2982,7 @@ footer {
 
     .hero {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         margin-bottom: 10em;
         margin-top: 10em;
     }
@@ -3411,10 +3414,10 @@ footer {
 
     .illustration3 {
         position: relative;
-        width: 40%;
+        width: 70%;
         flex: none;
         align-self: center;
-        margin-top: -14em;
+        margin-top: 2em;
         bottom: 2%;
         left: 0%;
     }
