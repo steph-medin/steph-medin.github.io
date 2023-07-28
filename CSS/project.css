@@ -27,6 +27,7 @@ body {
 
 ul {
     gap: 2em;
+    list-style-type: disc;
 }
 
 /*Text--------------------------------------*/
@@ -202,7 +203,7 @@ h4 {
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
-    line-height: 140%;
+    line-height: 160%;
     color: #242424;
 }
 
@@ -904,7 +905,7 @@ footer {
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
-        line-height: 140%;
+        line-height: 170%;
         color: var(--Carbon);
     }
 
@@ -1555,6 +1556,7 @@ footer {
         /* padding: 0px; */
         flex-direction: column;
         column-gap: 10%;
+        padding: 2%;
     }
 
     .pro-item {
@@ -1581,7 +1583,7 @@ footer {
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
-        line-height: 140%;
+        line-height: 170%;
         color: var(--Carbon);
     }
 
@@ -1913,7 +1915,7 @@ footer {
     /*images*/
     .illustration2 {
         position: relative;
-        width: 100%;
+        width: 90%;
         flex: none;
         align-self: center;
         margin-top: 2.4em;
@@ -1921,6 +1923,10 @@ footer {
     }
 
     /*Layout--------------------------------------*/
+
+    #list-number {
+        list-style: decimal;
+    }
 
     .project-text-container {
         display: flex;
@@ -2113,6 +2119,7 @@ footer {
         /* padding: 0px; */
         flex-direction: column;
         column-gap: 10%;
+        padding: 2%;
     }
 
     .bg-gray {
@@ -2142,6 +2149,11 @@ footer {
 
     .navbar ul {
         gap: 1.4em;
+    }
+
+    ul {
+        gap: 2em;
+        list-style-type: disc;
     }
 
     .tools {
@@ -2200,7 +2212,7 @@ footer {
     a {
         text-decoration: none;
         background-color: transparent;
-        list-style: none;
+        list-style: disc;
     }
 
     .logo {
@@ -2290,7 +2302,7 @@ footer {
     }*/
     .about-title {
         font-family: Montserrat;
-        font-size: 3.2rem;
+        font-size: 2.4rem;
         font-style: normal;
         font-weight: 700;
         line-height: 120%;
@@ -2850,21 +2862,17 @@ footer {
     .about_lists {
         position: relative;
         display: flex;
+        align-content: space-between;
+        margin: 1em 2em 0em;
         /* padding: 0px; */
         flex-direction: column;
         column-gap: 10%;
+        padding: 2%;
     }
 
-
-    .about_lists {
-        position: relative;
-        display: flex;
-        /* padding: 0px; */
-        flex-direction: column;
-        column-gap: 10%;
+    #list-number {
+        list-style: armenian;
     }
-
-
 
     .about_item {
         display: flex;
@@ -2892,7 +2900,7 @@ footer {
     a {
         text-decoration: none;
         background-color: transparent;
-        list-style: none;
+        list-style: disc;
     }
 
     .logo {
@@ -3241,46 +3249,6 @@ footer {
     }
 
 
-    .pro-item {
-        list-style: none;
-        margin-bottom: 48px;
-        margin-right: 48px;
-    }
-
-    .project-box-item {
-        display: flex;
-        flex-direction: column;
-        padding: 56px;
-        background-color: rgb(255, 255, 255);
-        border-radius: 16px;
-        -webkit-box-orient: vertical;
-        -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        width: 444px;
-        transition: transform, box-shadow, .35s cubic-bezier(0.56, -0.03, 0.48, 1.8);
-        transform: scale(1);
-
-    }
-
-    .project5 {
-        position: relative;
-        width: 990px;
-        height: 390px;
-        margin: 10px auto 200px;
-        display: flex;
-        align-items: center;
-    }
-
-
-    /*.project5 {
-            position: relative;
-            width: 990px;
-            height: 355px;
-            margin: 260px auto auto auto;
-            display: flex;
-            align-items: center;
-        }*/
 
     #buttn5 {
         position: relative;
