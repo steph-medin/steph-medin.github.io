@@ -30,6 +30,12 @@ ul {
     list-style-type: disc;
 }
 
+
+#gif {
+    border-radius: 1.2em;
+    box-shadow: #121212 ;
+}
+
 /*Text--------------------------------------*/
 
 .btn-tx-s {
