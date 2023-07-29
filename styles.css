@@ -789,6 +789,11 @@ footer {
 
     /*-------COMPONENTS--------------------------------------*/
 
+
+    #principal {
+        width: 100%
+    }
+
     .badge-small {
         display: flex;
         padding: 5px 7px;
