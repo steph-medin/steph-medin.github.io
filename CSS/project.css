@@ -521,7 +521,9 @@ footer {
 
 
     /*Layout--------------------------------------*/
-
+    #list-number {
+        list-style: decimal;
+    }
 
     #gif {
         border-radius: 1.2em;
@@ -884,7 +886,7 @@ footer {
         width: 100%;
         position: relative;
         height: fit-content;
-        margin: 2em 0px 7em;
+        margin: 2em 0px 4em;
         text-align: left;
     }
 
@@ -1485,6 +1487,9 @@ footer {
         background-color: transparent;
     }
 
+    #list-number {
+        list-style: decimal;
+    }
 
 
     main {
@@ -1561,7 +1566,7 @@ footer {
         width: 100%;
         position: relative;
         height: fit-content;
-        margin: 2em 0px 7em;
+        margin: 2em 0px 4em;
         text-align: left;
     }
 
@@ -2130,6 +2135,10 @@ footer {
         padding: 40px;
     }
 
+    #list-number {
+        list-style: decimal;
+    }
+
     .about_lists {
         position: relative;
         display: flex;
@@ -2210,7 +2219,7 @@ footer {
         width: 100%;
         position: relative;
         height: fit-content;
-        margin: 2em 0px 7em;
+        margin: 2em 0px 4em;
         text-align: left;
     }
 
@@ -2888,7 +2897,7 @@ footer {
     }
 
     #list-number {
-        list-style: armenian;
+        list-style: decimal;
     }
 
     .about_item {
@@ -2898,7 +2907,7 @@ footer {
         width: 100%;
         position: relative;
         height: fit-content;
-        margin: 2em 0px 7em;
+        margin: 2em 0px 4em;
         text-align: left;
     }
 

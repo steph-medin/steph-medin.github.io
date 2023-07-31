@@ -147,7 +147,7 @@ li,
 a {
     text-decoration: none;
     background-color: transparent;
-    list-style: none;
+    list-style: disc;
 }
 
 .logo {
@@ -720,7 +720,8 @@ footer {
 
     ul {
         margin-top: 1.6em;
-        gap: 1.4em;
+        gap: 1.2em;
+        margin-left: 1.6em;
     }
 
     .tools {
@@ -734,9 +735,10 @@ footer {
 
     .column-list {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: flex-start;
         gap: 16%;
+        flex-wrap: wrap;
     }
 
     .title-container {
@@ -991,7 +993,7 @@ footer {
         position: relative;
         display: flex;
         align-content: space-between;
-        margin: 1.6em auto 3.2em;
+        margin: 1.6em 0em 0em 1.6em;
         /* padding: 0px; */
         flex-direction: column;
         column-gap: 10%;
@@ -1399,8 +1401,10 @@ footer {
 
     ul {
         margin-top: 1.6em;
-        gap: 1.4em;
+        gap: 1.2em;
+        margin-left: 1.6em;
     }
+    
 
     .tools {
         display: flex;
@@ -1413,9 +1417,10 @@ footer {
 
     .column-list {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         align-items: flex-start;
         gap: 16%;
+        flex-wrap: wrap;
     }
 
     .title-container {
@@ -1664,7 +1669,7 @@ footer {
         position: relative;
         display: flex;
         align-content: space-between;
-        margin: 10px auto 90px;
+        margin: 1.6em 0em 0em 1.6em;
         /* padding: 0px; */
         flex-direction: column;
         column-gap: 10%;
@@ -2107,11 +2112,16 @@ footer {
 
     /*Layout--------------------------------------*/
 
-
-    ul {
-        margin-top: 1.6em;
-        gap: 1.2em;
+    .social-media {
+        display: flex;
+        align-items: flex-end;
+        align-content: center;
+        gap: 6em 4.2em;
+        margin-top: 2em;
+        flex-wrap: wrap;
     }
+
+
 
     .project-text-container {
         display: flex;
@@ -2340,9 +2350,10 @@ footer {
 
     }
 
-    .navbar ul {
-        margin-top: 1em;
-        gap: 2em;
+    ul {
+        margin-top: 1.6em;
+        gap: 1.2em;
+        margin-left: 1.6em;
     }
 
     header {
@@ -2382,7 +2393,7 @@ footer {
     a {
         text-decoration: none;
         background-color: transparent;
-        list-style: none;
+        list-style: disc;
     }
 
     .logo {
@@ -2940,6 +2951,7 @@ footer {
     ul {
         margin-top: 1.6em;
         gap: 1.2em;
+        margin-left: 1.6em;
     }
 
     .about-section-container {
@@ -3148,7 +3160,7 @@ footer {
     a {
         text-decoration: none;
         background-color: transparent;
-        list-style: none;
+        list-style: disc;
     }
 
     .logo {
