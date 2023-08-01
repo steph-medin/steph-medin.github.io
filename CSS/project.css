@@ -531,6 +531,15 @@ footer {
         width: 100%;
     }
 
+    #image-center {
+        border-radius: 1.2em;
+        width: 100%;
+    }
+
+    .shadow {
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+
     .cover-container {
         display: inline-flex;
         min-height: 6em;

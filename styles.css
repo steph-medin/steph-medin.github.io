@@ -733,6 +733,26 @@ footer {
         flex-wrap: wrap;
     }
 
+    .social-media {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        align-content: flex-end;
+        gap: 4em;
+        flex-wrap: wrap;
+        margin: 8em 1.6em;
+        flex-direction: column;
+    }
+
+    .social-media-icons {
+        display: flex;
+        width: 100%;
+        gap: 2em;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
     .column-list {
         display: flex;
         flex-direction: row;
@@ -1404,7 +1424,7 @@ footer {
         gap: 1.2em;
         margin-left: 1.6em;
     }
-    
+
 
     .tools {
         display: flex;
@@ -1415,12 +1435,33 @@ footer {
         flex-wrap: wrap;
     }
 
+    .social-media {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        align-content: flex-end;
+        gap: 4em;
+        flex-wrap: wrap;
+        margin: 8em 1.6em;
+        flex-direction: column;
+    }
+
     .column-list {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
         gap: 16%;
         flex-wrap: wrap;
+    }
+
+
+    .social-media-icons {
+        display: flex;
+        width: 100%;
+        gap: 2em;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
 
     .title-container {
@@ -2114,14 +2155,23 @@ footer {
 
     .social-media {
         display: flex;
-        align-items: flex-end;
-        align-content: center;
-        gap: 6em 4.2em;
-        margin-top: 2em;
+        width: 100%;
+        align-items: center;
+        align-content: flex-end;
+        gap: 4em;
         flex-wrap: wrap;
+        margin: 8em 1.6em;
+        flex-direction: column;
     }
 
-
+    .social-media-icons {
+        display: flex;
+        width: 100%;
+        gap: 2em;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 
     .project-text-container {
         display: flex;
@@ -2929,6 +2979,7 @@ footer {
     }
 
     /*Layout--------------------------------------*/
+
     .tools {
         display: flex;
         align-items: flex-end;
@@ -2946,6 +2997,27 @@ footer {
     }
 
 
+
+    .social-media {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        align-content: flex-end;
+        gap: 4em;
+        flex-wrap: wrap;
+        margin: 8em 40em;
+        flex-direction: column;
+    }
+
+
+    .social-media-icons {
+        display: flex;
+        width: 100%;
+        gap: 2em;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 
 
     ul {
