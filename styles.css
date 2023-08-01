@@ -597,6 +597,7 @@ footer {
         font-weight: 700;
         line-height: normal;
         letter-spacing: 0.175px;
+        color: #121212;
     }
 
     .title-l {
@@ -607,6 +608,7 @@ footer {
         line-height: 120%;
         /* 45.6px */
         letter-spacing: -0.76px;
+
     }
 
     .title-L {
