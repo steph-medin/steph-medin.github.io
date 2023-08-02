@@ -511,7 +511,6 @@ footer {
     width: 987px;
     position: relative;
     height: fit-content;
-    margin: 5% auto 90px;
 }
 
 
@@ -717,6 +716,20 @@ footer {
 
 
     /*Layout--------------------------------------*/
+
+
+    .resume-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+        -webkit-text-fill-color: var(--Carbon);
+    }
+
+    .illustration-resume-1 {
+        position: relative;
+        width: 50%;
+    }
 
     .about-section-container {
         margin-top: 1.2em;
@@ -992,7 +1005,8 @@ footer {
         flex-direction: column;
         align-items: flex-start;
         width: 100%;
-        padding: 4em 1.6em;
+        padding: 8em 1.6em;
+        gap: 8em;
     }
 
     .steph-image {
@@ -1005,7 +1019,7 @@ footer {
         display: flex;
         flex-direction: column-reverse;
         align-items: center;
-        margin-top: 12em;
+        margin-top: 8em;
         margin-bottom: 3.2em;
         gap: 5em;
     }
@@ -1026,7 +1040,6 @@ footer {
         width: 100%;
         position: relative;
         height: fit-content;
-        margin: 30px 0px 90px;
         text-align: left;
     }
 
@@ -1567,7 +1580,7 @@ footer {
 
     .illustration-resume-1 {
         position: relative;
-        width: 50%;
+        width: 15%;
     }
 
     .card {
@@ -2276,6 +2289,7 @@ footer {
         display: flex;
         flex-direction: column;
         padding-bottom: 10%;
+        gap: 2em;
     }
 
     .title-container {
@@ -2310,7 +2324,7 @@ footer {
 
     .illustration-resume-1 {
         position: relative;
-        width: 50%;
+        width: 15%;
     }
 
     .bg-gray {
@@ -2452,7 +2466,7 @@ footer {
     }
 
     .spacing_24px {
-        padding: 24px;
+        padding: 24px 0px 24px 0px;
     }
 
     .spacing_32px {
@@ -2514,7 +2528,7 @@ footer {
         width: 987px;
         position: relative;
         height: fit-content;
-        margin: 32px auto 90px;
+        margin: 4em 0em;
     }
 
     .leftnav {
@@ -3170,6 +3184,7 @@ footer {
         display: flex;
         flex-direction: column;
         padding-bottom: 10%;
+        gap: 2em;
     }
 
     .title-container {
