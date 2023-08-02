@@ -622,17 +622,18 @@ footer {
         padding: 8px 12px;
         justify-content: center;
         align-items: center;
-        gap: 0px;
+        gap: 12px;
         border-radius: 8px;
         border: none;
         background: none;
-        cursor: pointer;
+        flex-direction: row;
+        max-width: 170px;
+        border: solid 1px rgb(218, 221, 225);
     }
 
     .butn-text-2-sm:hover {
-        background: white;
-        border: none;
-
+        background: rgba(36, 36, 36, 0.15);
+        border: solid 1px rgb(218, 221, 225);
     }
 
     .selected {
@@ -1312,7 +1313,7 @@ footer {
     }
 
     .butn-text-2-sm:hover {
-        background: white;
+        background: rgba(36, 36, 36, 0.15);
         border: none;
 
     }
@@ -1939,7 +1940,7 @@ footer {
     }
 
     .butn-text-2-sm:hover {
-        background: white;
+        background: rgba(36, 36, 36, 0.15);
         border: none;
 
     }
@@ -2172,13 +2173,13 @@ footer {
         display: flex;
         width: 100%;
         justify-content: space-between;
-        padding: 1em 7em 0em 7em;
+        padding: 0em 7em 0em 7em;
         align-items: center;
         margin-top: 0%;
         flex-direction: row;
         /* From https://css.glass */
         background: rgba(250, 251, 252, 0.80);
-        backdrop-filter: blur(20px);
+        backdrop-filter: blur(16px);
         -webkit-backdrop-filter: blur(5px);
         /* border: 1px solid #EAEFF6; */
     }
@@ -2264,19 +2265,19 @@ footer {
     }
 
     .nav_links {
-        list-style: none;
-        background-color: transparent;
+        display: inline-flex;
+        padding: 10px 0px 10px 0px;
         text-decoration: none;
-        display: flex;
-        align-items: flex-start;
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 2em;
+        align-items: baseline;
+        margin-top: 0;
+    }
+
+    .nav_links ul {
+        margin-top: 0;
     }
 
     .nav_links li {
         display: inline-flex;
-        padding-left: 24px;
         text-decoration: none;
         align-items: baseline;
         border-bottom: none;
@@ -2752,7 +2753,7 @@ footer {
     }
 
     .butn-text-2-sm:hover {
-        background: white;
+        background: rgba(36, 36, 36, 0.15);
         border: none;
 
     }
@@ -2953,19 +2954,14 @@ footer {
     }
 
     .nav_links {
-        list-style: none;
-        background-color: transparent;
+        display: inline-flex;
+        padding: 10px 0px 10px 0px;
         text-decoration: none;
-        display: flex;
-        align-items: flex-start;
-        flex-direction: row;
-        justify-content: space-between;
-        gap: 2em;
+        align-items: baseline;
     }
 
     .nav_links li {
         display: inline-flex;
-        padding-left: 24px;
         text-decoration: none;
         align-items: baseline;
         border-bottom: none;

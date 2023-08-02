@@ -958,7 +958,7 @@ footer {
         background-color: transparent;
         text-decoration: none;
         display: flex;
-        margin-top: 0em;
+        margin-top: 0;
         gap: 1.6em;
     }
 
@@ -1657,6 +1657,7 @@ footer {
 
     .navbar ul {
         gap: 1.4em;
+        margin-top: 0;
     }
 
     .nav_links {
