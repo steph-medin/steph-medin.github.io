@@ -1148,7 +1148,7 @@ footer {
         width: 70%;
         flex: none;
         align-self: center;
-        margin-top: 2em;
+        margin-top: 1.6em;
         bottom: 2%;
         left: 0%;
     }
@@ -3422,7 +3422,7 @@ footer {
         align-items: center;
         margin-top: 12em;
         margin-bottom: 3.2em;
-        gap: 5em;
+        gap: 4em;
     }
 
     .selected {
