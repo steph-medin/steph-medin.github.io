@@ -170,7 +170,7 @@ a {
     align-items: flex-start;
     flex-direction: row;
     justify-content: space-between;
-    gap: 3.2em;
+    gap: 2.4em;
 }
 
 .nav_links li {
@@ -959,6 +959,7 @@ footer {
         text-decoration: none;
         display: flex;
         margin-top: 0em;
+        gap: 1.6em;
     }
 
     .nav_links li {
@@ -1664,6 +1665,7 @@ footer {
         text-decoration: none;
         display: flex;
         margin-top: 0em;
+        gap: 2.4em;
     }
 
     .nav_links li {
