@@ -170,6 +170,7 @@ a {
     align-items: flex-start;
     flex-direction: row;
     justify-content: space-between;
+    gap: 3.2em;
 }
 
 .nav_links li {
@@ -2213,10 +2214,10 @@ footer {
     .social-media-icons {
         display: flex;
         width: 100%;
-        gap: 2em;
+        gap: 4.2em;
         flex-wrap: wrap;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: center;
     }
 
     .a-social-icons {
@@ -3090,10 +3091,10 @@ footer {
     .social-media-icons {
         display: flex;
         width: 100%;
-        gap: 2em;
+        gap: 4.2em;
         flex-wrap: wrap;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: center;
     }
 
     .a-social-icons {
