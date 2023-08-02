@@ -581,6 +581,11 @@ footer {
     padding: 32px 0px 0px 0px;
 }
 
+.divider{
+    border: solid 0.5px #d7d7d7;
+    margin: 3.2em 0em;
+}
+
 /*SMALL (Mobile)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 @media only screen and (max-width: 640px) {
@@ -1328,6 +1333,7 @@ footer {
         font-weight: 800;
         line-height: normal;
         letter-spacing: 0.175px;
+        color: #121212;
     }
 
     .title-L {
@@ -1520,11 +1526,12 @@ footer {
         background: none;
         flex-direction: row;
         max-width: 170px;
+        border: solid 1px rgb(218, 221, 225);
     }
 
     .butn-text-2-sm:hover {
         background: rgb(237, 237, 237);
-        border: none;
+        border: solid 1px rgb(218, 221, 225);
 
     }
 
@@ -2057,6 +2064,7 @@ footer {
         font-weight: 800;
         line-height: normal;
         letter-spacing: 0.175px;
+        color: #121212;
     }
 
 
@@ -2182,11 +2190,12 @@ footer {
         background: none;
         flex-direction: row;
         max-width: 170px;
+        border: solid 1px rgb(218, 221, 225);
     }
 
     .butn-text-2-sm:hover {
         background: rgb(237, 237, 237);
-        border: none;
+        border: solid 1px rgb(218, 221, 225);
 
     }
 
@@ -2961,7 +2970,7 @@ footer {
         font-weight: 800;
         line-height: normal;
         letter-spacing: 0.175px;
-
+        color: #121212;
     }
 
     .title-L {
@@ -3037,11 +3046,12 @@ footer {
         background: none;
         flex-direction: row;
         max-width: 200px;
+        border: solid 1px rgb(218, 221, 225);
     }
 
     .butn-text-2-sm:hover {
         background: rgb(237, 237, 237);
-        border: none;
+        border: solid 1px rgb(218, 221, 225);
 
     }
 
