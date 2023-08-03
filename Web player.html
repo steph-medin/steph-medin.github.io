@@ -2,18 +2,25 @@
 <html>
 
 <head>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-178519567-1"></script>
+    <!-- Google Tag Manager -->
     <script>
-        window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-        gtag('js', new Date());
-
-        gtag('config', 'UA-178519567-1');
+        (function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-59DG8WS3');
     </script>
+    <!-- End Google Tag Manager -->
+
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script type="text/javascript">
@@ -87,6 +94,12 @@
 </head>
 
 <body>
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-59DG8WS3" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <!--Navbar/Header-->
 
     <nav class="navbar">
@@ -317,9 +330,7 @@
                 </p>
                 <img class="illustration2" src="Project images/UI/Web Player/Web player@3x.png"
                     alt="Beek-web-app-web-player">
-                <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450"
-                    src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FI9ZuEpw9wup0digrCw0lxx%2FPortfolio%3Fpage-id%3D98%253A221%26type%3Ddesign%26node-id%3D2391-30025%26viewport%3D-321%252C-309%252C0.02%26t%3D7nOcK7a5a1LAq3Pl-1%26scaling%3Dmin-zoom%26starting-point-node-id%3D2391%253A30025%26mode%3Ddesign"
-                    allowfullscreen></iframe>
+
                 <!--Search-->
                 <div class="spacing_40px"></div>
                 <p class="sub-m"> Search
