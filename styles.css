@@ -3352,6 +3352,12 @@ footer {
         margin: 32px auto 90px;
     }
 
+    /*Components*/
+    .illustration-resume-1 {
+        position: relative;
+        width: 15%;
+    }
+
     .leftnav {
         display: flex;
         flex-direction: row;
