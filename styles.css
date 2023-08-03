@@ -1011,7 +1011,7 @@ footer {
 
     .steph-image {
         flex-direction: column-reverse;
-        width: 50%;
+        width: 100%;
     }
 
 
@@ -3740,4 +3740,10 @@ footer {
     #under {
         position: relative;
     }
+
+    .steph-image {
+        flex-direction: column-reverse;
+        width: 40%;
+    }
+
 }
