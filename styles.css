@@ -1011,6 +1011,7 @@ footer {
 
     .steph-image {
         flex-direction: column-reverse;
+        width: 50%;
     }
 
 
@@ -1732,6 +1733,7 @@ footer {
 
     .steph-image {
         flex-direction: column-reverse;
+        width: 50%;
     }
 
 
@@ -2876,6 +2878,10 @@ footer {
         flex-flow: row wrap;
     }
 
+    .steph-image {
+        flex-direction: column-reverse;
+        width: 40%;
+    }
 
     .pro-item {
         list-style: none;
