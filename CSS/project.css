@@ -628,12 +628,10 @@ footer {
         background: none;
         flex-direction: row;
         max-width: 170px;
-        border: solid 1px rgb(218, 221, 225);
     }
 
     .butn-text-2-sm:hover {
         background: rgba(36, 36, 36, 0.15);
-        border: solid 1px rgb(218, 221, 225);
     }
 
     .selected {
