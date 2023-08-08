@@ -175,7 +175,7 @@ a {
 
 .nav_links li {
     display: inline-flex;
-    padding-left: 24px;
+    padding-left: 0px;
     text-decoration: none;
     align-items: baseline;
     border-bottom: none;
@@ -194,6 +194,7 @@ a {
     background-color: transparent;
     -webkit-text-fill-color: var(--Carbon);
 }
+
 
 
 .selected {
@@ -244,10 +245,13 @@ a {
 }
 
 .icons {
-    padding: 32px;
-    width: 32px;
-    height: 32px;
-    /* width: fit-content; */
+    transition: transform, box-shadow, .25s cubic-bezier(0.56, -0.03, 0.48, 1.2);
+    width: fit-content;
+
+}
+
+.icons:hover {
+    transform: scale(1.2);
 }
 
 .social-links {
@@ -2657,10 +2661,12 @@ footer {
     }
 
     .icons {
-        padding: 32px;
-        width: 32px;
-        height: 32px;
-        /* width: fit-content; */
+        transition: transform, box-shadow, .25s cubic-bezier(0.56, -0.03, 0.48, 1.2);
+    }
+
+
+    .icons:hover {
+        transform: scale(1.2);
     }
 
     .social-links {
@@ -3135,7 +3141,7 @@ footer {
         align-content: flex-end;
         gap: 4em;
         flex-wrap: wrap;
-        margin: 8em 40em;
+        margin: 20em 0em 20em 0em;
         flex-direction: column;
     }
 
@@ -3335,18 +3341,17 @@ footer {
         z-index: 10;
         display: flex;
         width: 100%;
-        justify-content: space-around;
-        padding: 1% 0% 0px 0%;
-        /* height: 44px; */
+        justify-content: space-evenly;
+        padding: 1em 20em 0em 20em;
         align-items: center;
-        /* margin-top: 0%; */
-        /* margin: 0 auto; */
+        margin-top: 0%;
         flex-direction: row;
         /* From https://css.glass */
         background: rgba(250, 251, 252, 0.80);
-        backdrop-filter: blur(16px);
+        backdrop-filter: blur(20px);
         -webkit-backdrop-filter: blur(5px);
         /* border: 1px solid #EAEFF6; */
+        gap: 12em;
 
     }
 
@@ -3395,18 +3400,14 @@ footer {
     }
 
     .nav_links {
-        list-style: none;
-        background-color: transparent;
+        display: inline-flex;
+        padding: 10px 0px 10px 0px;
         text-decoration: none;
-        display: flex;
-        align-items: flex-start;
-        flex-direction: row;
-        justify-content: space-between;
+        align-items: baseline;
     }
 
     .nav_links li {
         display: inline-flex;
-        padding-left: 24px;
         text-decoration: none;
         align-items: baseline;
         border-bottom: none;
@@ -3479,12 +3480,6 @@ footer {
         padding-top: 86px;
     }
 
-    .icons {
-        padding: 32px;
-        width: 32px;
-        height: 32px;
-        /* width: fit-content; */
-    }
 
     .social-links {
         list-style-type: none;
