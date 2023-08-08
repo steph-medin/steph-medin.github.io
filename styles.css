@@ -762,7 +762,7 @@ footer {
         align-content: flex-end;
         gap: 4em;
         flex-wrap: wrap;
-        margin: 8em 1.6em;
+        margin: 12em 1.6em;
         flex-direction: column;
     }
 
@@ -2295,7 +2295,7 @@ footer {
         display: flex;
         flex-direction: column;
         padding-bottom: 10%;
-        gap: 2em;
+        gap: 8em;
     }
 
     .title-container {
@@ -2534,7 +2534,6 @@ footer {
         width: 987px;
         position: relative;
         height: fit-content;
-        margin: 4em 0em;
     }
 
     .leftnav {
@@ -3196,7 +3195,7 @@ footer {
         display: flex;
         flex-direction: column;
         padding-bottom: 10%;
-        gap: 2em;
+        gap: 8em;
     }
 
     .title-container {
