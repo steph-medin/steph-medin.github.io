@@ -22,7 +22,7 @@
 
 
 body {
-    background-color: #FAFBFC;
+    background-color: #F5F7FA;
     margin: auto 0px;
 }
 
@@ -525,12 +525,13 @@ footer {
 
 .desktop-layout-container {
     display: flex;
-    width: 1400px;
+    width: 1320px;
     align-items: flex-start;
     align-content: flex-start;
     /*gap: 16px;*/
     flex-wrap: wrap;
     margin-top: 10%;
+    gap: 3.2em;
 }
 
 .row-list {
@@ -590,6 +591,15 @@ footer {
 .divider {
     border: solid 0.5px #d7d7d7;
     margin: 3.2em 0em;
+}
+
+/*Backgrounds(bg)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.bg-white {
+    background-color: white;
+}
+
+.bg-yellow {
+    background-color: #F4EDDB;
 }
 
 /*SMALL (Mobile)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -831,21 +841,18 @@ footer {
 
     .desktop-layout-container {
         width: 100%;
-        /*gap: 1.6em;*/
+        gap: 1.6em;
         margin-top: 8em;
-        left: -4%;
     }
 
     .bg-gray {
         background-color: #C7D6EC;
     }
 
-    .bg-yellow {
-        background-color: #F5E2B3;
-    }
+
 
     .bg-white {
-        color: white;
+        background-color: white;
     }
 
     /*-------BUTTONS--------------------------------------*/
@@ -868,6 +875,20 @@ footer {
         background: rgb(237, 237, 237);
         border: solid 1px rgb(218, 221, 225);
 
+    }
+
+    .text-link {
+        border-style: none;
+        display: flex;
+        padding: 8px 12px;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
+        border-radius: 8px;
+        border: none;
+        background: none;
+        flex-direction: row;
+        max-width: 170px;
     }
 
     .tx-gray-500 {
@@ -898,7 +919,7 @@ footer {
 
     .card {
         display: flex;
-        border-radius: 0em;
+        border-radius: 2em;
         padding: 4.2em 3.2em;
         flex-direction: column;
         align-items: center;
@@ -911,19 +932,28 @@ footer {
 
     .card:hover {
         box-shadow: 4px 20px 16px 1px rgba(200, 200, 200, 0.7);
-        transform: scale(1.02);
+        transform: scale(1.03);
     }
 
+    .shrinkable {
+        display: flex;
+        border-radius: 2em;
+        padding: 4.2em 3.2em;
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+        transition: all .25s cubic-bezier(0.56, -0.03, 0.48, 1.2);
+        -webkit-text-fill-color: var(--Carbon);
+        position: relative;
+        overflow: hidden;
+    }
 
 
     .background-green {
         background: #F1F3F6;
     }
 
-    .bg-yellow {
-        background: #F5E2B3;
-
-    }
+ 
 
 
     .text-container {
@@ -1042,8 +1072,8 @@ footer {
         flex-direction: column;
         align-items: flex-start;
         width: 100%;
-        padding: 4em 0em 8em;
-        /*gap: 8em;*/
+        padding: 4em 1.6em 8em;
+        gap: 8em;
     }
 
     .main-resume {
@@ -1056,7 +1086,7 @@ footer {
         align-items: flex-start;
         width: 100%;
         padding: 4em 1.6em 8em;
-        /*gap: 8em;*/
+        gap: 8em;
     }
 
     .steph-image {
@@ -1575,9 +1605,7 @@ footer {
         background-color: #C7D6EC;
     }
 
-    .bg-yellow {
-        background-color: #F5E2B3;
-    }
+
 
     /*-------BUTTONS--------------------------------------*/
     .butn-text-2-sm {
@@ -1655,10 +1683,6 @@ footer {
         background: #F1F3F6;
     }
 
-    .bg-yellow {
-        background: #F5E2B3;
-
-    }
 
 
     .text-container {
@@ -2169,7 +2193,7 @@ footer {
         display: flex;
         flex-direction: column;
         flex-shrink: 0;
-        font-size: 5.6rem;
+        font-size: 4.6rem;
     }
 
     .title-center {
@@ -2261,7 +2285,8 @@ footer {
     }
 
     /*Layout--------------------------------------*/
-    #onboarding-project {
+    /*Project-card-left-align-*/
+    #project-c-la {
         display: flex;
         flex-direction: column;
         /* justify-content: center; */
@@ -2271,7 +2296,30 @@ footer {
         /* align-self: stretch; */
         width: 50%;
         position: absolute;
-        left: 840px;
+        left: 740px;
+        padding-right: 1em;
+    }
+
+    #project-c-ra {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: flex-end; */
+        gap: 24px;
+        /* flex: 1 0 0; */
+        /* align-self: stretch; */
+        width: 49%;
+        position: relative;
+        padding-left: 4em;
+    }
+
+    #cutted-image-r {
+        position: absolute;
+        max-width: 67%;
+        flex: none;
+        align-self: center;
+        margin-left: 0em;
+        right: -20%;
     }
 
     #cutted-image {
@@ -2279,9 +2327,9 @@ footer {
         max-width: 80%;
         flex: none;
         align-self: center;
-        margin-left: 2em;
+        margin-left: 0em;
         right: 600px;
-
+        top: -62px;
     }
 
     .butn-text-2-sm {
@@ -2406,9 +2454,7 @@ footer {
         background-color: #C7D6EC;
     }
 
-    .bg-yellow {
-        background-color: #F5E2B3;
-    }
+
 
     .badge {
         display: flex;
@@ -3344,10 +3390,7 @@ footer {
         padding-left: 5%;
     }
 
-    .bg-yellow {
-        background: #F5E2B3;
 
-    }
 
     .bg-gray {
         background-color: #C7D6EC;
