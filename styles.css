@@ -19,6 +19,8 @@
 
 }
 
+
+
 body {
     background-color: #FAFBFC;
     margin: auto 0px;
@@ -523,10 +525,10 @@ footer {
 
 .desktop-layout-container {
     display: flex;
-    width: 1280px;
+    width: 1400px;
     align-items: flex-start;
     align-content: flex-start;
-    gap: 16px;
+    /*gap: 16px;*/
     flex-wrap: wrap;
     margin-top: 10%;
 }
@@ -721,6 +723,30 @@ footer {
 
     /*Layout--------------------------------------*/
 
+    #onboarding-project {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        /* flex: 1 0 0; */
+        /* align-self: stretch; */
+        width: 100%;
+        position: relative;
+        /* left: 711px; */
+    }
+
+
+    #cutted-image {
+        position: relative;
+        max-width: 100%;
+        flex: none;
+        align-self: center;
+        /* margin-left: 2em; */
+        bottom: -98px;
+        transform: scale(1.7);
+    }
+
 
     .resume-section {
         display: flex;
@@ -805,17 +831,21 @@ footer {
 
     .desktop-layout-container {
         width: 100%;
-        gap: 1.6em;
+        /*gap: 1.6em;*/
         margin-top: 8em;
         left: -4%;
     }
 
     .bg-gray {
-        background-color: #EDF2F7;
+        background-color: #C7D6EC;
     }
 
     .bg-yellow {
-        background-color: #F6EEC5;
+        background-color: #F5E2B3;
+    }
+
+    .bg-white{
+        color: white;
     }
 
     /*-------BUTTONS--------------------------------------*/
@@ -868,13 +898,15 @@ footer {
 
     .card {
         display: flex;
-        border-radius: 2em;
+        border-radius: 0em;
         padding: 4.2em 3.2em;
         flex-direction: column;
         align-items: center;
         gap: 2em;
         transition: transform, box-shadow, .25s cubic-bezier(0.56, -0.03, 0.48, 1.2);
         -webkit-text-fill-color: var(--Carbon);
+        position: relative;
+        overflow: hidden;
     }
 
     .card:hover {
@@ -883,12 +915,13 @@ footer {
     }
 
 
+
     .background-green {
         background: #F1F3F6;
     }
 
     .bg-yellow {
-        background: #F6EEC5;
+        background: #F5E2B3;
 
     }
 
@@ -1009,8 +1042,21 @@ footer {
         flex-direction: column;
         align-items: flex-start;
         width: 100%;
+        padding: 4em 0em 8em;
+        /*gap: 8em;*/
+    }
+
+    .main-resume{
+        position: relative;
+        height: fit-content;
+        margin: 0 auto;
+        /*padding-top: 140px;*/
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
         padding: 4em 1.6em 8em;
-        gap: 8em;
+        /*gap: 8em;*/
     }
 
     .steph-image {
@@ -1521,16 +1567,16 @@ footer {
 
     .desktop-layout-container {
         width: 100%;
-        gap: 1.6em;
+        /*gap: 1.6em;*/
         margin-top: 12em;
     }
 
     .bg-gray {
-        background-color: #EDF2F7;
+        background-color: #C7D6EC;
     }
 
     .bg-yellow {
-        background-color: #F6EEC5;
+        background-color: #F5E2B3;
     }
 
     /*-------BUTTONS--------------------------------------*/
@@ -1610,7 +1656,7 @@ footer {
     }
 
     .bg-yellow {
-        background: #F6EEC5;
+        background: #F5E2B3;
 
     }
 
@@ -2215,6 +2261,29 @@ footer {
     }
 
     /*Layout--------------------------------------*/
+    #onboarding-project {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: flex-end; */
+        gap: 24px;
+        /* flex: 1 0 0; */
+        /* align-self: stretch; */
+        width: 50%;
+        position: absolute;
+        left: 711px;
+    }
+
+    #cutted-image {
+        position: absolute;
+        max-width: 80%;
+        flex: none;
+        align-self: center;
+        margin-left: 2em;
+        right: 600px;
+
+    }
+
     .butn-text-2-sm {
         border-style: none;
         display: flex;
@@ -2334,11 +2403,11 @@ footer {
     }
 
     .bg-gray {
-        background-color: #EDF2F7;
+        background-color: #C7D6EC;
     }
 
     .bg-yellow {
-        background-color: #F6EEC5;
+        background-color: #F5E2B3;
     }
 
     .badge {
@@ -2414,6 +2483,7 @@ footer {
         display: flex;
         flex-direction: row;
         overflow: hidden;
+        position: relative;
     }
 
     .text-container {
@@ -2492,7 +2562,7 @@ footer {
     }
 
     .navbar {
-        position: fixed;
+        position: relative;
         z-index: 10;
         display: flex;
         width: 100%;
@@ -3273,12 +3343,12 @@ footer {
     }
 
     .bg-yellow {
-        background: #F6EEC5;
+        background: #F5E2B3;
 
     }
 
     .bg-gray {
-        background-color: #EDF2F7;
+        background-color: #C7D6EC;
     }
 
     .text-container-horizontal {
