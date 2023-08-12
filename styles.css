@@ -22,7 +22,7 @@
 
 
 body {
-    background-color: #FFFFF;
+    background-color: #F5F7FA;
     margin: auto 0px;
 }
 
@@ -929,7 +929,7 @@ footer {
 
 
     #principal {
-        width: 100%
+        width: 120%
     }
 
     .badge-small {
