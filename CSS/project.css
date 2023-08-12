@@ -556,7 +556,7 @@ footer {
     }
 
     .bg-yellow {
-        background-color: #F6EEC5;
+        background-color: #F4EDDB;
     }
 
 
@@ -1044,7 +1044,7 @@ footer {
 
     .cover-image {
         position: relative;
-        width: 80%;
+        width: 100%;
         flex: none;
         align-self: center;
         margin: 0px 0px;
@@ -1248,9 +1248,9 @@ footer {
     .bg-gray {
         background-color: #EDF2F7;
     }
-
+    
     .bg-yellow {
-        background-color: #F6EEC5;
+        background-color: #F4EDDB;
     }
 
 
@@ -2162,7 +2162,7 @@ footer {
     }
 
     .bg-yellow {
-        background-color: #F6EEC5;
+        background-color: #F4EDDB;
     }
 
     .navbar {
@@ -2798,7 +2798,7 @@ footer {
     }
 
     .bg-yellow {
-        background-color: #F6EEC5;
+        background-color: #F4EDDB;
     }
 
     .navbar {

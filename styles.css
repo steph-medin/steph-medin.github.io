@@ -733,6 +733,8 @@ footer {
 
     /*Layout--------------------------------------*/
 
+
+
     #onboarding-project {
         display: flex;
         flex-direction: column;
@@ -746,6 +748,24 @@ footer {
         /* left: 711px; */
     }
 
+    #project-c-ra {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #project-c-la {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 24px;
+        position: relative;
+    }
 
     #cutted-image {
         position: relative;
@@ -755,6 +775,14 @@ footer {
         /* margin-left: 2em; */
         bottom: -98px;
         transform: scale(1.7);
+    }
+
+    #cutted-image-r {
+        position: relative;
+        max-width: 100%;
+        flex: none;
+        align-self: center;
+        margin-left: 0em;
     }
 
 
@@ -920,7 +948,7 @@ footer {
     .card {
         display: flex;
         border-radius: 2em;
-        padding: 4.2em 3.2em;
+        padding: 4.2em 1.2em;
         flex-direction: column;
         align-items: center;
         gap: 2em;
@@ -953,7 +981,7 @@ footer {
         background: #F1F3F6;
     }
 
- 
+
 
 
     .text-container {
