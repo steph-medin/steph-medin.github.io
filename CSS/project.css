@@ -1970,7 +1970,7 @@ footer {
 
     .cover-image {
         position: relative;
-        width: 40%;
+        width: 70%;
         flex: none;
         align-self: center;
         margin: 0px 0px;
@@ -2537,11 +2537,10 @@ footer {
 
     .illustration3 {
         position: relative;
-        width: 108%;
-        flex: none;
+        width: 47%;
         align-self: center;
-        margin-top: 2.4em;
-        bottom: 1%;
+        margin-top: 0em;
+        /* left: -14px; */
 
     }
 
