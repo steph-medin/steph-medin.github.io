@@ -1725,11 +1725,11 @@ footer {
 
     .cover-image {
         position: relative;
-        max-width: 56%;
+        max-width: 58%;
         flex: none;
         align-self: center;
         margin: 0px 0px;
-        bottom: -1%;
+        bottom: -4%;
     }
 
     .description-title {
@@ -1970,11 +1970,11 @@ footer {
 
     .cover-image {
         position: relative;
-        width: 70%;
+        width: 73%;
         flex: none;
         align-self: center;
         margin: 0px 0px;
-        bottom: -1%;
+        bottom: -4%;
     }
 
     .cover-bg {
@@ -2008,7 +2008,7 @@ footer {
         flex-direction: column;
         align-items: flex-start;
         width: 80%;
-        padding: 4em 12em;
+        padding: 12em 12em;
     }
 
     .title-container {
@@ -2731,7 +2731,7 @@ footer {
         flex: none;
         align-self: center;
         margin: 0px 0px;
-        bottom: -1%;
+        bottom: -2%;
     }
 
 
