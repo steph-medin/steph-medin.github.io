@@ -864,6 +864,7 @@ footer {
         align-items: center;
         gap: 16px;
         margin: 4% 0% 10% 0%;
+        text-align: center;
     }
 
 
@@ -929,7 +930,7 @@ footer {
 
 
     #principal {
-        width: 100%
+        width: 100%;
         top:-20px;
     }
 
