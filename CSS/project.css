@@ -387,13 +387,17 @@ footer {
     width: 3%;
 }
 
-.bg-blue-light{
+.bg-blue-light {
     background-color: #B4D5FC;
-} 
-.bg-blue-gradient{
-    background: linear-gradient(90deg, #2B74D9 0%, #95B9EC 100%);
 }
 
+.bg-blue-gradient {
+    background: linear-gradient(180deg, #4A8CD9 0%, #80AFE4 100%);
+}
+
+.text-white {
+    color: white;
+}
 
 
 /*Small (Mobile)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
@@ -567,7 +571,7 @@ footer {
         background-color: #F4EDDB;
     }
 
-    
+
 
 
     .cover-container-2 {
