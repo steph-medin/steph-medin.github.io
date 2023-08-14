@@ -384,7 +384,11 @@ footer {
     position: relative;
     top: 0px;
     left: 0px;
-    width: 4%;
+    width: 3%;
+}
+
+.bg-blue-light{
+    background-color: #B4D5FC;
 }
 
 
@@ -558,6 +562,8 @@ footer {
     .bg-yellow {
         background-color: #F4EDDB;
     }
+
+    
 
 
     .cover-container-2 {
@@ -1248,7 +1254,7 @@ footer {
     .bg-gray {
         background-color: #EDF2F7;
     }
-    
+
     .bg-yellow {
         background-color: #F4EDDB;
     }

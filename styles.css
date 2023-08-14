@@ -602,6 +602,10 @@ footer {
     background-color: #F4EDDB;
 }
 
+.bg-blue-light {
+    background-color: #B4D5FC;
+}
+
 /*SMALL (Mobile)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 @media only screen and (max-width: 640px) {
@@ -931,7 +935,7 @@ footer {
 
     #principal {
         width: 100%;
-        top:-20px;
+        top: -20px;
     }
 
     .badge-small {
@@ -1053,7 +1057,7 @@ footer {
         align-items: center;
         /* margin: 0 auto; */
         flex-direction: row;
-        background: rgba(250, 251, 252, 0.80);
+        background: rgba(245, 247, 250, 0.80);
         backdrop-filter: blur(16px);
         -webkit-backdrop-filter: blur(5px);
     }
@@ -2650,7 +2654,7 @@ footer {
         margin-top: 0%;
         flex-direction: row;
         /* From https://css.glass */
-        background: rgba(250, 251, 252, 0.80);
+        background: rgba(245, 247, 250, 0.80);
         backdrop-filter: blur(16px);
         -webkit-backdrop-filter: blur(5px);
         /* border: 1px solid #EAEFF6; */
