@@ -1991,6 +1991,14 @@ footer {
         bottom: -4%;
     }
 
+    .cover-image-sm{
+        position: relative;
+        width: 50%;
+        flex: none;
+        align-self: center;
+        margin: 0px 0px;
+    }
+
     .cover-bg {
         background-image: url("");
     }
