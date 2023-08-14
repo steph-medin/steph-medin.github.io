@@ -24,6 +24,7 @@
 body {
     background-color: #F5F7FA;
     margin: auto 0px;
+    color: #282828;
 }
 
 .text-gray80 {
@@ -606,6 +607,14 @@ footer {
     background-color: #B4D5FC;
 }
 
+.bg-blue-gradient {
+    background: linear-gradient(90deg, #2B74D9 0%, #95B9EC 100%);
+}
+
+.text-white {
+    color: white;
+}
+
 /*SMALL (Mobile)---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 @media only screen and (max-width: 640px) {
@@ -884,6 +893,7 @@ footer {
 
 
 
+
     .bg-white {
         background-color: white;
     }
@@ -959,7 +969,6 @@ footer {
         align-items: center;
         gap: 2em;
         transition: transform, box-shadow, .25s cubic-bezier(0.56, -0.03, 0.48, 1.2);
-        -webkit-text-fill-color: var(--Carbon);
         position: relative;
         overflow: hidden;
     }
@@ -977,7 +986,6 @@ footer {
         align-items: center;
         gap: 2em;
         transition: all .25s cubic-bezier(0.56, -0.03, 0.48, 1.2);
-        -webkit-text-fill-color: var(--Carbon);
         position: relative;
         overflow: hidden;
     }
@@ -1204,7 +1212,6 @@ footer {
         font-size: 4.8rem;
         line-height: 110%;
         letter-spacing: 0.01em;
-        color: var(--Carbon);
         text-decoration: none;
         text-align: center;
     }
@@ -1704,7 +1711,6 @@ footer {
         align-items: center;
         gap: 2em;
         transition: transform, box-shadow, .25s cubic-bezier(0.56, -0.03, 0.48, 1.2);
-        -webkit-text-fill-color: var(--Carbon);
     }
 
     .card:hover {
@@ -1921,7 +1927,6 @@ footer {
         font-size: 3.8rem;
         line-height: 110%;
         letter-spacing: 0.01em;
-        color: var(--Carbon);
         text-decoration: none;
         text-align: center;
     }
@@ -2193,7 +2198,6 @@ footer {
         font-size: 3.8rem;
         line-height: 110%;
         letter-spacing: 0.01em;
-        color: var(--Carbon);
         text-decoration: none;
     }
 
@@ -2451,9 +2455,8 @@ footer {
 
     .title-container {
         display: inline-flex;
-        align-items: left;
         gap: 2.6em;
-        margin: 80px 0%;
+        margin: 10% 0% 0% 3%;
         flex-direction: column;
     }
 
@@ -2465,7 +2468,7 @@ footer {
     .hero {
         display: flex;
         flex-direction: row;
-        margin-bottom: 6em;
+        margin-bottom: 5em;
         margin-top: -10em;
     }
 
@@ -2515,7 +2518,6 @@ footer {
         align-items: center;
         gap: 2em;
         transition: transform, box-shadow, .25s cubic-bezier(0.56, -0.03, 0.48, 1.2);
-        -webkit-text-fill-color: var(--Carbon);
         width: 100%;
         height: 720px;
         position: relative;
@@ -3166,7 +3168,6 @@ footer {
         font-size: 3.8rem;
         line-height: 110%;
         letter-spacing: 0.01em;
-        color: var(--Carbon);
         text-decoration: none;
     }
 
@@ -3351,9 +3352,8 @@ footer {
 
     .title-container {
         display: inline-flex;
-        align-items: center;
-        gap: 5.6em;
-        margin: 80px 0%;
+        gap: 2.6em;
+        margin: 15% 0% 0% 3%;
         flex-direction: column;
     }
 
@@ -3393,7 +3393,6 @@ footer {
         align-items: center;
         gap: 2em;
         transition: transform, box-shadow, .25s cubic-bezier(0.56, -0.03, 0.48, 1.2);
-        -webkit-text-fill-color: var(--Carbon);
         width: 100%;
         height: 720px;
     }
