@@ -537,6 +537,10 @@ footer {
         list-style: decimal;
     }
 
+    .text-white {
+        color: white;
+    }
+
     #gif {
         border-radius: 1.2em;
         box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
