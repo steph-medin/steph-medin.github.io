@@ -1326,6 +1326,15 @@ footer {
         bottom: -1%;
     }
 
+    .cover-image-sm {
+        position: relative;
+        width: 40%;
+        flex: none;
+        align-self: center;
+        margin: 0px 0px;
+        bottom: -1%;
+    }
+
     .description-title {
         display: grid;
         grid-template-columns: (1, 1fr);
