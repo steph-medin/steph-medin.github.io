@@ -571,7 +571,9 @@ footer {
         background-color: #F4EDDB;
     }
 
-
+    .bg-blue-gradient {
+        background: linear-gradient(180deg, #2B74D9 0%, #95B9EC 100%), #FFDF6E;
+    }
 
 
     .cover-container-2 {
@@ -1991,7 +1993,7 @@ footer {
         bottom: -4%;
     }
 
-    .cover-image-sm{
+    .cover-image-sm {
         position: relative;
         width: 50%;
         flex: none;
