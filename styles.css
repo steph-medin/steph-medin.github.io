@@ -799,10 +799,11 @@ footer {
 
     #cutted-image-r {
         position: relative;
-        max-width: 100%;
+        max-width: 110%;
         flex: none;
         align-self: center;
         margin-left: 0em;
+        margin-top: 2em;
     }
 
 
@@ -971,10 +972,10 @@ footer {
     .card {
         display: flex;
         border-radius: 2em;
-        padding: 4.2em 1.2em;
+        padding: 3.2em 3.2em;
         flex-direction: column;
         align-items: center;
-        gap: 2em;
+        gap: 4em;
         transition: transform, box-shadow, .25s cubic-bezier(0.56, -0.03, 0.48, 1.2);
         position: relative;
         overflow: hidden;
@@ -1318,7 +1319,7 @@ footer {
 
     .cover-image {
         position: relative;
-        width: 80%;
+        width: 90%;
         flex: none;
         align-self: center;
         margin: 0px 0px;
