@@ -576,7 +576,7 @@ footer {
     }
 
     .bg-blue-gradient {
-        background: linear-gradient(180deg, #2B74D9 0%, #95B9EC 100%), #FFDF6E;
+        background: linear-gradient(180deg, #2B74D9 0%, #95B9EC 100%);
     }
 
 
