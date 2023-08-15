@@ -20,7 +20,7 @@
 }
 
 body {
-    background-color: #FAFBFC;
+    background-color: #F6F8FB;
     margin: auto 0px;
 }
 
@@ -210,7 +210,6 @@ h4 {
     font-weight: normal;
     font-size: 16px;
     line-height: 160%;
-    color: #242424;
 }
 
 
@@ -268,6 +267,15 @@ h4 {
     line-height: 2.8rem;
 }
 
+.text-s {
+    font-size: 1.2rem;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0.1px;
+}
+
 .text-xs {
     font-size: 10px;
     font-family: Montserrat;
@@ -287,6 +295,11 @@ h4 {
     line-height: normal;
     letter-spacing: 0.175px;
     text-transform: uppercase;
+}
+
+.text-center{
+    text-align: center;
+
 }
 
 /* ---------------------------------------------------------- CARDS---------------------------------------------------------- */
@@ -331,9 +344,6 @@ h4 {
     font-size: 42px;
 }
 
-.text-s {
-    text-align: center;
-}
 
 
 .card:hover {
@@ -395,8 +405,16 @@ footer {
     background: linear-gradient(180deg, #4A8CD9 0%, #80AFE4 100%);
 }
 
+.bg-blue100 {
+    background-color: #3279DA;
+}
+
 .text-white {
     color: white;
+}
+
+.bg-yellow {
+    background-color: #EBBF2F;
 }
 
 
@@ -571,9 +589,7 @@ footer {
         background-color: #EDF2F7;
     }
 
-    .bg-yellow {
-        background-color: #F4EDDB;
-    }
+
 
     .bg-blue-gradient {
         background: linear-gradient(180deg, #2B74D9 0%, #95B9EC 100%);
@@ -954,7 +970,6 @@ footer {
         font-weight: normal;
         font-size: 16px;
         line-height: 170%;
-        color: var(--Carbon);
     }
 
     /*h2 [mobile]*/
@@ -1067,8 +1082,9 @@ footer {
         width: 100%;
         flex: none;
         align-self: center;
-        margin: 0px 0px;
-        bottom: -1%;
+        margin-top: 3.2em;
+        margin-bottom: 3.2em;
+        ;
     }
 
     .description-title {
@@ -1246,10 +1262,6 @@ footer {
         letter-spacing: 0.1px;
     }
 
-    .text-s {
-        text-align: center;
-        padding: 0em 8em;
-    }
 
     /*Layout--------------------------------------*/
 
@@ -1267,10 +1279,6 @@ footer {
 
     .bg-gray {
         background-color: #EDF2F7;
-    }
-
-    .bg-yellow {
-        background-color: #F4EDDB;
     }
 
 
@@ -1635,7 +1643,6 @@ footer {
         font-weight: normal;
         font-size: 16px;
         line-height: 170%;
-        color: var(--Carbon);
     }
 
     /*h2 [mobile]*/
@@ -1994,7 +2001,7 @@ footer {
         flex: none;
         align-self: center;
         margin: 0px 0px;
-        bottom: -4%;
+        bottom: -6%;
     }
 
     .cover-image-sm {
@@ -2011,12 +2018,12 @@ footer {
 
     .cover-container {
         display: inline-flex;
-        height: 700px;
+        height: 740px;
         padding: 16px;
         flex-direction: column;
         align-items: flex-start;
         gap: 24px;
-        margin-top: 3%;
+        margin-top: 0%;
         width: -webkit-fill-available;
         /* padding-bottom: 3%; */
         margin-bottom: 5%;
@@ -2024,7 +2031,7 @@ footer {
     }
 
     .bg-gray {
-        background-color: #EDF2F7;
+        background-color: #F6F8FB;
     }
 
     main {
@@ -2036,7 +2043,7 @@ footer {
         flex-direction: column;
         align-items: flex-start;
         width: 80%;
-        padding: 12em 12em;
+        padding: 4em 12em;
     }
 
     .title-container {
@@ -2136,10 +2143,6 @@ footer {
         padding-left: 5%;
     }
 
-    .text-s {
-        text-align: center;
-    }
-
     .background-gray {
         background: #F1F3F6;
     }
@@ -2190,11 +2193,11 @@ footer {
     }
 
     .bg-yellow {
-        background-color: #F4EDDB;
+        background-color: #F5DF97;
     }
 
     .navbar {
-        position: fixed;
+        position: relative;
         z-index: 10;
         display: flex;
         width: 100%;
@@ -2816,7 +2819,7 @@ footer {
         margin-top: 3%;
         width: -webkit-fill-available;
         /* padding-bottom: 3%; */
-        margin-bottom: 5%;
+        margin-bottom: 0%;
         padding: 4em 32em;
     }
 
@@ -2825,7 +2828,7 @@ footer {
     }
 
     .bg-yellow {
-        background-color: #F4EDDB;
+        background-color: #EBBF2F;
     }
 
     .navbar {
@@ -2887,9 +2890,6 @@ footer {
         gap: 1em;
     }
 
-    .text-s {
-        text-align: center;
-    }
 
     .background-gray {
         background: #F1F3F6;

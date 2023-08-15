@@ -599,7 +599,7 @@ footer {
 }
 
 .bg-yellow {
-    background-color: #F4EDDB;
+    background-color: #F5DF97;
 }
 
 .bg-blue-light {
@@ -610,8 +610,12 @@ footer {
     background: linear-gradient(90deg, #2B74D9 0%, #95B9EC 100%);
 }
 
+.bg-blue100 {
+    background-color: #3279DA;
+}
+
 .text-white {
-    color: white;
+    -webkit-text-fill-color: white;
 }
 
 .text-black {
@@ -2356,7 +2360,7 @@ footer {
 
     #cutted-image-r {
         position: absolute;
-        max-width: 67%;
+        max-width: 80%;
         flex: none;
         align-self: center;
         margin-left: 0em;
