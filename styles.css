@@ -342,6 +342,10 @@ a {
     transform: scale(1.01);
 }
 
+.shadow-l {
+    box-shadow: 4px 20px 16px 1px rgba(200, 200, 200, 0.7);
+}
+
 
 /*
 .project2 
