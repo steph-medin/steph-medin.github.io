@@ -2885,21 +2885,28 @@ footer {
     }
 
     .navbar {
+        position: relative;
+        z-index: 10;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        max-width: 1440px;
+        gap: 107em;
+        height: inherit;
+    }
+
+    .navbar-wrapper {
         position: fixed;
         z-index: 10;
         display: flex;
-        width: 100%;
-        justify-content: space-evenly;
-        padding: 1em 20em 0em 20em;
+        flex-direction: column;
         align-items: center;
-        margin-top: 0%;
-        flex-direction: row;
-        /* From https://css.glass */
-        background: rgba(250, 251, 252, 0.80);
+        background: rgba(244, 246, 250, 0.85);
         backdrop-filter: blur(20px);
         -webkit-backdrop-filter: blur(5px);
-        /* border: 1px solid #EAEFF6; */
-        gap: 12em;
+        width: 100%;
+        height: 60px;
     }
 
     .column-list {
@@ -3040,7 +3047,6 @@ footer {
 
     .nav_links {
         display: inline-flex;
-        padding: 10px 0px 10px 0px;
         text-decoration: none;
         align-items: baseline;
     }

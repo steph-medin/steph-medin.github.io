@@ -27,7 +27,7 @@ body {
 }
 
 .text-gray80 {
-    color: #7b7b7b;
+    -webkit-text-fill-color: #939393;
 }
 
 /* Subtitle 2 */
@@ -527,16 +527,6 @@ footer {
 /* ---------------------------------------------------------- CARDS---------------------------------------------------------- */
 
 
-.desktop-layout-container {
-    display: flex;
-    width: 1320px;
-    align-items: flex-start;
-    align-content: flex-start;
-    /*gap: 16px;*/
-    flex-wrap: wrap;
-    margin-top: 10%;
-    gap: 2.8em;
-}
 
 .row-list {
     display: flex;
@@ -1080,6 +1070,7 @@ footer {
         background: rgba(245, 247, 250, 0.80);
         backdrop-filter: blur(16px);
         -webkit-backdrop-filter: blur(5px);
+        height: inherit;
     }
 
     #logoname {
@@ -1332,11 +1323,11 @@ footer {
 
     .cover-image-sm {
         position: relative;
-        width: 40%;
         flex: none;
         align-self: center;
         margin: 0px 0px;
         bottom: -1%;
+        width: 100%;
     }
 
     .description-title {
@@ -2344,6 +2335,34 @@ footer {
     }
 
     /*Layout--------------------------------------*/
+
+
+    .main-resume {
+        position: relative;
+        height: fit-content;
+        margin: 0 auto;
+        /*padding-top: 140px;*/
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 4em 1.6em 8em;
+        gap: 8em;
+    }
+
+    .navbar-wrapper {
+        position: relative;
+        z-index: 10;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: rgba(244, 246, 250, 0.80);
+        backdrop-filter: blur(20px);
+        -webkit-backdrop-filter: blur(5px);
+        width: 100%;
+        height: 60px;
+    }
+
     /*Project-card-left-align-*/
     #project-c-la {
         display: flex;
@@ -2370,6 +2389,15 @@ footer {
         width: 49%;
         position: relative;
         padding-left: 4em;
+    }
+
+    .cover-image-sm {
+        position: relative;
+        flex: none;
+        align-self: center;
+        margin: 0px 0px;
+        bottom: -1%;
+        width: 50%;
     }
 
     #cutted-image-r {
@@ -2467,7 +2495,7 @@ footer {
         position: relative;
         width: fit-content;
         height: fit-content;
-        margin: 0 auto;
+        margin: 0em 4em 0em 4em;
         display: flex;
         flex-direction: column;
         padding-bottom: 10%;
@@ -2483,7 +2511,13 @@ footer {
 
     .desktop-layout-container {
         display: flex;
-        flex-direction: row;
+        max-width: 1440px;
+        align-items: flex-start;
+        align-content: flex-start;
+        /* gap: 16px; */
+        flex-wrap: wrap;
+        margin-top: 10%;
+        gap: 2.8em;
     }
 
     .hero {
@@ -2670,18 +2704,13 @@ footer {
         position: relative;
         z-index: 10;
         display: flex;
-        width: 100%;
         justify-content: space-between;
-        padding: 0em 7em 0em 7em;
         align-items: center;
-        margin-top: 0%;
         flex-direction: row;
-        /* From https://css.glass */
-        background: rgba(245, 247, 250, 0.80);
-        backdrop-filter: blur(16px);
-        -webkit-backdrop-filter: blur(5px);
-        /* border: 1px solid #EAEFF6; */
-
+        max-width: 1440px;
+        align-self: stretch;
+        padding: 0em 2em 0em 2em;
+        height: inherit;
     }
 
     ul {
@@ -2776,7 +2805,7 @@ footer {
         position: relative;
         display: flex;
         flex-direction: row;
-        width: 900px;
+        width: 983px;
         align-items: center;
         margin-top: 12em;
         margin-bottom: 3.2em;
@@ -3145,6 +3174,8 @@ footer {
     #under {
         position: relative;
     }
+
+
 }
 
 
@@ -3156,7 +3187,7 @@ footer {
     /*Text--------------------------------------*/
     .display-m {
         font-family: Montserrat;
-        font-size: 6.8rem;
+        font-size: 5.8rem;
         font-style: normal;
         font-weight: 700;
         line-height: 120%;
@@ -3288,6 +3319,44 @@ footer {
 
     /*Layout--------------------------------------*/
 
+    #project-c-ra {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: flex-end; */
+        gap: 24px;
+        /* flex: 1 0 0; */
+        /* align-self: stretch; */
+        width: 49%;
+        position: relative;
+        padding-left: 4em;
+    }
+
+    #project-c-la {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        /* align-items: flex-end; */
+        gap: 24px;
+        /* flex: 1 0 0; */
+        /* align-self: stretch; */
+        width: 50%;
+        position: absolute;
+        left: 740px;
+        padding-right: 1em;
+    }
+
+    .desktop-layout-container {
+        display: flex;
+        width: 1320px;
+        align-items: flex-start;
+        align-content: flex-start;
+        /*gap: 16px;*/
+        flex-wrap: wrap;
+        margin-top: 10%;
+        gap: 2.8em;
+    }
+
     .tools {
         display: flex;
         align-items: flex-end;
@@ -3304,7 +3373,14 @@ footer {
         width: 100%;
     }
 
-
+    .cover-image-sm {
+        position: relative;
+        flex: none;
+        align-self: center;
+        margin: 0px 0px;
+        bottom: -1%;
+        width: 50%;
+    }
 
     .social-media {
         display: flex;
@@ -3360,24 +3436,44 @@ footer {
         width: 101%;
     }
 
+
+
     main {
         position: relative;
         width: fit-content;
         height: fit-content;
-        margin: 0 auto;
         display: flex;
         flex-direction: column;
         padding-bottom: 10%;
         gap: 8em;
+        margin: 0 auto;
     }
 
     .title-container {
         display: inline-flex;
         gap: 2.6em;
-        margin: 15% 0% 0% 3%;
+        margin: 10% 0% 0% 3%;
         flex-direction: column;
     }
 
+    #cutted-image-r {
+        position: absolute;
+        max-width: 80%;
+        flex: none;
+        align-self: center;
+        margin-left: 0em;
+        right: -28%;
+    }
+
+    #cutted-image {
+        position: absolute;
+        max-width: 80%;
+        flex: none;
+        align-self: center;
+        margin-left: 0em;
+        right: 600px;
+        top: -62px;
+    }
 
     .project-image {
         position: relative;
@@ -3389,9 +3485,8 @@ footer {
 
     .hero {
         display: flex;
-        flex-direction: column;
-        margin-bottom: 10em;
-        margin-top: 10em;
+        flex-direction: row;
+        margin-bottom: 5em;
     }
 
     .badge {
@@ -3410,12 +3505,14 @@ footer {
         display: flex;
         border-radius: 2em;
         padding: 4.2em 3.2em;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         gap: 2em;
         transition: transform, box-shadow, .25s cubic-bezier(0.56, -0.03, 0.48, 1.2);
         width: 100%;
         height: 720px;
+        position: relative;
+        overflow: hidden;
     }
 
     .card:hover {
@@ -3504,22 +3601,28 @@ footer {
     }
 
     .navbar {
+        position: relative;
+        z-index: 10;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+        max-width: 1440px;
+        gap: 107em;
+        height: inherit;
+    }
+
+    .navbar-wrapper {
         position: fixed;
         z-index: 10;
         display: flex;
-        width: 100%;
-        justify-content: space-evenly;
-        padding: 1em 20em 0em 20em;
+        flex-direction: column;
         align-items: center;
-        margin-top: 0%;
-        flex-direction: row;
-        /* From https://css.glass */
-        background: rgba(250, 251, 252, 0.80);
+        background: rgba(244, 246, 250, 0.80);
         backdrop-filter: blur(20px);
         -webkit-backdrop-filter: blur(5px);
-        /* border: 1px solid #EAEFF6; */
-        gap: 12em;
-
+        width: 100%;
+        height: 60px;
     }
 
 
@@ -3568,7 +3671,6 @@ footer {
 
     .nav_links {
         display: inline-flex;
-        padding: 10px 0px 10px 0px;
         text-decoration: none;
         align-items: baseline;
     }
@@ -3598,7 +3700,7 @@ footer {
         position: relative;
         display: flex;
         flex-direction: row;
-        width: 900px;
+        width: 983px;
         align-items: center;
         margin-top: 12em;
         margin-bottom: 3.2em;
@@ -3812,12 +3914,10 @@ footer {
 
     .illustration3 {
         position: relative;
-        width: 70%;
-        flex: none;
+        width: 47%;
         align-self: center;
-        margin-top: 2em;
-        bottom: 2%;
-        left: 0%;
+        margin-top: 0em;
+        bottom: -2%;
     }
 
     .illustration4 {
