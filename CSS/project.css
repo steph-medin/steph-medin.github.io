@@ -891,7 +891,7 @@ footer {
         flex-direction: column;
         align-items: flex-start;
         width: 87%;
-        padding: 0em 0em;
+        padding: 0em 0em 8em 0em;
     }
 
     .presentation {
@@ -1141,7 +1141,7 @@ footer {
         width: 100%;
         flex: none;
         align-self: center;
-        margin-top: 1.6em;
+        margin: 2.6em;
         bottom: 1%;
     }
 
@@ -2090,7 +2090,7 @@ footer {
         flex-direction: column;
         align-items: flex-start;
         max-width: 70%;
-        padding: 0em 0em;
+        padding: 0em 0em 12em 0em;
     }
 
     .title-container {

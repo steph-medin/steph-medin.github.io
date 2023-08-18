@@ -510,7 +510,7 @@ footer {
     position: relative;
     top: 0px;
     left: 0px;
-    width: 4%;
+    width: 2%;
 }
 
 #under {
@@ -2390,7 +2390,7 @@ footer {
 
     #cutted-image-r {
         position: absolute;
-        max-width: 80%;
+        max-width: 70%;
         flex: none;
         align-self: center;
         margin-left: 0em;

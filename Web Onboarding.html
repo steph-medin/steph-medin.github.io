@@ -132,24 +132,26 @@
     <main>
         <!--Cover------------------------------------------------------------------------------------------------------------------->
         <div class="cover-container bg-white">
-            <button class="butn-text-2-sm" onclick="window.history.back()">
-                <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g id="Frame 59391">
-                        <path id="Vector 4" d="M12 5L7 10L12 15" stroke="#121212" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round" />
-                    </g>
-                </svg>
-                <p class="btn-tx-s">Back</p>
-            </button>
-            <div class="project-text-container">
-                <p class="text-xs">BEEK'S WEB ONBOARDING</p>
-                <h2 class="title-L">Starting waves of engagement</h2>
-                <p class="body1 text-md text-center">Crafting the onboarding experience for Beek's web application.</p>
-                <img class="cover-image-sm" src="Project images/UI/Beek's Web Onboarding/Collage.webp"
-                    rel="landing-page" alt="hand-holding-a-phone-that-displays-the-new-Beek's-landing-page"
-                    srcset="Project images/UI/Beek's Web Onboarding/Collage@2x.webp 2x, Project images/UI/Beek's Web Onboarding/Collage@3x.webp 3x">
+            <div class="p-content-wrapper">
+                <button class="butn-text-2-sm" onclick="window.history.back()">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g id="Frame 59391">
+                            <path id="Vector 4" d="M12 5L7 10L12 15" stroke="#121212" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </g>
+                    </svg>
+                    <p class="btn-tx-s">Back</p>
+                </button>
+                <div class="project-text-container text-center">
+                    <p class="text-xs">BEEK'S WEB ONBOARDING</p>
+                    <h2 class="title-L">Starting waves of engagement</h2>
+                    <p class="body1 text-md text-center">Crafting the onboarding experience for Beek's web application.
+                    </p>
+                    <img class="cover-image-sm" src="Project images/UI/Beek's Web Onboarding/Collage.webp"
+                        rel="landing-page" alt="hand-holding-a-phone-that-displays-the-new-Beek's-landing-page"
+                        srcset="Project images/UI/Beek's Web Onboarding/Collage@2x.webp 2x, Project images/UI/Beek's Web Onboarding/Collage@3x.webp 3x">
+                </div>
             </div>
-
         </div>
         <!--Context-->
         <section class="about_item">
@@ -295,8 +297,9 @@
                     to complete successfully.
                 </p>
 
-                <img class="illustration2" src="Project images/UI/Web Player/Ideation@1.5x.png"
-                    alt="industry-research-images">
+                <img class="illustration2 project-image" src="Project images/UI/Beek's Web Onboarding/Onboardings.webp"
+                    srcset="Project images/UI/Beek's Web Onboarding/Goal-page.webp, Project images/UI/Beek's Web Onboarding/Onboardings@2x.webp 2x, Project images/UI/Beek's Web Onboarding/Onboardings@3x.webp 3x"
+                    alt="Beek-web-onboarding-flow">
             </section>
 
             <!--Ideation-->
@@ -313,7 +316,6 @@
                     to be presented to users during the onboarding process. The chosen content was based on what was
                     most listened to up to that point (early 2022).
                 </p>
-                <img class="illustration2" src="Project images/UI/Web Player/Sitemap@3x.png" alt="sitemap">
             </section>
 
             <!--Wireframes-->
@@ -379,40 +381,67 @@
                     alt="Beek-web-app-library-page">
             </section>
 
-            <section>
-                <p class="body1">Once the design was approved, it was tested with different users through usability
-                    tests to verify
-                    that the interface was clear and accessible. Finally, a beta version of this player was released to
-                    certain users, who provided feedback on the experience so that we could iterate and improve it.
-                </p>
-            </section>
+            <!--Daily goal page-->
+            <div class="spacing_40px"></div>
+            <p class="sub-m"> Daily goal page
+            </p>
+            <p class="body1">
+                In this step of the flow, the user selects a daily goal. By default, the goal is set to 15 minutes, as
+                this duration was the average length of the original content of interest to showcase in the company,
+                it's also a standard time (neither too short nor too long) for users who are new to audio-based
+                learning. This way, different objectives would be achieved:
+            </p>
+            <ul style="list-style: decimal;" class="about_lists">
+                <li class="body1">Users would complete their daily goal quickly, in other words, they would receive
+                    their reward very soon, thus completing the Hook model.</li>
+                <li class="body1">Due to its brevity, they could consume more content and therefore retain information
+                    better.
+                </li>
+            </ul>
+            <img class="illustration2 project-image" src="Project images/UI/Beek's Web Onboarding/Daily-goal-page.webp"
+                srcset="Project images/UI/Beek's Web Onboarding/Inspirational-page@2x.webp 2x, Project images/UI/Beek's Web Onboarding/Inspirational-page@3x.webp 3x"
+                alt="Beek-web-app-library-page">
+        </section>
 
-            <div class="spacing_24px"></div>
+        <!--Summary page-->
+        <div class="spacing_40px"></div>
+        <p class="sub-m"> Summary page
+        </p>
+        <p class="body1">
+            This is the final screen of the flow, where users are shown a summary of the goal they want to achieve and
+            the content they will listen to.
+        </p>
+        <img class="illustration2 project-image" src="Project images/UI/Beek's Web Onboarding/Summary.webp"
+            srcset="Project images/UI/Beek's Web Onboarding/Summary@2x.webp 2x, Project images/UI/Beek's Web Onboarding/Summary@3x.webp 3x"
+            alt="Beek-web-app-library-page">
+        </section>
 
-            <!--Learnings-->
-            <section class="about_item">
-                <h4 class="about-title">Learnings</h4>
-                <ul class="about_lists">
-                    <li class="body1">Through this project, I gained extensive experience in designing flows, UI
-                        components, and
-                        collaborating with cross functional teams.</li>
-                    <li class="body1">Documenting design decisions and considering cost implications were key lessons
-                        learned. </li>
-                    <li class="body1">Despite time constraints, the beta version received positive user feedback,
-                        showcasing the core
-                        audio playback and saving flow.</li>
-                </ul>
-            </section>
 
-            <!--Shoutouts!-->
-            <section class="about_item">
-                <h4 class="about-title">Shout outs!</h4>
-                <p class="body1">
-                    To Guillermo Sequeira, CPO; the Beek’s engineering team; and my design coworkers, I want to express
-                    my gratitude for all the feedback that helped me in the decision-making process and for everything I
-                    learned throughout this project.
-                </p>
-            </section>
+        <div class="spacing_40px"></div>
+
+        <!--Learnings-->
+        <section class="about_item">
+            <h4 class="about-title">Learnings</h4>
+            <ul class="about_lists">
+                <li class="body1">I emphasized the impact that generating a better user experience can have on the
+                    business.</li>
+                <li class="body1">I managed to learn different design concepts because I worked on the project closely
+                    with two people from the development team, who had previously worked at Facebook and shared their
+                    design knowledge with me.</li>
+                <li class="body1">I understood the importance of delivering my designs with notes and being as specific
+                    as possible with the development team.</li>
+            </ul>
+        </section>
+
+        <!--Shoutouts!-->
+        <section class="about_item">
+            <h4 class="about-title">Shout outs!</h4>
+            <p class="body1">
+                Thank you very much to Nich Osborn (dev) and Robert Lynch (Senior Devs) for all the support I received
+                on this project. Also, thanks to Emir Saldierna (Head of Design), who at one point supported me in
+                continuing part of the project. And special thanks to Guillermo Sequeira, CPO of Beek.
+            </p>
+        </section>
         </section>
 
     </main>
