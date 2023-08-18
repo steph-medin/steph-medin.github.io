@@ -2337,6 +2337,18 @@ footer {
     }
 
     /*Layout--------------------------------------*/
+    .main-resume {
+        position: relative;
+        height: fit-content;
+        margin: 0 auto;
+        /*padding-top: 140px;*/
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 4em 1.6em 8em;
+        gap: 8em;
+        width: 66%;
+    }
 
     .navbar-wrapper {
         position: relative;
@@ -2413,12 +2425,12 @@ footer {
         padding: 8px 12px;
         justify-content: center;
         align-items: center;
-        gap: 12px;
+        gap: 4px;
         border-radius: 8px;
         border: none;
         background: none;
         flex-direction: row;
-        max-width: 170px;
+        max-width: 154px;
         border: solid 1px rgb(218, 221, 225);
     }
 
@@ -3488,6 +3500,19 @@ footer {
         border: 1px solid #0075B2;
         background: #E5F6FF;
         -webkit-text-fill-color: #0075B2;
+    }
+
+    .main-resume {
+        position: relative;
+        height: fit-content;
+        margin: 0 auto;
+        /*padding-top: 140px;*/
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+        padding: 4em 1.6em 8em;
+        gap: 8em;
     }
 
     .card {
