@@ -822,7 +822,7 @@ footer {
         flex-wrap: wrap;
         transition: transform, box-shadow, .25s cubic-bezier(0.56, -0.03, 0.48, 1.2);
         border-radius: 2em;
-        border: solid rgba(40, 40, 40, 0.15) 0.5px;
+        border: 0.5px solid rgba(149, 185, 236, 0.50);
         height: fit-content;
     }
 
@@ -2573,7 +2573,7 @@ footer {
         gap: 5rem;
         align-self: stretch;
         flex-wrap: wrap;
-        border: solid rgba(40, 40, 40, 0.15) 0.5px;
+        border: 0.5px solid rgba(149, 185, 236, 0.50);
         transition: transform, box-shadow, .25s cubic-bezier(0.56, -0.03, 0.48, 1.2);
         border-radius: 2em;
     }
@@ -3969,6 +3969,7 @@ footer {
         flex-wrap: wrap;
         transition: transform, box-shadow, .25s cubic-bezier(0.56, -0.03, 0.48, 1.2);
         border-radius: 2em;
+        border: 0.5px solid rgba(149, 185, 236, 0.50);
     }
 
     .card-wrapper:hover {
