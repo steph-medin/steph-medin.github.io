@@ -30,6 +30,10 @@ body {
     -webkit-text-fill-color: #939393;
 }
 
+.text-color-gray50 {
+    -webkit-text-fill-color: #939393;
+}
+
 /* Subtitle 2 */
 
 h3 {
@@ -1056,7 +1060,7 @@ footer {
     }
 
     .butn-text-2-sm:hover {
-        background:rgba(233, 238, 245, 1);
+        background: rgba(233, 238, 245, 1);
         border: solid 1px rgb(218, 221, 225);
 
     }
@@ -2556,7 +2560,6 @@ footer {
         flex-direction: row;
         align-items: center;
         gap: 2rem;
-        width: 100%;
     }
 
     .card-wrapper {
@@ -2566,6 +2569,7 @@ footer {
         gap: 5rem;
         align-self: stretch;
         flex-wrap: wrap;
+        border: solid rgba(40, 40, 40, 0.15) 0.5px;
         transition: transform, box-shadow, .25s cubic-bezier(0.56, -0.03, 0.48, 1.2);
         border-radius: 2em;
     }
@@ -2777,7 +2781,9 @@ footer {
         gap: 2em;
     }
 
-
+    .text-box {
+        height: 70px;
+    }
 
     .hero {
         display: flex;
