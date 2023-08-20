@@ -22,7 +22,6 @@
 body {
     background-color: #EFF3F8;
     margin: auto 0px;
-    -webkit-text-fill-color: #1F1F1F;
 }
 
 
@@ -568,6 +567,13 @@ footer {
 
 
     /*Layout--------------------------------------*/
+
+    .p-content-wrapper {
+        width: 100%;
+        align-items: center;
+        margin: 2em 0em;
+    }
+
     #list-number {
         list-style: decimal;
     }
@@ -684,6 +690,8 @@ footer {
         background: none;
         flex-direction: row;
         max-width: 170px;
+        margin-bottom: 1.6em;
+        position: relative;
     }
 
     .butn-text-2-sm:hover {
