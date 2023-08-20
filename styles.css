@@ -716,6 +716,10 @@ footer {
         letter-spacing: 0.1px;
     }
 
+    .text-box {
+        height: 70px;
+    }
+
     /*images*/
     .illustration2 {
         position: relative;
@@ -865,7 +869,7 @@ footer {
     }
 
     .padding-left {
-        padding: 0em 0em 2.4em 1.6em;
+        padding: 0em 0em 2.4em 2em;
     }
 
     .badge {
