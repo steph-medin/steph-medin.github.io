@@ -732,10 +732,14 @@ h4 {
     /*-------COMPONENTS--------------------------------------*/
 
 
+    footer {
+        display: flex;
+        margin-top: 12em;
+    }
 
     .cover-image-sm {
         position: relative;
-        width: 100%;
+        width: 120%;
         align-self: center;
         margin: 2em 0em 2em 0em;
     }

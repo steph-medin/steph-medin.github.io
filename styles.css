@@ -796,6 +796,10 @@ a {
 
 
     /*Layout--------------------------------------*/
+    footer {
+        display: flex;
+        margin-top: 4em;
+    }
 
     .footer-wrapper {
         display: flex;
@@ -834,7 +838,7 @@ a {
         width: 100%;
         overflow-x: scroll;
         scroll-snap-type: x mandatory;
-        height: 500px;
+        height: fit-content;
     }
 
     .card-wrapper {
@@ -959,7 +963,7 @@ a {
         align-self: center;
         /* margin-left: 2em; */
         bottom: -98px;
-        transform: scale(1.7);
+        transform: scale(1.9);
     }
 
     #cutted-image-r {
@@ -1512,7 +1516,7 @@ a {
         align-self: center;
         margin: 0px 0px;
         bottom: -1%;
-        width: 100%;
+        width: 120%;
     }
 
     .description-title {
