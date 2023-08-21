@@ -675,20 +675,40 @@ h4 {
     }
 
 
-    .footer-wrapper {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        align-items: center;
-        height: 120px;
-        bottom: 0;
-        padding: 2.8em;
-        justify-content: space-between;
-    }
-
     footer {
         display: flex;
-        margin-top: 12em;
+        margin-top: 4em;
+    }
+
+    .footer-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        height: fit-content;
+        bottom: 0;
+        padding: 1.6em;
+        justify-content: space-between;
+        gap: 3.2em;
+        margin-top: 2em;
+    }
+
+    .i-footer {
+        padding: 1.2em;
+        width: 100%;
+        opacity: 100%;
+        transition: ease-in-out;
+    }
+
+    .i-footer:hover {
+        background-color: rgba(199, 213, 232, 0.4);
+
+        border-radius: 1.2em;
+    }
+
+    .icons-wrapper {
+        position: relative;
+        display: flex;
     }
 
 
@@ -732,12 +752,16 @@ h4 {
     /*-------COMPONENTS--------------------------------------*/
 
 
-    footer {
-        display: flex;
-        margin-top: 12em;
-    }
+
 
     .cover-image-sm {
+        position: relative;
+        width: 100%;
+        align-self: center;
+        margin: 2em 0em 2em 0em;
+    }
+
+    .cover-image-md {
         position: relative;
         width: 120%;
         align-self: center;
@@ -1316,7 +1340,41 @@ h4 {
 
 
     /*Layout--------------------------------------*/
+    footer {
+        display: flex;
+        margin-top: 4em;
+        align-items: center ;
+    }
 
+    .footer-wrapper {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        align-items: center;
+        height: fit-content;
+        bottom: 0;
+        padding: 1.6em;
+        justify-content: space-between;
+        gap: 3.2em;
+        margin-top: 2em;
+    }
+
+    .i-footer {
+        padding: 1.2em;
+        width: 100%;
+        opacity: 100%;
+        transition: ease-in-out;
+    }
+
+    .i-footer:hover {
+        background-color: rgba(199, 213, 232, 0.4);
+        border-radius: 1.2em;
+    }
+
+    .icons-wrapper {
+        position: relative;
+        display: flex;
+    }
     .p-content-wrapper {
         width: 84%;
         align-items: center;
@@ -2674,13 +2732,21 @@ h4 {
 
     .footer-wrapper {
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
         width: 100%;
         align-items: center;
-        height: 120px;
+        height: fit-content;
         bottom: 0;
         padding: 8em;
         justify-content: space-between;
+        gap: 1.2em;
+    }
+
+    .i-footer {
+        padding: 1.2em;
+        width: 100%;
+        opacity: 100%;
+        transition: ease-in-out;
     }
 
     footer {
@@ -3371,30 +3437,40 @@ h4 {
         top: 40px;
     }
 
-    .footer-wrapper {
-        display: flex;
-        flex-direction: row;
-        width: 1440px;
-        align-items: center;
-        height: 120px;
-        bottom: 0;
-        padding: 4.8em;
-        justify-content: space-between;
-    }
-
     footer {
         display: flex;
-        flex-direction: column;
-        margin-top: 12em;
+        margin-top: 4em;
+        align-items: center ;
+    }
+
+    .footer-wrapper {
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
         align-items: center;
+        height: fit-content;
+        bottom: 0;
+        padding: 1.6em;
+        justify-content: space-between;
+        gap: 3.2em;
+        margin-top: 2em;
     }
 
-    footer .footer-wrapper a {
+    .i-footer {
+        padding: 1.2em;
+        width: 100%;
         opacity: 100%;
+        transition: ease-in-out;
     }
 
-    footer .footer-wrapper a:hover {
-        opacity: 40;
+    .i-footer:hover {
+        background-color: rgba(199, 213, 232, 0.4);
+        border-radius: 1.2em;
+    }
+
+    .icons-wrapper {
+        position: relative;
+        display: flex;
     }
 
     .section-projects {
