@@ -682,7 +682,7 @@ h4 {
 
     .footer-wrapper {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
         width: 100%;
         align-items: center;
         height: fit-content;
