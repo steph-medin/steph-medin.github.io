@@ -3410,7 +3410,7 @@ a {
 
     .footer-wrapper {
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
         width: 100%;
         align-items: center;
         height: 120px;
@@ -4431,7 +4431,7 @@ a {
 
     .footer-wrapper {
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
         width: 1440px;
         align-items: center;
         height: fit-content;
