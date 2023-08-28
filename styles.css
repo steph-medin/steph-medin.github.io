@@ -22,7 +22,7 @@
 
 
 body {
-    background-color: #EFF3F8;
+    background-color: #F4F6FA;
     margin: auto 0px;
     -webkit-text-fill-color: #1F1F1F;
 }
@@ -1258,7 +1258,7 @@ a {
         align-items: center;
         /* margin: 0 auto; */
         flex-direction: row;
-        background: rgba(245, 247, 250, 0.757);
+        background: rgba(244, 246, 250, 0.75);
         backdrop-filter: blur(16px);
         -webkit-backdrop-filter: blur(13px);
         height: inherit;
@@ -2271,7 +2271,7 @@ a {
         align-items: center;
         /* margin: 0 auto; */
         flex-direction: row;
-        background: rgba(245, 247, 250, 0.757);
+        background: rgba(244, 246, 250, 0.75);
         backdrop-filter: blur(16px);
         -webkit-backdrop-filter: blur(13px);
         height: inherit;
@@ -2888,7 +2888,7 @@ a {
         display: flex;
         flex-direction: column;
         align-items: center;
-        background: rgba(244, 246, 250, 0.80);
+        background: rgba(244, 246, 250, 0.75);
         backdrop-filter: blur(20px);
         -webkit-backdrop-filter: blur(5px);
         width: 100%;
@@ -4247,7 +4247,7 @@ a {
         display: flex;
         flex-direction: column;
         align-items: center;
-        background: rgba(244, 246, 250, 0.80);
+        background: rgba(244, 246, 250, 0.75);
         backdrop-filter: blur(20px);
         -webkit-backdrop-filter: blur(5px);
         width: 100%;
