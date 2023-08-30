@@ -2674,7 +2674,7 @@ a {
         font-size: 4rem;
         font-style: normal;
         font-weight: 700;
-        line-height: 120%;
+        line-height: 110%;
         letter-spacing: 0.01em;
     }
 
@@ -2686,6 +2686,15 @@ a {
         line-height: 120%;
         letter-spacing: 0.01em;
 
+    }
+
+    .display-xl {
+        font-family: Montserrat;
+        font-size: 7.2rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110%;
+        letter-spacing: 0.01em;
     }
 
     h2 {
@@ -2779,6 +2788,14 @@ a {
     }
 
     /*-----------Texts----------*/
+
+    .text-xl {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2em;
+        line-height: 130%;
+    }
 
     .text-lg {
         font-size: 1.8rem;
@@ -3115,7 +3132,7 @@ a {
     .title-container {
         display: inline-flex;
         gap: 2.6em;
-        margin: 10% 0% 0% 3%;
+        /*margin: 10% 0% 0% 3%;*/
         flex-direction: column;
     }
 
@@ -3124,9 +3141,7 @@ a {
         width: 100%;
         align-items: flex-start;
         align-content: flex-start;
-        /* gap: 16px; */
         flex-wrap: wrap;
-        margin-top: 10%;
         gap: 2em;
     }
 
@@ -3138,7 +3153,7 @@ a {
         display: flex;
         flex-direction: row;
         margin-bottom: 5em;
-        margin-top: -10em;
+        align-items: center;
     }
 
     .resume-section {
@@ -3187,7 +3202,6 @@ a {
         height: 720px;
         position: relative;
         overflow: hidden;
-        margin-bottom: 2.4em;
     }
 
     .card:hover {
@@ -3791,15 +3805,24 @@ a {
 @media only screen and (min-width: 1441px) {
 
     /*Text--------------------------------------*/
-    .display-m {
+    .display-xl {
         font-family: Montserrat;
-        font-size: 5.8rem;
+        font-size: 7.2rem;
         font-style: normal;
         font-weight: 700;
-        line-height: 120%;
+        line-height: 110%;
         letter-spacing: 0.01em;
-
     }
+
+    .text-xl {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2em;
+        line-height: 140%;
+    }
+
+
 
     .body1 {
         font-family: Montserrat;
@@ -3980,7 +4003,7 @@ a {
         /*gap: 16px;*/
         flex-wrap: wrap;
         margin-top: 10%;
-        gap: 2.8em;
+        gap: 2em;
     }
 
     .tools {
@@ -4078,7 +4101,7 @@ a {
     .title-container {
         display: inline-flex;
         gap: 2.6em;
-        margin: 10% 0% 0% 3%;
+        /*margin: 10% 0% 0% 3%;*/
         flex-direction: column;
     }
 
@@ -4113,6 +4136,7 @@ a {
         display: flex;
         flex-direction: row;
         margin-bottom: 5em;
+        align-items: center;
     }
 
 
@@ -4141,7 +4165,6 @@ a {
         height: 720px;
         position: relative;
         overflow: hidden;
-        margin-bottom: 2.4em;
     }
 
     .card:hover {
