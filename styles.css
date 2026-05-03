@@ -1996,7 +1996,14 @@ a {
         margin-left: 0em;
         margin-top: 2em;
     }
-
+ #cutted-image-r-2 {
+        position: relative;
+        max-width: 110%;
+        flex: none;
+        align-self: center;
+        margin-left: 0em;
+        margin-top: 2em;
+    }
 
     .resume-section {
         display: flex;
@@ -2977,7 +2984,11 @@ a {
         align-self: stretch;
         padding-left: 2.4em;
     }
-
+ .p-content-wrapper {
+       width: 100%;
+        align-items: center;
+        margin: 2em 0em;
+    }
     .card-content {
         display: flex;
         flex-direction: column;
@@ -3036,13 +3047,14 @@ a {
         width: 48p%;
     }
 
-    #cutted-image-r {
+    #cutted-image-r{
         position: absolute;
-        max-width: 70%;
+        max-width: 80%;
         flex: none;
         align-self: center;
         margin-left: 0em;
-        right: -20%;
+        right: 600px;
+        top: -62px;
     }
 
     #cutted-image {
@@ -3124,7 +3136,12 @@ a {
         gap: 24px;
         background-image: url();
         margin-top: 15%;
-        width: -webkit-fill-available;
+    }
+
+    .p-content-wrapper {
+       width: 100%;
+        align-items: center;
+        margin: 2em 0em;
     }
 
     main {
