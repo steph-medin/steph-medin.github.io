@@ -7,22 +7,24 @@
 }
 
 :root {
-    /*Colors*/
     --Sparkle-Yellow: #FFC800;
     --Carbon: #242424;
+    --grey500: #8c8c8c; 
     --Spark-White: #e5e7da;
     --hover-spark-white: gba(255, 254, 247, 0.7);
     --White: #FFFEFA;
     --Blue100: #2B74D9;
-
-    /*Fonts*/
+    --font-primary: 'DM Sans', sans-serif;
     font-size: 62.5%;
+}
 
+* {
+    font-family: var(--font-primary);
 }
 
 
 body {
-    background-color: #fcfcfc;
+    background-color: #F9F9FB;
     margin: auto 0px;
     -webkit-text-fill-color: #1F1F1F;
 }
@@ -38,19 +40,19 @@ body {
 /* Subtitle 2 */
 
 h3 {
-    font-family: Montserrat;
+    font-family: Var(--font-primary);
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 160%;
     /* or 22px */
-    letter-spacing: 0.01em;
+    letter-spacing: 0.01rem;
     color: var(--Carbon);
 }
 
 h4 {
     font-size: 20px;
-    font-family: Montserrat;
+    font-family: Var(--font-primary);
     font-weight: 600;
     line-height: 140%;
     letter-spacing: 0.2px;
@@ -60,7 +62,7 @@ h4 {
 /* Body 1 */
 
 .body1 {
-    font-family: Montserrat;
+    font-family: Var(--font-primary);
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
@@ -72,7 +74,7 @@ h4 {
 /* Body 2 */
 
 .body2 {
-    font-family: Montserrat;
+    font-family: Var(--font-primary);
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
@@ -86,7 +88,7 @@ h4 {
 /* ------------------------------------------------ */
 
 h6 {
-    font-family: Montserrat;
+    font-family: Var(--font-primary);
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -97,7 +99,7 @@ h6 {
 }
 
 h5 {
-    font-family: Montserrat;
+    font-family: Var(--font-primary);
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
@@ -172,12 +174,8 @@ a {
 .nav_links {
     list-style: none;
     background-color: transparent;
-    text-decoration: none;
-    display: flex;
-    align-items: flex-start;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 2.4em;
+    
+    gap: 1.5em;
 }
 
 .nav_links li {
@@ -199,7 +197,7 @@ a {
     opacity: 1;
     text-decoration: none;
     background-color: transparent;
-    -webkit-text-fill-color: var(--Carbon);
+    -webkit-text-fill-color: var(--grey500);
 }
 
 
@@ -208,8 +206,11 @@ a {
     text-decoration: none;
     -webkit-text-fill-color: var(--Carbon);
     align-items: baseline;
-    border-bottom: 4px solid var(--Carbon);
-    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
@@ -643,7 +644,7 @@ a {
 
     .btn-tx-s {
         /* Mobile/Button */
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-size: 14px;
         font-style: normal;
         font-weight: 700;
@@ -653,7 +654,7 @@ a {
     }
 
     .text-xl {
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: normal;
         font-size: 2.4em;
@@ -661,7 +662,7 @@ a {
     }
 
     .title-l {
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-size: 3.8rem;
         font-style: normal;
         font-weight: 700;
@@ -672,7 +673,7 @@ a {
     }
 
     .title-md {
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-size: 3.2rem;
         font-style: normal;
         font-weight: 700;
@@ -682,7 +683,7 @@ a {
     }
 
     .title-sm {
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-size: 2rem;
         font-style: normal;
         font-weight: 700;
@@ -712,7 +713,7 @@ a {
 
     .text-xs {
         font-size: 12px;
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 400;
         line-height: 130%;
@@ -735,7 +736,7 @@ a {
 
     .sub-m {
         font-size: 1.6rem;
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 700;
         line-height: 2.8rem;
@@ -744,7 +745,7 @@ a {
 
     .sub-s {
         font-size: 1.4rem;
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 700;
         line-height: 2.8rem;
@@ -752,7 +753,7 @@ a {
 
     .subtitle-xs {
         font-size: 1.2em;
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 600;
         line-height: 130%;
@@ -764,7 +765,7 @@ a {
 
     .text-lg {
         font-size: 1.8rem;
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 400;
         line-height: 130%;
@@ -773,7 +774,7 @@ a {
 
     .text-md {
         font-size: 1.6rem;
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 400;
         line-height: 150%;
@@ -782,7 +783,7 @@ a {
 
     .text-sm {
         font-size: 1.4rem;
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 400;
         line-height: 3rem;
@@ -791,7 +792,7 @@ a {
 
     .text-xs {
         font-size: 12px;
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 500;
         line-height: 130%;
@@ -1004,7 +1005,6 @@ a {
     }
 
     ul {
-        margin-top: 1.6em;
         gap: 1.2em;
         margin-left: 1.6em;
     }
@@ -1240,7 +1240,7 @@ a {
     }
 
     .h4 {
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-size: 24px;
         font-style: normal;
         font-weight: 500;
@@ -1266,7 +1266,7 @@ a {
         align-items: center;
         /* margin: 0 auto; */
         flex-direction: row;
-        background: rgba(244, 246, 250, 0.75);
+        background: rgba(255, 255, 255, 0.75);
         backdrop-filter: blur(16px);
         -webkit-backdrop-filter: blur(13px);
         height: inherit;
@@ -1303,6 +1303,7 @@ a {
         color: gba(255, 254, 247, 0.7);
         text-decoration: none;
         background-color: transparent;
+        -webkit-text-fill-color: var(--grey500);
     }
 
 
@@ -1398,7 +1399,7 @@ a {
     }
 
     .body1 {
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
@@ -1408,7 +1409,7 @@ a {
 
     /*h2 [mobile]*/
     h2 {
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 700;
         font-size: 4.8rem;
@@ -1437,7 +1438,7 @@ a {
         text-transform: uppercase;
         color: var(--carbon, #121212);
         font-size: 12px;
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 600;
         line-height: 24px;
@@ -1445,12 +1446,12 @@ a {
     }
 
     h1 {
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-size: 4rem;
         font-style: normal;
         font-weight: 700;
         line-height: 120%;
-        letter-spacing: 0.01em;
+        letter-spacing: -2%;
     }
 
     .press2 {
@@ -1664,7 +1665,7 @@ a {
 
     .btn-tx-s {
         /* Mobile/Button */
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-size: 14px;
         font-style: normal;
         font-weight: 700;
@@ -1674,7 +1675,7 @@ a {
     }
 
     .title-l {
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-size: 3.8rem;
         font-style: normal;
         font-weight: 700;
@@ -1685,7 +1686,7 @@ a {
     }
 
     .title-md {
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-size: 3.2rem;
         font-style: normal;
         font-weight: 700;
@@ -1695,7 +1696,7 @@ a {
     }
 
     .title-sm {
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-size: 2rem;
         font-style: normal;
         font-weight: 700;
@@ -1725,7 +1726,7 @@ a {
 
     .text-xs {
         font-size: 12px;
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 400;
         line-height: 130%;
@@ -1748,7 +1749,7 @@ a {
 
     .sub-m {
         font-size: 1.6rem;
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 700;
         line-height: 2.8rem;
@@ -1757,7 +1758,7 @@ a {
 
     .sub-s {
         font-size: 1.4rem;
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 700;
         line-height: 2.8rem;
@@ -1765,7 +1766,7 @@ a {
 
     .subtitle-xs {
         font-size: 1.2em;
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 600;
         line-height: 130%;
@@ -1777,7 +1778,7 @@ a {
 
     .text-lg {
         font-size: 1.8rem;
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 400;
         line-height: 130%;
@@ -1786,7 +1787,7 @@ a {
 
     .text-md {
         font-size: 1.6rem;
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 400;
         line-height: 150%;
@@ -1795,7 +1796,7 @@ a {
 
     .text-sm {
         font-size: 1.4rem;
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 400;
         line-height: 3rem;
@@ -1804,7 +1805,7 @@ a {
 
     .text-xs {
         font-size: 12px;
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 500;
         line-height: 130%;
@@ -2260,7 +2261,7 @@ a {
     }
 
     .h4 {
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-size: 24px;
         font-style: normal;
         font-weight: 500;
@@ -2418,7 +2419,7 @@ a {
     }
 
     .body1 {
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
@@ -2428,7 +2429,7 @@ a {
 
     /*h2 [mobile]*/
     h2 {
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 700;
         font-size: 4.8rem;
@@ -2457,7 +2458,7 @@ a {
         text-transform: uppercase;
         color: var(--carbon, #121212);
         font-size: 12px;
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 600;
         line-height: 24px;
@@ -2465,7 +2466,7 @@ a {
     }
 
     h1 {
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-size: 4rem;
         font-style: normal;
         font-weight: 700;
@@ -2677,7 +2678,7 @@ a {
 
 /* Large ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
-@media only screen and (min-width: 1081px) and (max-width:1440px) {
+@media only screen and (min-width: 1081px) and (max-width:1512px) {
 
     /*Text--------------------------------------*/
 
@@ -2685,7 +2686,7 @@ a {
     /*-----------Titles----------*/
 
     h1 {
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-size: 4rem;
         font-style: normal;
         font-weight: 700;
@@ -2694,7 +2695,7 @@ a {
     }
 
     .display-m {
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-size: 5.8rem;
         font-style: normal;
         font-weight: 700;
@@ -2704,16 +2705,28 @@ a {
     }
 
     .display-xl {
-        font-family: Montserrat;
-        font-size: 6.8rem;
+        font-family: Var(--font-primary);
+        font-size: 3rem;
         font-style: normal;
-        font-weight: 700;
+        font-weight: 600;
         line-height: 110%;
-        letter-spacing: 0.01em;
+        letter-spacing: -2%
+    }
+    #display-xl {
+        font-family: Var(--font-primary);
+        font-size: 4.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 110%;
+        letter-spacing: -2%
+    }
+    .subtitle-hero {
+    -webkit-text-fill-color: #939393;
+    color: var(--grey500);
     }
 
     h2 {
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 700;
         font-size: 3.8rem;
@@ -2724,7 +2737,7 @@ a {
 
     .btn-tx-s {
         /* Mobile/Button */
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-size: 14px;
         font-style: normal;
         font-weight: 800;
@@ -2741,7 +2754,7 @@ a {
     }
 
     .title-sm {
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-size: 2rem;
         font-style: normal;
         font-weight: 700;
@@ -2776,7 +2789,7 @@ a {
     .caption {
         color: var(--carbon, #121212);
         font-size: 1.2rem;
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 600;
         line-height: 24px;
@@ -2787,7 +2800,7 @@ a {
 
     .sub-m {
         font-size: 1.6rem;
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 700;
         line-height: 2.8rem;
@@ -2796,7 +2809,7 @@ a {
 
     .sub-s {
         font-size: 1.4rem;
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 700;
         line-height: 2.8rem;
@@ -2805,7 +2818,7 @@ a {
     /*-----------Texts----------*/
 
     .text-xl {
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: normal;
         font-size: 2.4em;
@@ -2814,7 +2827,7 @@ a {
 
     .text-lg {
         font-size: 1.8rem;
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 400;
         line-height: 130%;
@@ -2823,7 +2836,7 @@ a {
 
     .text-md {
         font-size: 1.6rem;
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 400;
         line-height: 150%;
@@ -2832,7 +2845,7 @@ a {
 
     .text-sm {
         font-size: 1.4rem;
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 400;
         line-height: 3rem;
@@ -2841,7 +2854,7 @@ a {
 
     .text-xs {
         font-size: 12px;
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 500;
         line-height: 130%;
@@ -2850,7 +2863,7 @@ a {
 
     .subtitle-xs {
         font-size: 12px;
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 600;
         line-height: 130%;
@@ -2915,16 +2928,23 @@ a {
     }
 
     .navbar-wrapper {
-        position: relative;
-        z-index: 10;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        background: rgba(244, 246, 250, 0.75);
-        backdrop-filter: blur(20px);
-        -webkit-backdrop-filter: blur(5px);
-        width: 100%;
-        height: 60px;
+   position: fixed;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.06);
+    width: 100%;
+    height: fit-content;
+    margin: 3rem 0;        /* ← quita el 10rem horizontal */
+    border-radius: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: fit-content;   
     }
 
     .card-section {
@@ -3357,14 +3377,13 @@ a {
         justify-content: space-between;
         align-items: center;
         flex-direction: row;
-        max-width: 1440px;
         align-self: stretch;
         padding: 0em 2em 0em 2em;
         height: inherit;
     }
 
     ul {
-        margin-top: 1.6em;
+
         gap: 1.2em;
         margin-left: 1.6em;
     }
@@ -3448,7 +3467,7 @@ a {
         opacity: 1;
         text-decoration: none;
         background-color: transparent;
-        -webkit-text-fill-color: var(--Carbon);
+    -webkit-text-fill-color: var(--grey500);
     }
 
     .presentation {
@@ -3466,8 +3485,12 @@ a {
         text-decoration: none;
         -webkit-text-fill-color: var(--Carbon);
         align-items: baseline;
-        border-bottom: 4px solid var(--Carbon);
-        padding: 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem 1rem;
+        border-radius: 4rem;
     }
 
     .unselected {
@@ -3479,7 +3502,7 @@ a {
     }
 
     .about-title {
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-size: 32px;
         font-style: normal;
         font-weight: 700;
@@ -3831,16 +3854,16 @@ a {
 
     /*Text--------------------------------------*/
     .display-xl {
-        font-family: Montserrat;
-        font-size: 7.2rem;
+        font-family: Var(--font-primary);
+        font-size: 4.5rem;
         font-style: normal;
-        font-weight: 700;
+        font-weight: 600;
         line-height: 110%;
-        letter-spacing: 0.01em;
+        letter-spacing: -2%;
     }
 
     .text-xl {
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: normal;
         font-size: 2em;
@@ -3850,7 +3873,7 @@ a {
 
 
     .body1 {
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: normal;
         font-size: 16px;
@@ -3859,7 +3882,7 @@ a {
     }
 
     h1 {
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-size: 4rem;
         font-style: normal;
         font-weight: 700;
@@ -3868,7 +3891,7 @@ a {
     }
 
     h2 {
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 700;
         font-size: 3.8rem;
@@ -3880,7 +3903,7 @@ a {
     .btn-tx-s {
 
         /* Mobile/Button */
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-size: 14px;
         font-style: normal;
         font-weight: 800;
@@ -3905,7 +3928,7 @@ a {
 
     .text-md {
         font-size: 1.6rem;
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 400;
         line-height: 150%;
@@ -3914,7 +3937,7 @@ a {
 
     .text-sm {
         font-size: 1.4rem;
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 400;
         line-height: 3rem;
@@ -3922,7 +3945,7 @@ a {
     }
 
     .title-sm {
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-size: 2rem;
         font-style: normal;
         font-weight: 700;
@@ -3933,7 +3956,7 @@ a {
 
     .text-xs {
         font-size: 12px;
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 500;
         line-height: 130%;
@@ -3942,7 +3965,7 @@ a {
 
     .subtitle-xs {
         font-size: 12px;
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 600;
         line-height: 130%;
@@ -4089,7 +4112,6 @@ a {
 
 
     ul {
-        margin-top: 1.6em;
         gap: 1.2em;
         margin-left: 1.6em;
     }
@@ -4100,7 +4122,7 @@ a {
     }
 
     .about-title {
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-size: 32px;
         font-style: normal;
         font-weight: 700;
@@ -4284,8 +4306,7 @@ a {
         justify-content: space-between;
         align-items: center;
         flex-direction: row;
-        max-width: 1440px;
-        gap: 107em;
+        gap: 1rem;
         height: inherit;
     }
 
@@ -4493,7 +4514,7 @@ a {
         opacity: 1;
         text-decoration: none;
         background-color: transparent;
-        -webkit-text-fill-color: var(--Carbon);
+            -webkit-text-fill-color: var(--grey500);
     }
 
     .presentation {
@@ -4509,10 +4530,14 @@ a {
 
     .selected {
         text-decoration: none;
-        -webkit-text-fill-color: var(--Carbon);
+        -webkit-text-fill-color: var(--White);
         align-items: baseline;
-        border-bottom: 4px solid var(--Carbon);
-        padding: 0px;
+        background-color: #1F1F1F;
+       display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.5rem 1rem;
+        border-radius: 4rem;
     }
 
     .unselected {
@@ -4593,7 +4618,7 @@ a {
     .caption {
         color: var(--carbon, #121212);
         font-size: 12px;
-        font-family: Montserrat;
+        font-family: Var(--font-primary);
         font-style: normal;
         font-weight: 600;
         line-height: 24px;
